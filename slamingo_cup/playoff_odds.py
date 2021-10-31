@@ -19,7 +19,7 @@ for value in points_for.values():
     value["std"] = stdev(value["pf"][1:])
 
 standings = {}
-for team in db.get_standings(5):
+for team in db.get_standings(7):
     team_data = {"w": team.wins, "l": team.losses, "pf": team.raw_pf}
     standings[team.name] = team_data
 
@@ -29,11 +29,11 @@ for week in range(1, 14 + 1):
     for m in matchups:
         if m.status == "postevent":
             continue
-        team_one_info = m.teams[0].team.info
-        team_two_info = m.teams[1].team.info
+        team_one_info = m.teams[0]
+        team_two_info = m.teams[1]
         matchup = {
-            "team_one": {"id": team_one_info.team_id, "name": team_one_info.name},
-            "team_two": {"id": team_two_info.team_id, "name": team_two_info.name},
+            "team_one": {"id": team_one_info.id, "name": team_one_info.name},
+            "team_two": {"id": team_two_info.id, "name": team_two_info.name},
         }
         remaining_matchups.append(matchup)
 
