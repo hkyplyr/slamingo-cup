@@ -74,7 +74,7 @@ def get_wr_te_rb(players, used):
 
 
 teams = {}
-week = 7
+week = 8
 api = YahooFantasyApi(87025, "nfl")
 
 for i in range(1, week + 1):
