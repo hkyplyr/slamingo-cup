@@ -19,7 +19,7 @@ for value in points_for.values():
     value["std"] = stdev(value["pf"][1:])
 
 standings = {}
-for team in db.get_standings(7):
+for team in db.get_standings(9):
     team_data = {"w": team.wins, "l": team.losses, "pf": team.raw_pf}
     standings[team.name] = team_data
 
