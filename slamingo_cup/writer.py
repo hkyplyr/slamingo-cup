@@ -6,6 +6,7 @@ from jinja2 import Environment, PackageLoader, select_autoescape
 from num2words import num2words
 
 from database import Database
+from build_recap import build_recap
 
 
 class Writer:
@@ -34,8 +35,13 @@ class Writer:
             return url
 
     def __load_recaps(self, week):
-        with open(f"slamingo_cup/recaps/week-{week}-recap.json", "r") as f:
-            return json.load(f)
+        file_path = f"slamingo_cup/recaps/week-{week}-recap.json"
+        if os.path.exists(file_path):
+            with open(file_path, "r") as f:
+                return json.load(f)
+        else:
+            print(f"Building recap for Week {week}")
+            return build_recap(week)
 
     def __load_template(self, template_name):
         env = Environment(

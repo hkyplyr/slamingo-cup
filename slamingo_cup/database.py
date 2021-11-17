@@ -1,6 +1,7 @@
 import sqlite3
 
 from models import (
+    Matchup,
     PlayerAwards,
     PowerRankingsTeam,
     StandingsTeam,
@@ -14,7 +15,7 @@ class Database:
         self.__conn = sqlite3.connect("slamingo_cup.db")
         self.__init_db()
 
-    def __execute(self, sql_statement_name, values):
+    def __execute(self, sql_statement_name, values={}):
         with open(f"slamingo_cup/sql/{sql_statement_name}.sql", "r") as f:
             cursor = self.__conn.cursor()
             cursor.execute(f.read(), values)
@@ -25,6 +26,12 @@ class Database:
         with open(f"slamingo_cup/sql/init.sql", "r") as f:
             for sql_statement in f.read().split(";"):
                 self.__conn.cursor().execute(sql_statement)
+
+    def get_last_updated_week(self):
+        return int(self.__execute("get_last_updated_week")[0][0])
+
+    def get_matchups(self, week):
+        return [Matchup(row) for row in self.__execute("get_matchups", {"week": week})]
 
     def get_player_awards(self, week):
         return [PlayerAwards(row) for row in self.__execute("get_player_awards", {"week": week})]

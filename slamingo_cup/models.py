@@ -1,3 +1,14 @@
+class Matchup:
+    def __init__(self, row):
+        self.winner_name = row[0]
+        self.winner_pf = format_points(row[1])
+        self.loser_name = row[2]
+        self.loser_pf = format_points(row[3])
+
+    def __repr__(self):
+        return str(self.__dict__)
+
+
 class PlayerAwards:
     def __init__(self, row):
         self.player_name = row[0]

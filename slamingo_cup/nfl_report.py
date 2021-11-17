@@ -1,3 +1,5 @@
+import sys
+
 from yfantasy_api.api import YahooFantasyApi
 from database import Database
 
@@ -73,83 +75,88 @@ def get_wr_te_rb(players, used):
     return sum(rb) + sum(wr) + sum(te) + sum(flx)
 
 
-teams = {}
-week = 9
-api = YahooFantasyApi(87025, "nfl")
+def retrieve_data(week):
+    teams = {}
+    api = YahooFantasyApi(87025, "nfl")
 
-for i in range(1, week + 1):
-    matchups = api.league().scoreboard(week=i).get().matchups
+    for i in range(db.get_last_updated_week(), week + 1):
+        matchups = api.league().scoreboard(week=i).get().matchups
 
-    for matchup in matchups:
-        db.insert_team(
-            {
-                "id": matchup.winning_team.id,
-                "name": matchup.winning_team.name,
-                "image_url": matchup.winning_team.team_logos,
-            }
-        )
+        for matchup in matchups:
+            db.insert_team(
+                {
+                    "id": matchup.winning_team.id,
+                    "name": matchup.winning_team.name,
+                    "image_url": matchup.winning_team.team_logos,
+                }
+            )
 
-        db.insert_team(
-            {
-                "id": matchup.losing_team.id,
-                "name": matchup.losing_team.name,
-                "image_url": matchup.losing_team.team_logos,
-            }
-        )
+            db.insert_team(
+                {
+                    "id": matchup.losing_team.id,
+                    "name": matchup.losing_team.name,
+                    "image_url": matchup.losing_team.team_logos,
+                }
+            )
 
-        proj_points_perc = matchup.winning_team.points / matchup.winning_team.projected_points
-        db.insert_weekly_results(
-            {
-                "team_id": matchup.winning_team.id,
-                "week": i,
-                "is_winner": True,
-                "pf": matchup.winning_team.points,
-                "ppf": matchup.winning_team.projected_points,
-                "ppf_percentage": proj_points_perc,
-            }
-        )
+            proj_points_perc = matchup.winning_team.points / matchup.winning_team.projected_points
+            db.insert_weekly_results(
+                {
+                    "team_id": matchup.winning_team.id,
+                    "week": i,
+                    "is_winner": True,
+                    "pf": matchup.winning_team.points,
+                    "ppf": matchup.winning_team.projected_points,
+                    "ppf_percentage": proj_points_perc,
+                }
+            )
 
-        proj_points_perc = matchup.losing_team.points / matchup.losing_team.projected_points
-        db.insert_weekly_results(
-            {
-                "team_id": matchup.losing_team.id,
-                "week": i,
-                "is_winner": False,
-                "pf": matchup.losing_team.points,
-                "ppf": matchup.losing_team.projected_points,
-                "ppf_percentage": proj_points_perc,
-            }
-        )
+            proj_points_perc = matchup.losing_team.points / matchup.losing_team.projected_points
+            db.insert_weekly_results(
+                {
+                    "team_id": matchup.losing_team.id,
+                    "week": i,
+                    "is_winner": False,
+                    "pf": matchup.losing_team.points,
+                    "ppf": matchup.losing_team.projected_points,
+                    "ppf_percentage": proj_points_perc,
+                }
+            )
 
-        db.insert_matchup(
-            {
-                "winner_team": matchup.winning_team.id,
-                "loser_team": matchup.losing_team.id,
-                "week": i,
-                "victory_margin": float(matchup.winning_team.points)
-                - float(matchup.losing_team.points),
-            }
-        )
+            db.insert_matchup(
+                {
+                    "winner_team": matchup.winning_team.id,
+                    "loser_team": matchup.losing_team.id,
+                    "week": i,
+                    "victory_margin": float(matchup.winning_team.points)
+                    - float(matchup.losing_team.points),
+                }
+            )
 
-    teams = api.league().teams().get().teams
-    for team in teams:
-        players = get_sorted_players(api, team.id, i)
-        qb, used = get_optimal_position(players, "QB", 1, [])
-        dst, used = get_optimal_position(players, "DEF", 1, used)
-        k, used = get_optimal_position(players, "K", 1, used)
-        rest = max(
-            get_rb_wr_te(players, used),
-            get_rb_te_wr(players, used),
-            get_wr_rb_te(players, used),
-            get_wr_te_rb(players, used),
-        )
-        db.insert_optimal_points(
-            {
-                "team_id": team.id,
-                "week": i,
-                "points": sum(qb + dst + k + [rest]),
-            }
-        )
+        teams = api.league().teams().get().teams
+        for team in teams:
+            print(f"Getting players for {team.name} for week {i}")
+            players = get_sorted_players(api, team.id, i)
+            qb, used = get_optimal_position(players, "QB", 1, [])
+            dst, used = get_optimal_position(players, "DEF", 1, used)
+            k, used = get_optimal_position(players, "K", 1, used)
+            rest = max(
+                get_rb_wr_te(players, used),
+                get_rb_te_wr(players, used),
+                get_wr_rb_te(players, used),
+                get_wr_te_rb(players, used),
+            )
+            db.insert_optimal_points(
+                {
+                    "team_id": team.id,
+                    "week": i,
+                    "points": sum(qb + dst + k + [rest]),
+                }
+            )
 
-    for i in range(1, week + 1):
-        db.update_all_play(i)
+        for i in range(1, week + 1):
+            db.update_all_play(i)
+
+
+if __name__ == "__main__":
+    retrieve_data(int(sys.argv[1]))
