@@ -22,6 +22,7 @@ def get_next_matchups(week):
 
     previews = []
     matchups = api.league().scoreboard(week=week + 1).get().matchups
+
     for m in matchups:
         matchup_info = []
         combined_wins = 0
@@ -44,7 +45,7 @@ def build_recap(week):
     if os.path.exists(file_path):
         return
 
-    recap = {"recaps": get_last_matchups(week), "previews": get_next_matchups(week + 1)}
+    recap = {"recaps": get_last_matchups(week), "previews": get_next_matchups(week)}
 
     with open(file_path, "w") as f:
         json.dump(recap, f, indent=4)
