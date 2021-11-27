@@ -8,8 +8,10 @@ import copy
 fantasy_api = YahooFantasyApi(87025, "nfl")
 db = Database()
 
+week = 11
+
 points_for = {}
-for week in range(1, 11):
+for week in range(1, week + 1):
     for result in db.get_rolling_points_for(week):
         if result[0] not in points_for:
             points_for[result[0]] = {"pf": []}
@@ -19,12 +21,12 @@ for value in points_for.values():
     value["std"] = stdev(value["pf"][1:])
 
 standings = {}
-for team in db.get_standings(10):
+for team in db.get_standings(week):
     team_data = {"w": team.wins, "l": team.losses, "pf": team.raw_pf}
     standings[team.name] = team_data
 
 remaining_matchups = []
-for week in range(1, 14 + 1):
+for week in range(week, 14 + 1):
     matchups = fantasy_api.league().scoreboard(week=week).get().matchups
     for m in matchups:
         if m.status == "postevent":
