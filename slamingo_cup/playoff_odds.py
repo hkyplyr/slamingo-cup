@@ -70,10 +70,12 @@ def simulate_season(team_variables, standings, matchups):
         team_one = matchup["team_one"]["name"]
         team_two = matchup["team_two"]["name"]
         team_one_pf = (
-            team_variables[team_one]["avg"] + random_bm() * team_variables[team_one]["std"]
+            team_variables[team_one]["avg"]
+            + random_bm() * team_variables[team_one]["std"]
         )
         team_two_pf = (
-            team_variables[team_two]["avg"] + random_bm() * team_variables[team_two]["std"]
+            team_variables[team_two]["avg"]
+            + random_bm() * team_variables[team_two]["std"]
         )
 
         final_standings[team_one]["pf"] += team_one_pf
@@ -85,7 +87,9 @@ def simulate_season(team_variables, standings, matchups):
             final_standings[team_one]["l"] += 1
             final_standings[team_two]["w"] += 1
     final_standings = dict(
-        sorted(final_standings.items(), key=lambda x: (x[1]["w"], x[1]["pf"]), reverse=True)
+        sorted(
+            final_standings.items(), key=lambda x: (x[1]["w"], x[1]["pf"]), reverse=True
+        )
     )
 
     final_standings_prob = {}

@@ -18,7 +18,9 @@ def get_last_matchups(week):
 
 
 def get_next_matchups(week):
-    records = {t.name: {"w": t.wins, "record": t.record} for t in db.get_standings(week)}
+    records = {
+        t.name: {"w": t.wins, "record": t.record} for t in db.get_standings(week)
+    }
 
     previews = []
     matchups = api.league().scoreboard(week=week + 1).get().matchups

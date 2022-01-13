@@ -36,7 +36,9 @@ def get_sorted_players(api, team_id, week):
 
 def get_optimal_position(players, position, number_of_spots, used):
     players = filter(lambda player: player.id not in used, players)
-    players = list(filter(lambda player: position in player.eligible_positions, players))
+    players = list(
+        filter(lambda player: position in player.eligible_positions, players)
+    )
 
     return [float(player.points) for player in players[:number_of_spots]], used + [
         player.id for player in players[:number_of_spots]
@@ -99,7 +101,9 @@ def retrieve_data(week):
                 }
             )
 
-            proj_points_perc = matchup.winning_team.points / matchup.winning_team.projected_points
+            proj_points_perc = (
+                matchup.winning_team.points / matchup.winning_team.projected_points
+            )
             db.insert_weekly_results(
                 {
                     "team_id": matchup.winning_team.id,
@@ -111,7 +115,9 @@ def retrieve_data(week):
                 }
             )
 
-            proj_points_perc = matchup.losing_team.points / matchup.losing_team.projected_points
+            proj_points_perc = (
+                matchup.losing_team.points / matchup.losing_team.projected_points
+            )
             db.insert_weekly_results(
                 {
                     "team_id": matchup.losing_team.id,

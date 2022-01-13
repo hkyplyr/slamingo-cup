@@ -34,11 +34,15 @@ class Database:
         return [Matchup(row) for row in self.__execute("get_matchups", {"week": week})]
 
     def get_player_awards(self, week):
-        return [PlayerAwards(row) for row in self.__execute("get_player_awards", {"week": week})]
+        return [
+            PlayerAwards(row)
+            for row in self.__execute("get_player_awards", {"week": week})
+        ]
 
     def get_power_rankings(self, week):
         previous_ranks = {
-            row[1]: row[0] for row in self.__execute("get_power_rankings", {"week": week - 1})
+            row[1]: row[0]
+            for row in self.__execute("get_power_rankings", {"week": week - 1})
         }
         return [
             PowerRankingsTeam(row, previous_ranks)
@@ -49,15 +53,41 @@ class Database:
         return self.__execute("get_rolling_points_for", {"week": week})
 
     def get_standings(self, week):
-        return [StandingsTeam(row) for row in self.__execute("get_standings", {"week": week})]
+        return [
+            StandingsTeam(row)
+            for row in self.__execute("get_standings", {"week": week})
+        ]
 
     def get_team_awards(self, week):
-        return [TeamAwards(row) for row in self.__execute("get_team_awards", {"week": week})]
+        return [
+            TeamAwards(row) for row in self.__execute("get_team_awards", {"week": week})
+        ]
 
     def get_weekly_results(self, week):
         return [
-            WeeklyResultsTeam(row) for row in self.__execute("get_weekly_results", {"week": week})
+            WeeklyResultsTeam(row)
+            for row in self.__execute("get_weekly_results", {"week": week})
         ]
+
+    def get_points_breakdown(self, team_id):
+        return self.__execute("get_points_breakdown", {"team_id": team_id})[0]
+
+    def get_positional_points(self, position):
+        return [
+            (row[0], round(row[1], 2))
+            for row in self.__execute(
+                "get_positional_points", {"positions": f"%{position}%"}
+            )
+        ]
+
+    def get_played_players(self, team_id):
+        return [
+            (row[0], row[1], round(row[2], 2), row[3], round(row[4], 2))
+            for row in self.__execute("get_played_players", {"team_id": team_id})
+        ]
+
+    def get_teams(self):
+        return self.__execute("get_teams")
 
     def insert_matchup(self, matchup):
         self.__execute("insert_matchup", matchup)
