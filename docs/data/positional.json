@@ -1,0 +1,2242 @@
+{
+    "Bishop Sycamore": {
+        "QB": [
+            [
+                "Ryan Tannehill",
+                "QB",
+                190.44,
+                11,
+                17.31
+            ],
+            [
+                "Taylor Heinicke",
+                "QB",
+                28.06,
+                2,
+                14.03
+            ],
+            [
+                "Joe Burrow",
+                "QB",
+                22.22,
+                1,
+                22.22
+            ]
+        ],
+        "RB": [
+            [
+                "Antonio Gibson",
+                "RB",
+                147.9,
+                12,
+                12.33
+            ],
+            [
+                "D'Andre Swift",
+                "RB",
+                140.0,
+                10,
+                14.0
+            ],
+            [
+                "Myles Gaskin",
+                "RB",
+                69.9,
+                6,
+                11.65
+            ],
+            [
+                "D'Ernest Johnson",
+                "RB",
+                19.2,
+                1,
+                19.2
+            ],
+            [
+                "Ty'Son Williams",
+                "RB",
+                19.1,
+                2,
+                9.55
+            ],
+            [
+                "Damien Williams",
+                "RB",
+                15.4,
+                1,
+                15.4
+            ],
+            [
+                "Kenneth Gainwell",
+                "RB",
+                9.0,
+                2,
+                4.5
+            ],
+            [
+                "Jamaal Williams",
+                "RB",
+                8.5,
+                1,
+                8.5
+            ],
+            [
+                "Saquon Barkley",
+                "RB",
+                3.2,
+                1,
+                3.2
+            ],
+            [
+                "Godwin Igwebuike",
+                "RB",
+                0.5,
+                1,
+                0.5
+            ]
+        ],
+        "WR": [
+            [
+                "Davante Adams",
+                "WR",
+                207.4,
+                12,
+                17.28
+            ],
+            [
+                "Diontae Johnson",
+                "WR",
+                160.1,
+                11,
+                14.55
+            ],
+            [
+                "Courtland Sutton",
+                "WR",
+                34.0,
+                7,
+                4.86
+            ],
+            [
+                "Antonio Brown",
+                "WR",
+                22.0,
+                2,
+                11.0
+            ],
+            [
+                "Robert Woods",
+                "WR",
+                10.9,
+                1,
+                10.9
+            ]
+        ],
+        "TE": [
+            [
+                "Mike Gesicki",
+                "TE",
+                66.8,
+                8,
+                8.35
+            ],
+            [
+                "Jonnu Smith",
+                "TE",
+                12.1,
+                2,
+                6.05
+            ],
+            [
+                "Austin Hooper",
+                "TE",
+                11.5,
+                1,
+                11.5
+            ],
+            [
+                "Evan Engram",
+                "TE",
+                6.0,
+                2,
+                3.0
+            ],
+            [
+                "Hunter Henry",
+                "TE",
+                3.5,
+                1,
+                3.5
+            ]
+        ],
+        "K": [
+            [
+                "Nick Folk",
+                "K",
+                136.0,
+                12,
+                11.33
+            ],
+            [
+                "Dustin Hopkins",
+                "K",
+                13.0,
+                1,
+                13.0
+            ],
+            [
+                "Rodrigo Blankenship",
+                "K",
+                4.0,
+                1,
+                4.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Los Angeles",
+                "DEF",
+                51.0,
+                6,
+                8.5
+            ],
+            [
+                "Baltimore",
+                "DEF",
+                27.0,
+                4,
+                6.75
+            ],
+            [
+                "Kansas City",
+                "DEF",
+                24.0,
+                1,
+                24.0
+            ],
+            [
+                "Denver",
+                "DEF",
+                19.0,
+                1,
+                19.0
+            ],
+            [
+                "Minnesota",
+                "DEF",
+                9.0,
+                1,
+                9.0
+            ],
+            [
+                "New Orleans",
+                "DEF",
+                2.0,
+                1,
+                2.0
+            ]
+        ]
+    },
+    "Krispy Kareem": {
+        "QB": [
+            [
+                "Justin Herbert",
+                "QB",
+                306.68,
+                13,
+                23.59
+            ],
+            [
+                "Jameis Winston",
+                "QB",
+                16.88,
+                1,
+                16.88
+            ]
+        ],
+        "RB": [
+            [
+                "Najee Harris",
+                "RB",
+                189.3,
+                12,
+                15.77
+            ],
+            [
+                "James Robinson",
+                "RB",
+                118.7,
+                11,
+                10.79
+            ],
+            [
+                "Kareem Hunt",
+                "RB",
+                99.0,
+                8,
+                12.38
+            ],
+            [
+                "Brandon Bolden",
+                "RB",
+                25.4,
+                2,
+                12.7
+            ],
+            [
+                "AJ Dillon",
+                "RB",
+                23.0,
+                3,
+                7.67
+            ]
+        ],
+        "WR": [
+            [
+                "Chris Godwin",
+                "WR",
+                185.5,
+                13,
+                14.27
+            ],
+            [
+                "Stefon Diggs",
+                "WR",
+                178.2,
+                13,
+                13.71
+            ],
+            [
+                "DeVonta Smith",
+                "WR",
+                41.6,
+                6,
+                6.93
+            ],
+            [
+                "Mecole Hardman",
+                "WR",
+                6.3,
+                2,
+                3.15
+            ]
+        ],
+        "TE": [
+            [
+                "T.J. Hockenson",
+                "TE",
+                114.8,
+                12,
+                9.57
+            ],
+            [
+                "Dawson Knox",
+                "TE",
+                15.5,
+                1,
+                15.5
+            ],
+            [
+                "Tyler Conklin",
+                "TE",
+                7.0,
+                1,
+                7.0
+            ]
+        ],
+        "K": [
+            [
+                "Matt Gay",
+                "K",
+                106.0,
+                11,
+                9.64
+            ],
+            [
+                "Chris Boswell",
+                "K",
+                21.0,
+                3,
+                7.0
+            ]
+        ],
+        "DEF": [
+            [
+                "San Francisco",
+                "DEF",
+                34.0,
+                4,
+                8.5
+            ],
+            [
+                "Baltimore",
+                "DEF",
+                23.0,
+                5,
+                4.6
+            ],
+            [
+                "New Orleans",
+                "DEF",
+                10.0,
+                3,
+                3.33
+            ],
+            [
+                "Cincinnati",
+                "DEF",
+                7.0,
+                1,
+                7.0
+            ],
+            [
+                "Los Angeles",
+                "DEF",
+                3.0,
+                1,
+                3.0
+            ]
+        ]
+    },
+    "One Punt Man": {
+        "QB": [
+            [
+                "Kyler Murray",
+                "QB",
+                234.98,
+                10,
+                23.5
+            ],
+            [
+                "Jalen Hurts",
+                "QB",
+                76.74,
+                4,
+                19.18
+            ]
+        ],
+        "RB": [
+            [
+                "Jonathan Taylor",
+                "RB",
+                290.4,
+                13,
+                22.34
+            ],
+            [
+                "Javonte Williams",
+                "RB",
+                116.3,
+                9,
+                12.92
+            ],
+            [
+                "Zack Moss",
+                "RB",
+                31.1,
+                4,
+                7.77
+            ],
+            [
+                "Mark Ingram II",
+                "RB",
+                19.6,
+                3,
+                6.53
+            ],
+            [
+                "Jermar Jefferson",
+                "RB",
+                0.0,
+                1,
+                0.0
+            ]
+        ],
+        "WR": [
+            [
+                "Tyreek Hill",
+                "WR",
+                203.4,
+                13,
+                15.65
+            ],
+            [
+                "Ja'Marr Chase",
+                "WR",
+                168.7,
+                12,
+                14.06
+            ],
+            [
+                "Mike Williams",
+                "WR",
+                134.3,
+                11,
+                12.21
+            ],
+            [
+                "Marvin Jones Jr.",
+                "WR",
+                9.3,
+                2,
+                4.65
+            ],
+            [
+                "Brandon Aiyuk",
+                "WR",
+                0.0,
+                1,
+                0.0
+            ]
+        ],
+        "TE": [
+            [
+                "George Kittle",
+                "TE",
+                122.5,
+                9,
+                13.61
+            ],
+            [
+                "Ricky Seals-Jones",
+                "TE",
+                21.9,
+                2,
+                10.95
+            ],
+            [
+                "Tyler Higbee",
+                "TE",
+                21.1,
+                3,
+                7.03
+            ],
+            [
+                "Blake Jarwin",
+                "TE",
+                0.0,
+                1,
+                0.0
+            ]
+        ],
+        "K": [
+            [
+                "Younghoe Koo",
+                "K",
+                76.0,
+                12,
+                6.33
+            ],
+            [
+                "Matt Prater",
+                "K",
+                22.0,
+                2,
+                11.0
+            ]
+        ],
+        "DEF": [
+            [
+                "New England",
+                "DEF",
+                130.0,
+                12,
+                10.83
+            ],
+            [
+                "Seattle",
+                "DEF",
+                13.0,
+                1,
+                13.0
+            ],
+            [
+                "Green Bay",
+                "DEF",
+                13.0,
+                1,
+                13.0
+            ]
+        ]
+    },
+    "Christian Mingle": {
+        "QB": [
+            [
+                "Lamar Jackson",
+                "QB",
+                252.98,
+                12,
+                21.08
+            ],
+            [
+                "Kirk Cousins",
+                "QB",
+                38.4,
+                2,
+                19.2
+            ]
+        ],
+        "RB": [
+            [
+                "Damien Harris",
+                "RB",
+                115.8,
+                9,
+                12.87
+            ],
+            [
+                "Melvin Gordon III",
+                "RB",
+                102.1,
+                8,
+                12.76
+            ],
+            [
+                "Christian McCaffrey",
+                "RB",
+                96.4,
+                6,
+                16.07
+            ],
+            [
+                "Alexander Mattison",
+                "RB",
+                65.5,
+                4,
+                16.38
+            ],
+            [
+                "Devin Singletary",
+                "RB",
+                11.9,
+                1,
+                11.9
+            ],
+            [
+                "Raheem Mostert",
+                "RB",
+                2.0,
+                1,
+                2.0
+            ]
+        ],
+        "WR": [
+            [
+                "Keenan Allen",
+                "WR",
+                161.9,
+                12,
+                13.49
+            ],
+            [
+                "Marquise Brown",
+                "WR",
+                114.9,
+                9,
+                12.77
+            ],
+            [
+                "Brandin Cooks",
+                "WR",
+                108.0,
+                10,
+                10.8
+            ],
+            [
+                "A.J. Brown",
+                "WR",
+                103.5,
+                10,
+                10.35
+            ]
+        ],
+        "TE": [
+            [
+                "Dallas Goedert",
+                "TE",
+                92.0,
+                11,
+                8.36
+            ],
+            [
+                "Jared Cook",
+                "TE",
+                26.5,
+                2,
+                13.25
+            ],
+            [
+                "Gerald Everett",
+                "TE",
+                9.8,
+                1,
+                9.8
+            ]
+        ],
+        "K": [
+            [
+                "Brandon McManus",
+                "K",
+                89.0,
+                12,
+                7.42
+            ],
+            [
+                "Robbie Gould",
+                "K",
+                14.0,
+                1,
+                14.0
+            ],
+            [
+                "Harrison Butker",
+                "K",
+                9.0,
+                1,
+                9.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Miami",
+                "DEF",
+                54.0,
+                4,
+                13.5
+            ],
+            [
+                "Denver",
+                "DEF",
+                43.0,
+                6,
+                7.17
+            ],
+            [
+                "Green Bay",
+                "DEF",
+                6.0,
+                1,
+                6.0
+            ],
+            [
+                "Las Vegas",
+                "DEF",
+                3.0,
+                1,
+                3.0
+            ],
+            [
+                "Kansas City",
+                "DEF",
+                2.0,
+                2,
+                1.0
+            ]
+        ]
+    },
+    "The Hubbard Telescope": {
+        "QB": [
+            [
+                "Russell Wilson",
+                "QB",
+                174.18,
+                10,
+                17.42
+            ],
+            [
+                "Sam Darnold",
+                "QB",
+                19.56,
+                2,
+                9.78
+            ],
+            [
+                "Taylor Heinicke",
+                "QB",
+                13.8,
+                1,
+                13.8
+            ],
+            [
+                "Daniel Jones",
+                "QB",
+                8.1,
+                1,
+                8.1
+            ]
+        ],
+        "RB": [
+            [
+                "James Conner",
+                "RB",
+                127.4,
+                6,
+                21.23
+            ],
+            [
+                "David Montgomery",
+                "RB",
+                108.1,
+                8,
+                13.51
+            ],
+            [
+                "Saquon Barkley",
+                "RB",
+                80.6,
+                7,
+                11.51
+            ],
+            [
+                "Chuba Hubbard",
+                "RB",
+                58.2,
+                5,
+                11.64
+            ],
+            [
+                "Darrel Williams",
+                "RB",
+                54.6,
+                4,
+                13.65
+            ],
+            [
+                "Devontae Booker",
+                "RB",
+                51.2,
+                4,
+                12.8
+            ],
+            [
+                "Devonta Freeman",
+                "RB",
+                23.5,
+                3,
+                7.83
+            ],
+            [
+                "Antonio Gibson",
+                "RB",
+                10.3,
+                1,
+                10.3
+            ]
+        ],
+        "WR": [
+            [
+                "Adam Thielen",
+                "WR",
+                160.8,
+                12,
+                13.4
+            ],
+            [
+                "Tyler Lockett",
+                "WR",
+                145.1,
+                12,
+                12.09
+            ],
+            [
+                "Robert Woods",
+                "WR",
+                70.0,
+                6,
+                11.67
+            ],
+            [
+                "Antonio Brown",
+                "WR",
+                21.2,
+                1,
+                21.2
+            ],
+            [
+                "Odell Beckham Jr.",
+                "WR",
+                16.7,
+                1,
+                16.7
+            ]
+        ],
+        "TE": [
+            [
+                "Travis Kelce",
+                "TE",
+                158.4,
+                13,
+                12.18
+            ],
+            [
+                "Dan Arnold",
+                "TE",
+                1.4,
+                1,
+                1.4
+            ]
+        ],
+        "K": [
+            [
+                "Harrison Butker",
+                "K",
+                67.0,
+                9,
+                7.44
+            ],
+            [
+                "Greg Joseph",
+                "K",
+                45.0,
+                5,
+                9.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Cleveland",
+                "DEF",
+                48.0,
+                6,
+                8.0
+            ],
+            [
+                "Green Bay",
+                "DEF",
+                21.0,
+                2,
+                10.5
+            ],
+            [
+                "Tennessee",
+                "DEF",
+                16.0,
+                2,
+                8.0
+            ],
+            [
+                "Buffalo",
+                "DEF",
+                6.0,
+                3,
+                2.0
+            ],
+            [
+                "Philadelphia",
+                "DEF",
+                5.0,
+                1,
+                5.0
+            ]
+        ]
+    },
+    "Kato DeKaylin": {
+        "QB": [
+            [
+                "Joe Burrow",
+                "QB",
+                175.28,
+                9,
+                19.48
+            ],
+            [
+                "Mac Jones",
+                "QB",
+                53.26,
+                4,
+                13.32
+            ],
+            [
+                "Taysom Hill",
+                "QB",
+                26.3,
+                1,
+                26.3
+            ]
+        ],
+        "RB": [
+            [
+                "Derrick Henry",
+                "RB",
+                184.3,
+                8,
+                23.04
+            ],
+            [
+                "Darrell Henderson Jr.",
+                "RB",
+                97.7,
+                7,
+                13.96
+            ],
+            [
+                "Ty Johnson",
+                "RB",
+                33.6,
+                6,
+                5.6
+            ],
+            [
+                "Sony Michel",
+                "RB",
+                23.7,
+                4,
+                5.92
+            ],
+            [
+                "Rex Burkhead",
+                "RB",
+                13.6,
+                2,
+                6.8
+            ],
+            [
+                "Devontae Booker",
+                "RB",
+                5.7,
+                2,
+                2.85
+            ]
+        ],
+        "WR": [
+            [
+                "DK Metcalf",
+                "WR",
+                142.8,
+                12,
+                11.9
+            ],
+            [
+                "Terry McLaurin",
+                "WR",
+                114.8,
+                11,
+                10.44
+            ],
+            [
+                "Christian Kirk",
+                "WR",
+                76.22,
+                9,
+                8.47
+            ],
+            [
+                "Elijah Moore",
+                "WR",
+                44.8,
+                3,
+                14.93
+            ],
+            [
+                "Van Jefferson Jr.",
+                "WR",
+                13.8,
+                1,
+                13.8
+            ],
+            [
+                "Robby Anderson",
+                "WR",
+                12.2,
+                1,
+                12.2
+            ],
+            [
+                "Marquez Callaway",
+                "WR",
+                10.0,
+                1,
+                10.0
+            ],
+            [
+                "Jakobi Meyers",
+                "WR",
+                1.3,
+                2,
+                0.65
+            ],
+            [
+                "Kendrick Bourne",
+                "WR",
+                0.3,
+                1,
+                0.3
+            ]
+        ],
+        "TE": [
+            [
+                "Tyler Higbee",
+                "TE",
+                50.3,
+                7,
+                7.19
+            ],
+            [
+                "Dawson Knox",
+                "TE",
+                32.3,
+                4,
+                8.07
+            ],
+            [
+                "C.J. Uzomah",
+                "TE",
+                9.7,
+                2,
+                4.85
+            ],
+            [
+                "Jared Cook",
+                "TE",
+                7.8,
+                1,
+                7.8
+            ]
+        ],
+        "K": [
+            [
+                "Tyler Bass",
+                "K",
+                114.0,
+                13,
+                8.77
+            ],
+            [
+                "Graham Gano",
+                "K",
+                15.0,
+                1,
+                15.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Buffalo",
+                "DEF",
+                80.0,
+                7,
+                11.43
+            ],
+            [
+                "Minnesota",
+                "DEF",
+                23.0,
+                3,
+                7.67
+            ],
+            [
+                "Green Bay",
+                "DEF",
+                14.0,
+                2,
+                7.0
+            ],
+            [
+                "Los Angeles",
+                "DEF",
+                6.0,
+                1,
+                6.0
+            ],
+            [
+                "Las Vegas",
+                "DEF",
+                6.0,
+                1,
+                6.0
+            ]
+        ]
+    },
+    "HotChubbTimeMachine": {
+        "QB": [
+            [
+                "Dak Prescott",
+                "QB",
+                233.84,
+                12,
+                19.49
+            ],
+            [
+                "Carson Wentz",
+                "QB",
+                20.34,
+                1,
+                20.34
+            ],
+            [
+                "Matt Ryan",
+                "QB",
+                18.44,
+                1,
+                18.44
+            ]
+        ],
+        "RB": [
+            [
+                "Nick Chubb",
+                "RB",
+                151.3,
+                10,
+                15.13
+            ],
+            [
+                "Cordarrelle Patterson",
+                "RB",
+                115.2,
+                8,
+                14.4
+            ],
+            [
+                "Tony Pollard",
+                "RB",
+                49.8,
+                4,
+                12.45
+            ],
+            [
+                "Chris Carson",
+                "RB",
+                45.1,
+                4,
+                11.28
+            ],
+            [
+                "Khalil Herbert",
+                "RB",
+                43.1,
+                4,
+                10.77
+            ],
+            [
+                "D'Onta Foreman",
+                "RB",
+                4.5,
+                1,
+                4.5
+            ]
+        ],
+        "WR": [
+            [
+                "Mike Evans",
+                "WR",
+                187.0,
+                13,
+                14.38
+            ],
+            [
+                "Cordarrelle Patterson",
+                "WR",
+                115.2,
+                8,
+                14.4
+            ],
+            [
+                "Calvin Ridley",
+                "WR",
+                55.6,
+                6,
+                9.27
+            ],
+            [
+                "Cole Beasley",
+                "WR",
+                46.9,
+                7,
+                6.7
+            ],
+            [
+                "Jerry Jeudy",
+                "WR",
+                45.1,
+                5,
+                9.02
+            ],
+            [
+                "Laviska Shenault Jr.",
+                "WR",
+                22.2,
+                4,
+                5.55
+            ],
+            [
+                "Rashod Bateman",
+                "WR",
+                9.5,
+                3,
+                3.17
+            ],
+            [
+                "Tim Patrick",
+                "WR",
+                2.6,
+                1,
+                2.6
+            ]
+        ],
+        "TE": [
+            [
+                "Dalton Schultz",
+                "TE",
+                41.5,
+                7,
+                5.93
+            ],
+            [
+                "Robert Tonyan",
+                "TE",
+                20.7,
+                6,
+                3.45
+            ],
+            [
+                "Jonnu Smith",
+                "TE",
+                6.7,
+                1,
+                6.7
+            ]
+        ],
+        "K": [
+            [
+                "Justin Tucker",
+                "K",
+                130.0,
+                13,
+                10.0
+            ],
+            [
+                "Jake Elliott",
+                "K",
+                16.0,
+                1,
+                16.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Tampa Bay",
+                "DEF",
+                91.0,
+                10,
+                9.1
+            ],
+            [
+                "Pittsburgh",
+                "DEF",
+                12.0,
+                3,
+                4.0
+            ],
+            [
+                "Las Vegas",
+                "DEF",
+                4.0,
+                1,
+                4.0
+            ]
+        ]
+    },
+    "Jason's Fine Team": {
+        "QB": [
+            [
+                "Tom Brady",
+                "QB",
+                314.16,
+                13,
+                24.17
+            ],
+            [
+                "Mac Jones",
+                "QB",
+                6.96,
+                1,
+                6.96
+            ]
+        ],
+        "RB": [
+            [
+                "Joe Mixon",
+                "RB",
+                219.8,
+                13,
+                16.91
+            ],
+            [
+                "Ezekiel Elliott",
+                "RB",
+                184.16,
+                13,
+                14.17
+            ],
+            [
+                "Devonta Freeman",
+                "RB",
+                11.4,
+                1,
+                11.4
+            ],
+            [
+                "Trey Sermon",
+                "RB",
+                8.9,
+                1,
+                8.9
+            ],
+            [
+                "Derrick Gore",
+                "RB",
+                1.9,
+                1,
+                1.9
+            ]
+        ],
+        "WR": [
+            [
+                "Cooper Kupp",
+                "WR",
+                278.9,
+                13,
+                21.45
+            ],
+            [
+                "Deebo Samuel",
+                "WR",
+                217.3,
+                12,
+                18.11
+            ],
+            [
+                "Michael Gallup",
+                "WR",
+                46.3,
+                5,
+                9.26
+            ],
+            [
+                "Julio Jones",
+                "WR",
+                22.1,
+                4,
+                5.53
+            ],
+            [
+                "A.J. Green",
+                "WR",
+                20.1,
+                3,
+                6.7
+            ],
+            [
+                "Nelson Agholor",
+                "WR",
+                7.5,
+                1,
+                7.5
+            ]
+        ],
+        "TE": [
+            [
+                "Darren Waller",
+                "TE",
+                102.8,
+                11,
+                9.35
+            ],
+            [
+                "Rob Gronkowski",
+                "TE",
+                64.0,
+                6,
+                10.67
+            ]
+        ],
+        "K": [
+            [
+                "Jason Myers",
+                "K",
+                49.0,
+                8,
+                6.12
+            ],
+            [
+                "Randy Bullock",
+                "K",
+                17.0,
+                4,
+                4.25
+            ],
+            [
+                "Robbie Gould",
+                "K",
+                15.0,
+                2,
+                7.5
+            ]
+        ],
+        "DEF": [
+            [
+                "Arizona",
+                "DEF",
+                109.0,
+                12,
+                9.08
+            ],
+            [
+                "Seattle",
+                "DEF",
+                6.0,
+                1,
+                6.0
+            ],
+            [
+                "Chicago",
+                "DEF",
+                4.0,
+                1,
+                4.0
+            ]
+        ]
+    },
+    "Chalupa Batman": {
+        "QB": [
+            [
+                "Josh Allen",
+                "QB",
+                317.06,
+                13,
+                24.39
+            ],
+            [
+                "Jared Goff",
+                "QB",
+                13.02,
+                1,
+                13.02
+            ]
+        ],
+        "RB": [
+            [
+                "Chase Edmonds",
+                "RB",
+                83.1,
+                9,
+                9.23
+            ],
+            [
+                "Clyde Edwards-Helaire",
+                "RB",
+                75.9,
+                7,
+                10.84
+            ],
+            [
+                "J.D. McKissic",
+                "RB",
+                38.9,
+                3,
+                12.97
+            ],
+            [
+                "Nyheim Hines",
+                "RB",
+                27.1,
+                4,
+                6.78
+            ],
+            [
+                "Kenyan Drake",
+                "RB",
+                12.8,
+                4,
+                3.2
+            ],
+            [
+                "Chuba Hubbard",
+                "RB",
+                9.3,
+                1,
+                9.3
+            ]
+        ],
+        "WR": [
+            [
+                "DeAndre Hopkins",
+                "WR",
+                126.2,
+                12,
+                10.52
+            ],
+            [
+                "Jaylen Waddle",
+                "WR",
+                107.3,
+                8,
+                13.41
+            ],
+            [
+                "Chase Claypool",
+                "WR",
+                82.4,
+                9,
+                9.16
+            ],
+            [
+                "Hunter Renfrow",
+                "WR",
+                33.7,
+                3,
+                11.23
+            ],
+            [
+                "Jarvis Landry",
+                "WR",
+                29.9,
+                5,
+                5.98
+            ],
+            [
+                "Brandon Aiyuk",
+                "WR",
+                26.6,
+                2,
+                13.3
+            ],
+            [
+                "Darnell Mooney",
+                "WR",
+                15.0,
+                1,
+                15.0
+            ],
+            [
+                "Sterling Shepard",
+                "WR",
+                2.6,
+                1,
+                2.6
+            ],
+            [
+                "Tyrell Williams",
+                "WR",
+                2.4,
+                1,
+                2.4
+            ]
+        ],
+        "TE": [
+            [
+                "Kyle Pitts",
+                "TE",
+                110.0,
+                13,
+                8.46
+            ],
+            [
+                "Dalton Schultz",
+                "TE",
+                10.4,
+                1,
+                10.4
+            ]
+        ],
+        "K": [
+            [
+                "Ryan Succop",
+                "K",
+                102.0,
+                13,
+                7.85
+            ],
+            [
+                "Matt Prater",
+                "K",
+                7.0,
+                1,
+                7.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Dallas",
+                "DEF",
+                78.0,
+                6,
+                13.0
+            ],
+            [
+                "Chicago",
+                "DEF",
+                43.0,
+                7,
+                6.14
+            ],
+            [
+                "Indianapolis",
+                "DEF",
+                4.0,
+                1,
+                4.0
+            ]
+        ]
+    },
+    "Taco Corp": {
+        "QB": [
+            [
+                "Aaron Rodgers",
+                "QB",
+                258.46,
+                12,
+                21.54
+            ],
+            [
+                "Carson Wentz",
+                "QB",
+                11.12,
+                1,
+                11.12
+            ],
+            [
+                "Jacoby Brissett",
+                "QB",
+                10.46,
+                1,
+                10.46
+            ]
+        ],
+        "RB": [
+            [
+                "Austin Ekeler",
+                "RB",
+                247.5,
+                13,
+                19.04
+            ],
+            [
+                "Aaron Jones",
+                "RB",
+                164.7,
+                12,
+                13.73
+            ],
+            [
+                "Eli Mitchell",
+                "RB",
+                56.6,
+                4,
+                14.15
+            ],
+            [
+                "D'Ernest Johnson",
+                "RB",
+                23.8,
+                1,
+                23.8
+            ],
+            [
+                "Mike Davis",
+                "RB",
+                18.7,
+                3,
+                6.23
+            ],
+            [
+                "Jeff Wilson Jr.",
+                "RB",
+                6.3,
+                1,
+                6.3
+            ],
+            [
+                "Carlos Hyde",
+                "RB",
+                5.8,
+                1,
+                5.8
+            ],
+            [
+                "Adrian Peterson",
+                "RB",
+                5.4,
+                1,
+                5.4
+            ]
+        ],
+        "WR": [
+            [
+                "CeeDee Lamb",
+                "WR",
+                164.8,
+                12,
+                13.73
+            ],
+            [
+                "Amari Cooper",
+                "WR",
+                129.0,
+                11,
+                11.73
+            ],
+            [
+                "Tee Higgins",
+                "WR",
+                82.5,
+                6,
+                13.75
+            ],
+            [
+                "Odell Beckham Jr.",
+                "WR",
+                20.8,
+                4,
+                5.2
+            ],
+            [
+                "Marquez Valdes-Scantling",
+                "WR",
+                7.0,
+                1,
+                7.0
+            ]
+        ],
+        "TE": [
+            [
+                "Pat Freiermuth",
+                "TE",
+                59.8,
+                6,
+                9.97
+            ],
+            [
+                "Dawson Knox",
+                "TE",
+                43.4,
+                3,
+                14.47
+            ],
+            [
+                "Robert Tonyan",
+                "TE",
+                6.4,
+                1,
+                6.4
+            ],
+            [
+                "Maxx Williams",
+                "TE",
+                3.4,
+                1,
+                3.4
+            ],
+            [
+                "O.J. Howard",
+                "TE",
+                1.4,
+                1,
+                1.4
+            ],
+            [
+                "Cole Kmet",
+                "TE",
+                0.5,
+                1,
+                0.5
+            ],
+            [
+                "Mike Gesicki",
+                "TE",
+                0.0,
+                1,
+                0.0
+            ]
+        ],
+        "K": [
+            [
+                "Mason Crosby",
+                "K",
+                95.0,
+                12,
+                7.92
+            ],
+            [
+                "Evan McPherson",
+                "K",
+                17.0,
+                2,
+                8.5
+            ]
+        ],
+        "DEF": [
+            [
+                "Dallas",
+                "DEF",
+                24.0,
+                2,
+                12.0
+            ],
+            [
+                "Pittsburgh",
+                "DEF",
+                18.0,
+                3,
+                6.0
+            ],
+            [
+                "New Orleans",
+                "DEF",
+                9.0,
+                1,
+                9.0
+            ],
+            [
+                "Indianapolis",
+                "DEF",
+                8.0,
+                1,
+                8.0
+            ],
+            [
+                "Cincinnati",
+                "DEF",
+                5.0,
+                2,
+                2.5
+            ],
+            [
+                "Tennessee",
+                "DEF",
+                4.0,
+                3,
+                1.33
+            ],
+            [
+                "Detroit",
+                "DEF",
+                -3.0,
+                1,
+                -3.0
+            ]
+        ]
+    },
+    "Mahomes Your Home": {
+        "QB": [
+            [
+                "Patrick Mahomes",
+                "QB",
+                274.68,
+                13,
+                21.13
+            ],
+            [
+                "Carson Wentz",
+                "QB",
+                22.34,
+                1,
+                22.34
+            ]
+        ],
+        "RB": [
+            [
+                "Leonard Fournette",
+                "RB",
+                177.5,
+                10,
+                17.75
+            ],
+            [
+                "Dalvin Cook",
+                "RB",
+                167.7,
+                10,
+                16.77
+            ],
+            [
+                "Miles Sanders",
+                "RB",
+                75.9,
+                9,
+                8.43
+            ],
+            [
+                "Devin Singletary",
+                "RB",
+                24.2,
+                3,
+                8.07
+            ],
+            [
+                "Nyheim Hines",
+                "RB",
+                7.1,
+                1,
+                7.1
+            ]
+        ],
+        "WR": [
+            [
+                "DJ Moore",
+                "WR",
+                155.3,
+                13,
+                11.95
+            ],
+            [
+                "Michael Pittman Jr.",
+                "WR",
+                117.2,
+                10,
+                11.72
+            ],
+            [
+                "Tyler Boyd",
+                "WR",
+                50.1,
+                7,
+                7.16
+            ],
+            [
+                "Allen Robinson II",
+                "WR",
+                35.2,
+                6,
+                5.87
+            ],
+            [
+                "Nick Westbrook-Ikhine",
+                "WR",
+                4.6,
+                1,
+                4.6
+            ]
+        ],
+        "TE": [
+            [
+                "Zach Ertz",
+                "TE",
+                75.4,
+                8,
+                9.43
+            ],
+            [
+                "Logan Thomas",
+                "TE",
+                27.7,
+                4,
+                6.92
+            ],
+            [
+                "Cameron Brate",
+                "TE",
+                5.5,
+                2,
+                2.75
+            ]
+        ],
+        "K": [
+            [
+                "Greg Zuerlein",
+                "K",
+                110.0,
+                12,
+                9.17
+            ],
+            [
+                "Joey Slye",
+                "K",
+                20.0,
+                2,
+                10.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Indianapolis",
+                "DEF",
+                81.0,
+                8,
+                10.12
+            ],
+            [
+                "San Francisco",
+                "DEF",
+                25.0,
+                5,
+                5.0
+            ],
+            [
+                "Tennessee",
+                "DEF",
+                21.0,
+                1,
+                21.0
+            ]
+        ]
+    },
+    "Wide Right": {
+        "QB": [
+            [
+                "Matthew Stafford",
+                "QB",
+                261.34,
+                12,
+                21.78
+            ],
+            [
+                "Derek Carr",
+                "QB",
+                21.12,
+                2,
+                10.56
+            ]
+        ],
+        "RB": [
+            [
+                "Alvin Kamara",
+                "RB",
+                164.5,
+                9,
+                18.28
+            ],
+            [
+                "Josh Jacobs",
+                "RB",
+                139.8,
+                11,
+                12.71
+            ],
+            [
+                "Michael Carter",
+                "RB",
+                60.0,
+                4,
+                15.0
+            ],
+            [
+                "Kenneth Gainwell",
+                "RB",
+                11.7,
+                3,
+                3.9
+            ],
+            [
+                "Tevin Coleman",
+                "RB",
+                9.2,
+                1,
+                9.2
+            ],
+            [
+                "Alex Collins",
+                "RB",
+                1.2,
+                1,
+                1.2
+            ]
+        ],
+        "WR": [
+            [
+                "Justin Jefferson",
+                "WR",
+                219.7,
+                13,
+                16.9
+            ],
+            [
+                "Corey Davis",
+                "WR",
+                88.2,
+                9,
+                9.8
+            ],
+            [
+                "JuJu Smith-Schuster",
+                "WR",
+                27.3,
+                5,
+                5.46
+            ],
+            [
+                "Kadarius Toney",
+                "WR",
+                19.16,
+                4,
+                4.79
+            ],
+            [
+                "Henry Ruggs III",
+                "WR",
+                5.1,
+                1,
+                5.1
+            ],
+            [
+                "Jamison Crowder",
+                "WR",
+                4.4,
+                2,
+                2.2
+            ],
+            [
+                "Kalif Raymond",
+                "WR",
+                0.0,
+                1,
+                0.0
+            ]
+        ],
+        "TE": [
+            [
+                "Mark Andrews",
+                "TE",
+                170.1,
+                13,
+                13.08
+            ],
+            [
+                "Noah Fant",
+                "TE",
+                51.9,
+                7,
+                7.41
+            ]
+        ],
+        "K": [
+            [
+                "Daniel Carlson",
+                "K",
+                122.0,
+                13,
+                9.38
+            ],
+            [
+                "Evan McPherson",
+                "K",
+                7.0,
+                1,
+                7.0
+            ]
+        ],
+        "DEF": [
+            [
+                "Carolina",
+                "DEF",
+                51.0,
+                10,
+                5.1
+            ],
+            [
+                "Los Angeles",
+                "DEF",
+                11.0,
+                2,
+                5.5
+            ],
+            [
+                "Washington",
+                "DEF",
+                10.0,
+                2,
+                5.0
+            ]
+        ]
+    }
+}
