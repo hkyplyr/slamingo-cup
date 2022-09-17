@@ -5,10 +5,10 @@ import math
 import random
 import copy
 
-fantasy_api = YahooFantasyApi(87025, "nfl")
+fantasy_api = YahooFantasyApi(752449, "nfl")
 db = Database()
 
-week = 11
+week = 1
 
 points_for = {}
 for week in range(1, week + 1):

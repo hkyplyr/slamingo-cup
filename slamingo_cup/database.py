@@ -28,7 +28,7 @@ class Database:
                 self.__conn.cursor().execute(sql_statement)
 
     def get_last_updated_week(self):
-        return int(self.__execute("get_last_updated_week")[0][0])
+        return int(self.__execute("get_last_updated_week")[0][0] or 1)
 
     def get_matchups(self, week):
         return [Matchup(row) for row in self.__execute("get_matchups", {"week": week})]

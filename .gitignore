@@ -1,6 +1,7 @@
 # Custom
 .tokens.json
 slamingo_cup.db
+slamingo_cup_archive.db
 
 # Editors
 .vscode/

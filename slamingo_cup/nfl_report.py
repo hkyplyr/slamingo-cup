@@ -79,7 +79,7 @@ def get_wr_te_rb(players, used):
 
 def retrieve_data(week):
     teams = {}
-    api = YahooFantasyApi(87025, "nfl")
+    api = YahooFantasyApi(752449, "nfl")
 
     for i in range(db.get_last_updated_week(), week + 1):
         matchups = api.league().scoreboard(week=i).get().matchups

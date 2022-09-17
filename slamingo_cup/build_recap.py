@@ -6,7 +6,7 @@ from yfantasy_api.api import YahooFantasyApi
 from database import Database
 
 db = Database()
-api = YahooFantasyApi(87025, "nfl")
+api = YahooFantasyApi(752449, "nfl")
 
 
 def get_last_matchups(week):
