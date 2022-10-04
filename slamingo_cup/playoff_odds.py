@@ -8,7 +8,7 @@ import copy
 fantasy_api = YahooFantasyApi(752449, "nfl")
 db = Database()
 
-week = 1
+week = 4
 
 points_for = {}
 for week in range(1, week + 1):
@@ -17,8 +17,8 @@ for week in range(1, week + 1):
             points_for[result[0]] = {"pf": []}
         points_for[result[0]]["pf"].append(result[1])
 for value in points_for.values():
-    value["avg"] = mean(value["pf"][1:])
-    value["std"] = stdev(value["pf"][1:])
+    value["avg"] = mean(value["pf"])
+    value["std"] = stdev(value["pf"])
 
 standings = {}
 for team in db.get_standings(week):

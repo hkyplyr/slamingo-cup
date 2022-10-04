@@ -1,0 +1,716 @@
+<html>
+
+<head>
+    <title>Slamingo Cup - Week Two Recap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        /*
+        * { border: 1px solid black; }
+        */
+
+        .header {
+            background-color: #FF65C2;
+            color: #000000;
+            font-size: 72px;
+        }
+
+        .header-border {
+            background-color: #000000;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+        }
+
+        .team-bg {
+            position: absolute;
+        }
+        
+        .pagination {
+            color: #000000;
+        }
+
+        .player-img {
+            object-fit: cover;
+            object-position: center bottom;
+            position: relative;
+            z-index: 1;
+        }
+
+        .rank-up {
+            color: green;
+        }
+
+        .rank-down {
+            color: red;
+        }
+
+        table td:first-child {
+            text-align: left;
+        }
+
+        table {
+            text-align:center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row justify-content-between px-3">
+        
+        <a href="week-1-recap.html" class="pagination">Previous Week</a>
+        
+        
+        <a href="week-3-recap.html" class="pagination">Next Week</a>
+        
+    </div>
+    <div class="row row-cols-1 header-border pt-3"></div>
+    <div class="row row-cols-1 header py-3 text-center">
+        <span><u><strong>Slamingo Cup Recap - Week Two</strong></u></span>
+    </div>
+    <div class="row row-cols-1 header-border pt-3"></div>
+    <div class="flex text-center">
+        <div class="container flex">
+            <div class="col">
+                <h2>Week Two Recap</h2>
+                
+                <p class="text-justify"><strong>Taco Corp (153.28)</strong> beat <strong>Wide Right (141.08)</strong></p>
+                
+                <p class="text-justify"><strong>One Punt Man (149.32)</strong> beat <strong>HotChubbTimeMachine (128.96)</strong></p>
+                
+                <p class="text-justify"><strong>Working From Mahomes (111.10)</strong> beat <strong>Mastas Got Me Pickens (89.58)</strong></p>
+                
+                <p class="text-justify"><strong>Austin Powers (101.46)</strong> beat <strong>Captain Saucy (98.86)</strong></p>
+                
+                <p class="text-justify"><strong>Jason's Fine Team (103.72)</strong> beat <strong>WWJJD (70.20)</strong></p>
+                
+                <p class="text-justify"><strong>Los Angeles Akers (76.76)</strong> beat <strong>Weekend at Tua's (76.70)</strong></p>
+                
+                <h2>Week Three Preview</h2>
+                
+                <p class="text-justify"><strong>Captain Saucy (1-1)</strong> vs. <strong>One Punt Man (2-0)</strong></p>
+                
+                <p class="text-justify"><strong>Los Angeles Akers (1-1)</strong> vs. <strong>Jason's Fine Team (2-0)</strong></p>
+                
+                <p class="text-justify"><strong>Taco Corp (1-1)</strong> vs. <strong>Working From Mahomes (2-0)</strong></p>
+                
+                <p class="text-justify"><strong>Weekend at Tua's (0-2)</strong> vs. <strong>WWJJD (1-1)</strong></p>
+                
+                <p class="text-justify"><strong>HotChubbTimeMachine (0-2)</strong> vs. <strong>Austin Powers (1-1)</strong></p>
+                
+                <p class="text-justify"><strong>Mastas Got Me Pickens (1-1)</strong> vs. <strong>Wide Right (0-2)</strong></p>
+                
+            </div>
+            </div>
+        <div class="flex row row-cols-3 justify-content-center">
+            <div class="flex-grow col-auto">
+                <h2>Standings</h2>
+                <div class="flex">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th></th>
+                            <th>Record</th>
+                            <th>PF</th>
+                            <th>Luck %</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1. One Punt Man</td>
+                            <td>(2-0)</td>
+                            <td>241.64</td>
+                            <td>45.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2. Working From Mahomes</td>
+                            <td>(2-0)</td>
+                            <td>232.90</td>
+                            <td>22.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3. Jason&#39;s Fine Team</td>
+                            <td>(2-0)</td>
+                            <td>204.54</td>
+                            <td>54.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4. Taco Corp</td>
+                            <td>(1-1)</td>
+                            <td>270.06</td>
+                            <td>-36.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5. Mastas Got Me Pickens</td>
+                            <td>(1-1)</td>
+                            <td>214.60</td>
+                            <td>-13.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>6. Captain Saucy</td>
+                            <td>(1-1)</td>
+                            <td>208.66</td>
+                            <td>4.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7. Austin Powers</td>
+                            <td>(1-1)</td>
+                            <td>193.26</td>
+                            <td>22.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8. Los Angeles Akers</td>
+                            <td>(1-1)</td>
+                            <td>191.42</td>
+                            <td>9.1</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>9. WWJJD</td>
+                            <td>(1-1)</td>
+                            <td>187.98</td>
+                            <td>9.1</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>10. Wide Right</td>
+                            <td>(0-2)</td>
+                            <td>247.24</td>
+                            <td>-63.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11. HotChubbTimeMachine</td>
+                            <td>(0-2)</td>
+                            <td>227.68</td>
+                            <td>-50.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12. Weekend at Tua&#39;s</td>
+                            <td>(0-2)</td>
+                            <td>161.96</td>
+                            <td>-4.5</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div>
+                <div class="flex-grow col-auto">
+                <h2>Power Rankings</h2>
+                <div class="flex">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th></th>
+                            <th>All Play</th>
+                            <th>Optimal</th>
+                            <th>Coach %</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1. Taco Corp
+                            
+                            (<span class="rank-up">+4</span>)
+                            
+                            </td>
+                            <td>(19-3)</td>
+                            <td>308.86</td>
+                            <td>87.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2. Working From Mahomes
+                            
+                            (<span class="rank-up">+1</span>)
+                            
+                            </td>
+                            <td>(17-5)</td>
+                            <td>249.98</td>
+                            <td>93.2</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3. One Punt Man
+                            
+                            (<span class="rank-up">+6</span>)
+                            
+                            </td>
+                            <td>(12-10)</td>
+                            <td>279.54</td>
+                            <td>86.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4. Wide Right
+                            
+                            (<span class="rank-up">+3</span>)
+                            
+                            </td>
+                            <td>(14-8)</td>
+                            <td>281.64</td>
+                            <td>87.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5. Mastas Got Me Pickens
+                            
+                            (<span class="rank-down">-4</span>)
+                            
+                            </td>
+                            <td>(14-8)</td>
+                            <td>234.30</td>
+                            <td>91.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>6. Captain Saucy
+                            
+                            (<span class="rank-down">-2</span>)
+                            
+                            </td>
+                            <td>(10-12)</td>
+                            <td>255.16</td>
+                            <td>81.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7. HotChubbTimeMachine
+                            
+                            (<span class="rank-up">+3</span>)
+                            
+                            </td>
+                            <td>(11-11)</td>
+                            <td>240.48</td>
+                            <td>94.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8. Jason&#39;s Fine Team
+                            
+                            </td>
+                            <td>(10-12)</td>
+                            <td>210.34</td>
+                            <td>97.2</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>9. Austin Powers
+                            
+                            (<span class="rank-up">+2</span>)
+                            
+                            </td>
+                            <td>(6-16)</td>
+                            <td>246.36</td>
+                            <td>78.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>10. WWJJD
+                            
+                            (<span class="rank-down">-8</span>)
+                            
+                            </td>
+                            <td>(9-13)</td>
+                            <td>224.52</td>
+                            <td>83.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11. Los Angeles Akers
+                            
+                            (<span class="rank-down">-5</span>)
+                            
+                            </td>
+                            <td>(9-13)</td>
+                            <td>219.82</td>
+                            <td>87.1</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12. Weekend at Tua&#39;s
+                            
+                            </td>
+                            <td>(1-21)</td>
+                            <td>216.74</td>
+                            <td>74.7</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div>
+                <div class="flex-grow col-auto">
+                <h2>Week Two Results</h2>
+                <div class="flex">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th></th>
+                            <th>W/L</th>
+                            <th>PF</th>
+                            <th>Optimal</th>
+                            <th>Coach %</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1. Taco Corp</td>
+                            <td>W</td>
+                            <td>153.28</td>
+                            <td>168.78</td>
+                            <td>90.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2. One Punt Man</td>
+                            <td>W</td>
+                            <td>149.32</td>
+                            <td>163.42</td>
+                            <td>91.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3. Working From Mahomes</td>
+                            <td>W</td>
+                            <td>111.10</td>
+                            <td>124.78</td>
+                            <td>89.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4. Jason&#39;s Fine Team</td>
+                            <td>W</td>
+                            <td>103.72</td>
+                            <td>104.32</td>
+                            <td>99.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5. Austin Powers</td>
+                            <td>W</td>
+                            <td>101.46</td>
+                            <td>147.86</td>
+                            <td>68.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>6. Los Angeles Akers</td>
+                            <td>W</td>
+                            <td>76.76</td>
+                            <td>97.36</td>
+                            <td>78.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7. Wide Right</td>
+                            <td>L</td>
+                            <td>141.08</td>
+                            <td>160.68</td>
+                            <td>87.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8. HotChubbTimeMachine</td>
+                            <td>L</td>
+                            <td>128.96</td>
+                            <td>129.86</td>
+                            <td>99.3</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>9. Captain Saucy</td>
+                            <td>L</td>
+                            <td>98.86</td>
+                            <td>126.66</td>
+                            <td>78.1</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>10. Mastas Got Me Pickens</td>
+                            <td>L</td>
+                            <td>89.58</td>
+                            <td>106.88</td>
+                            <td>83.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11. Weekend at Tua&#39;s</td>
+                            <td>L</td>
+                            <td>76.70</td>
+                            <td>108.60</td>
+                            <td>70.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12. WWJJD</td>
+                            <td>L</td>
+                            <td>70.20</td>
+                            <td>83.74</td>
+                            <td>83.8</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div> 
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="row row-cols-1 header-border pt-3 mt-3">
+    </div>
+    <div class="row row-cols-1 header p-3 text-center">
+        <span><u><strong>Slamingo Cup Awards - Week Two</strong></u></span>
+    </div>
+    <div class="row row-cols-1 header-border pt-3"></div>
+    <div class="container text-center">
+        <div class="row row-cols-4 pt-5">
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_12_j.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Biggest Blowout</div>
+                
+                <div>Jason&#39;s Fine Team def.</div>
+                <div>WWJJD <em>(33.52)</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/ad8c2ba4d94e83710918c77de71f09763e5c0b642b1681e65d48924c4823459c.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Closest Victory</div>
+                
+                <div>Los Angeles Akers def.</div>
+                <div>Weekend at Tua&#39;s <em>(0.06)</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Highest Scorer</div>
+                
+                <div>Taco Corp</div>
+                <div><em>153.28pts</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Lowest Scorer</div>
+                
+                <div>WWJJD</div>
+                <div><em>70.20pts</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Overacheiving Team</div>
+                
+                <div>Taco Corp</div>
+                <div><em>139.8% of projection</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Underacheiving Team</div>
+                
+                <div>WWJJD</div>
+                <div><em>64.5% of projection</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Best Coach</div>
+                
+                <div>HotChubbTimeMachine</div>
+                <div><em>99.3% of optimal</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24668653913_c1070d1b86.jpg" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Worst Coach</div>
+                
+                <div>Austin Powers</div>
+                <div><em>68.6% of optimal</em></div>
+                
+
+
+
+            </div>
+            
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_12_j.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222022/31002.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting QB</div>
+                <div>Lamar Jackson (42.62)</div>
+                <div><em>Jason&#39;s Fine Team</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_m.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09132022/31005.1.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting RB</div>
+                <div>Nick Chubb (30.80)</div>
+                <div><em>HotChubbTimeMachine</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/10012020/28534.1.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting WR</div>
+                <div>Stefon Diggs (38.80)</div>
+                <div><em>Taco Corp</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f53ae9b48343cb38cb11b04505f23c463098ff84a4cebc2fda737176762cb468.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222022/31056.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting TE</div>
+                <div>Mark Andrews (21.20)</div>
+                <div><em>One Punt Man</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/309b190b0416e58f96cf60ce1aaa40e15c8607714cf88c560abeedf3a7d2a98b.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09062022/33391.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting QB</div>
+                <div>Trey Lance (2.50)</div>
+                <div><em>Weekend at Tua&#39;s</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09082022/30997.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting RB</div>
+                <div>Rashaad Penny (1.50)</div>
+                <div><em>Working From Mahomes</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/ad8c2ba4d94e83710918c77de71f09763e5c0b642b1681e65d48924c4823459c.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08262022/32685.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting WR</div>
+                <div>Jerry Jeudy (1.70)</div>
+                <div><em>Los Angeles Akers</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24668653913_c1070d1b86.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08032022/32713.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting TE</div>
+                <div>Cole Kmet (0.0)</div>
+                <div><em>Austin Powers</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24668653913_c1070d1b86.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09092022/32675.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched QB</div>
+                <div>Tua Tagovailoa (40.86)</div>
+                <div><em>Austin Powers</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/169b82136c9cc1f3ffc2c6788c8ece09ecb50d006cbd0c56ead94a8d7276c01b.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08092022/31960.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched RB</div>
+                <div>Tony Pollard (17.80)</div>
+                <div><em>Captain Saucy</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24995808050_8282fe5db3.gif" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09022022/33965.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched WR</div>
+                <div>Garrett Wilson (26.00)</div>
+                <div><em>Wide Right</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_9_m.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09122022/31882.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched TE</div>
+                <div>Irv Smith Jr. (12.10)</div>
+                <div><em>Mastas Got Me Pickens</em></div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
