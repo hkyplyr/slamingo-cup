@@ -1,505 +1,167 @@
 {
     "teams": {
-        "Bishop Sycamore": [
-            0.73,
-            0.82,
-            0.73,
-            0.45,
-            1.0,
-            0.85
-        ],
-        "Chalupa Batman": [
-            1.0,
-            0.47,
-            0.72,
-            0.54,
-            0.71,
-            0.8
-        ],
-        "Christian Mingle": [
-            0.88,
-            0.74,
-            0.82,
-            0.58,
-            0.73,
-            0.69
-        ],
-        "HotChubbTimeMachine": [
-            0.83,
-            0.77,
-            0.82,
-            0.31,
-            0.95,
-            0.69
-        ],
-        "Jason's Fine Team": [
-            0.97,
-            0.81,
-            1.0,
-            0.75,
-            0.53,
-            0.76
-        ],
-        "Kato DeKaylin": [
-            0.77,
-            0.68,
-            0.7,
-            0.45,
-            0.84,
-            0.83
-        ],
-        "Krispy Kareem": [
-            0.98,
-            0.86,
-            0.7,
-            0.62,
-            0.83,
-            0.49
-        ],
-        "Mahomes Your Home": [
-            0.9,
-            0.86,
-            0.61,
-            0.49,
-            0.85,
-            0.81
-        ],
-        "One Punt Man": [
-            0.94,
-            0.86,
-            0.87,
-            0.75,
-            0.64,
-            1.0
-        ],
-        "Taco Corp": [
-            0.85,
-            1.0,
-            0.68,
-            0.52,
-            0.73,
-            0.42
-        ],
-        "The Hubbard Telescope": [
-            0.65,
-            0.97,
-            0.7,
-            0.72,
-            0.73,
-            0.62
-        ],
-        "Wide Right": [
-            0.86,
-            0.73,
-            0.61,
-            1.0,
-            0.84,
-            0.46
-        ]
+        "Austin Powers": [0.35, 0.65, 0.82, 0.31, 0.54, 1.0],
+        "Captain Saucy": [0.46, 1.0, 0.49, 0.31, 0.67, 0.51],
+        "HotChubbTimeMachine": [0.69, 0.87, 0.59, 0.58, 0.78, 0.31],
+        "Jason's Fine Team": [1.0, 0.47, 0.59, 0.26, 0.67, 0.37],
+        "Los Angeles Akers": [0.65, 0.7, 0.54, 0.44, 0.72, 0.49],
+        "Mastas Got Me Pickens": [0.71, 0.41, 0.69, 0.28, 1.0, 0.65],
+        "One Punt Man": [0.87, 0.58, 0.58, 0.86, 0.91, 0.67],
+        "Taco Corp": [0.96, 0.48, 0.73, 0.46, 0.89, 0.94],
+        "WWJJD": [0.51, 0.37, 0.93, 0.57, 0.54, 0.61],
+        "Weekend at Tua's": [0.29, 0.54, 0.88, 1.0, 0.72, 0.92],
+        "Wide Right": [0.61, 0.6, 0.6, 0.48, 0.78, 0.98],
+        "Working From Mahomes": [0.79, 0.58, 1.0, 0.84, 0.48, 0.71]
     },
     "team_makeup": {
-        "Bishop Sycamore": [
-            6,
-            1,
-            9
-        ],
-        "Krispy Kareem": [
-            11,
-            0,
-            6
-        ],
-        "One Punt Man": [
-            11,
-            1,
-            4
-        ],
-        "Christian Mingle": [
-            8,
-            0,
-            9
-        ],
-        "The Hubbard Telescope": [
-            6,
-            1,
-            8
-        ],
-        "Kato DeKaylin": [
-            5,
-            0,
-            12
-        ],
-        "HotChubbTimeMachine": [
-            9,
-            0,
-            7
-        ],
-        "Jason's Fine Team": [
-            12,
-            0,
-            4
-        ],
-        "Chalupa Batman": [
-            10,
-            0,
-            6
-        ],
-        "Taco Corp": [
-            6,
-            0,
-            10
-        ],
-        "Mahomes Your Home": [
-            7,
-            0,
-            8
-        ],
-        "Wide Right": [
-            7,
-            0,
-            8
-        ]
+        "Weekend at Tua's": [10, 0, 6],
+        "Captain Saucy": [14, 0, 0],
+        "WWJJD": [14, 0, 1],
+        "Los Angeles Akers": [8, 1, 8],
+        "HotChubbTimeMachine": [12, 0, 3],
+        "Jason's Fine Team": [14, 0, 1],
+        "Mastas Got Me Pickens": [15, 0, 0],
+        "Taco Corp": [12, 1, 2],
+        "Working From Mahomes": [14, 0, 1],
+        "Wide Right": [12, 1, 2],
+        "One Punt Man": [10, 0, 5],
+        "Austin Powers": [11, 1, 3]
     },
     "weekly_points": {
-        "Bishop Sycamore": [
-            85.68,
-            93.78,
-            122.28,
-            68.02,
-            147.58,
-            111.84,
-            132.0,
-            86.5,
-            72.22,
-            108.72,
-            134.02,
-            116.52,
-            95.94,
-            117.62
-        ],
-        "Krispy Kareem": [
-            110.38,
-            106.82,
-            122.64,
-            123.18,
-            145.22,
-            95.6,
-            81.38,
-            103.12,
-            114.04,
-            94.6,
-            138.78,
-            80.52,
-            110.68,
-            104.9
-        ],
-        "One Punt Man": [
-            124.56,
-            111.9,
-            118.94,
-            122.02,
-            117.56,
-            124.26,
-            124.24,
-            99.46,
-            107.68,
-            113.22,
-            179.58,
-            82.56,
-            144.02,
-            134.32
-        ],
-        "Christian Mingle": [
-            121.2,
-            128.66,
-            100.48,
-            81.14,
-            133.08,
-            82.98,
-            118.48,
-            138.56,
-            126.44,
-            83.42,
-            102.14,
-            86.8,
-            128.92,
-            89.38
-        ],
-        "The Hubbard Telescope": [
-            161.16,
-            121.22,
-            101.82,
-            104.16,
-            87.98,
-            106.78,
-            73.38,
-            106.1,
-            132.6,
-            89.94,
-            108.68,
-            82.38,
-            104.34
-        ],
-        "Kato DeKaylin": [
-            102.74,
-            130.48,
-            121.18,
-            133.52,
-            134.14,
-            120.04,
-            130.34,
-            108.06,
-            71.9,
-            80.82,
-            62.88,
-            81.8,
-            24.36,
-            85.5
-        ],
-        "HotChubbTimeMachine": [
-            97.22,
-            117.08,
-            97.32,
-            90.52,
-            105.98,
-            102.2,
-            122.84,
-            81.14,
-            108.68,
-            79.24,
-            87.84,
-            106.8,
-            85.62,
-            89.94
-        ],
-        "Jason's Fine Team": [
-            150.66,
-            133.24,
-            140.88,
-            116.06,
-            120.54,
-            141.88,
-            119.64,
-            116.2,
-            101.56,
-            105.76,
-            111.38,
-            114.24,
-            119.42,
-            114.82
-        ],
-        "Chalupa Batman": [
-            88.8,
-            89.06,
-            99.92,
-            113.32,
-            127.2,
-            102.02,
-            82.82,
-            84.66,
-            56.76,
-            76.04,
-            86.76,
-            119.6,
-            90.9,
-            139.82
-        ],
-        "Taco Corp": [
-            96.22,
-            114.4,
-            97.34,
-            117.52,
-            143.56,
-            125.2,
-            85.26,
-            125.06,
-            57.06,
-            91.88,
-            107.2,
-            123.18,
-            98.12,
-            122.84
-        ],
-        "Mahomes Your Home": [
-            122.08,
-            110.32,
-            82.5,
-            96.92,
-            84.18,
-            133.68,
-            92.84,
-            85.7,
-            65.34,
-            126.74,
-            110.8,
-            114.54,
-            110.56,
-            141.22
-        ],
-        "Wide Right": [
-            120.38,
-            88.32,
-            121.02,
-            86.3,
-            129.1,
-            113.14,
-            111.86,
-            95.26,
-            94.66,
-            89.02,
-            95.2,
-            95.84,
-            118.6,
-            97.02
-        ],
-        "Average": [
-            98.65,
-            96.09,
-            94.74,
-            89.48,
-            105.44,
-            97.12,
-            91.08,
-            87.84,
-            79.21,
-            81.39,
-            94.66,
-            86.06,
-            87.96,
-            97.71
-        ]
+        "Mastas Got Me Pickens": [125.02, 89.58, 75.46, 95.98],
+        "Working From Mahomes": [121.80, 111.10, 100.58, 166.06],
+        "WWJJD": [117.78, 70.20, 89.94, 116.40],
+        "Captain Saucy": [109.80, 98.86, 106.60, 99.14],
+        "Jason's Fine Team": [100.82, 103.72, 82.72, 95.56],
+        "One Punt Man": [92.32, 149.32, 128.00, 82.36],
+        "Taco Corp": [116.78, 153.28, 98.20, 87.02],
+        "Los Angeles Akers": [114.66, 76.76, 96.24, 109.40],
+        "Wide Right": [106.16, 141.08, 77.82, 89.22],
+        "HotChubbTimeMachine": [98.72, 128.96, 96.20, 120.98],
+        "Austin Powers": [91.80, 101.46, 86.16, 130.90],
+        "Weekend at Tua's": [85.26, 76.70, 142.86, 136.06],
+        "Average": [106.74, 108.42, 98.4, 110.76]
     },
     "results": {
-        "Bishop Sycamore": {
-            "finish": "8th place",
-            "record": "7-7 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "81-73 (.526)",
+        "Weekend at Tua's": {
+            "record": "1-3 (.250)",
+            "record_rank": "T-8th",
+            "all_play": "22-22 (.500)",
             "all_play_rank": "T-5th",
-            "points_for": "1492.72 (106.62)",
-            "points_for_rank": "7th",
-            "points_against": "1505.46 (107.53)",
-            "points_against_rank": "5th"
-        },
-        "Krispy Kareem": {
-            "finish": "6th place",
-            "record": "7-7 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "83-71 (.539)",
-            "all_play_rank": "T-3rd",
-            "points_for": "1531.86 (109.42)",
-            "points_for_rank": "3rd",
-            "points_against": "1503.08 (107.36)",
+            "points_for": "440.88 (110.22)",
+            "points_for_rank": "5th",
+            "points_against": "433.58 (108.40)",
             "points_against_rank": "6th"
         },
-        "One Punt Man": {
-            "finish": "3rd place",
-            "record": "10-4 (.714)",
-            "record_rank": "1st",
-            "all_play": "105-49 (.682)",
-            "all_play_rank": "2nd",
-            "points_for": "1704.32 (121.74)",
-            "points_for_rank": "2nd",
-            "points_against": "1473.80 (105.27)",
+        "Captain Saucy": {
+            "record": "2-2 (.500)",
+            "record_rank": "T-5th",
+            "all_play": "24-20 (.545)",
+            "all_play_rank": "T-3rd",
+            "points_for": "414.40 (103.60)",
+            "points_for_rank": "6th",
+            "points_against": "415.20 (103.80)",
             "points_against_rank": "9th"
         },
-        "Christian Mingle": {
-            "finish": "2nd place",
-            "record": "7-7 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "77-77 (.500)",
-            "all_play_rank": "T-7th",
-            "points_for": "1521.68 (108.69)",
-            "points_for_rank": "4th",
-            "points_against": "1548.82 (110.63)",
-            "points_against_rank": "3rd"
-        },
-        "The Hubbard Telescope": {
-            "finish": "5th place",
-            "record": "8-6 (.571)",
-            "record_rank": "T-2nd",
-            "all_play": "79-75 (.513)",
-            "all_play_rank": "6th",
-            "points_for": "1511.14 (107.94)",
-            "points_for_rank": "5th",
-            "points_against": "1443.90 (103.14)",
-            "points_against_rank": "11th"
-        },
-        "Kato DeKaylin": {
-            "finish": "10th place",
-            "record": "6-8 (.429)",
-            "record_rank": "10th",
-            "all_play": "71-83 (.461)",
-            "all_play_rank": "9th",
-            "points_for": "1387.76 (99.13)",
+        "WWJJD": {
+            "record": "1-3 (.250)",
+            "record_rank": "T-8th",
+            "all_play": "20-24 (.455)",
+            "all_play_rank": "8th",
+            "points_for": "394.32 (98.58)",
             "points_for_rank": "10th",
-            "points_against": "1583.98 (113.14)",
-            "points_against_rank": "2nd"
-        },
-        "HotChubbTimeMachine": {
-            "finish": "12th place",
-            "record": "4-10 (.286)",
-            "record_rank": "12th",
-            "all_play": "47-107 (.305)",
-            "all_play_rank": "11th",
-            "points_for": "1372.42 (98.03)",
-            "points_for_rank": "11th",
-            "points_against": "1498.00 (107.00)",
-            "points_against_rank": "7th"
-        },
-        "Jason's Fine Team": {
-            "finish": "1st place",
-            "record": "8-6 (.571)",
-            "record_rank": "T-2nd",
-            "all_play": "113-41 (.734)",
-            "all_play_rank": "1st",
-            "points_for": "1706.28 (121.88)",
-            "points_for_rank": "1st",
-            "points_against": "1589.20 (113.51)",
+            "points_against": "492.14 (123.04)",
             "points_against_rank": "1st"
         },
-        "Chalupa Batman": {
-            "finish": "11th place",
-            "record": "5-9 (.357)",
-            "record_rank": "11th",
-            "all_play": "44-110 (.286)",
+        "Los Angeles Akers": {
+            "record": "3-1 (.750)",
+            "record_rank": "T-2nd",
+            "all_play": "21-23 (.477)",
+            "all_play_rank": "7th",
+            "points_for": "397.06 (99.27)",
+            "points_for_rank": "9th",
+            "points_against": "359.56 (89.89)",
+            "points_against_rank": "11th"
+        },
+        "HotChubbTimeMachine": {
+            "record": "2-2 (.500)",
+            "record_rank": "T-5th",
+            "all_play": "24-20 (.545)",
+            "all_play_rank": "T-3rd",
+            "points_for": "444.86 (111.22)",
+            "points_for_rank": "4th",
+            "points_against": "441.26 (110.32)",
+            "points_against_rank": "4th"
+        },
+        "Jason's Fine Team": {
+            "record": "3-1 (.750)",
+            "record_rank": "T-2nd",
+            "all_play": "15-29 (.341)",
             "all_play_rank": "12th",
-            "points_for": "1357.68 (96.98)",
+            "points_for": "382.82 (95.71)",
             "points_for_rank": "12th",
-            "points_against": "1495.40 (106.81)",
+            "points_against": "340.92 (85.23)",
+            "points_against_rank": "12th"
+        },
+        "Mastas Got Me Pickens": {
+            "record": "1-3 (.250)",
+            "record_rank": "T-8th",
+            "all_play": "18-26 (.409)",
+            "all_play_rank": "T-9th",
+            "points_for": "386.04 (96.51)",
+            "points_for_rank": "11th",
+            "points_against": "426.68 (106.67)",
             "points_against_rank": "8th"
         },
         "Taco Corp": {
-            "finish": "7th place",
-            "record": "7-7 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "83-71 (.539)",
-            "all_play_rank": "T-3rd",
-            "points_for": "1504.84 (107.49)",
-            "points_for_rank": "6th",
-            "points_against": "1449.28 (103.52)",
-            "points_against_rank": "10th"
+            "record": "1-3 (.250)",
+            "record_rank": "T-8th",
+            "all_play": "27-17 (.614)",
+            "all_play_rank": "2nd",
+            "points_for": "455.28 (113.82)",
+            "points_for_rank": "2nd",
+            "points_against": "465.82 (116.46)",
+            "points_against_rank": "2nd"
         },
-        "Mahomes Your Home": {
-            "finish": "4th place",
-            "record": "8-6 (.571)",
-            "record_rank": "T-2nd",
-            "all_play": "77-77 (.500)",
-            "all_play_rank": "T-7th",
-            "points_for": "1477.42 (105.53)",
-            "points_for_rank": "8th",
-            "points_against": "1525.48 (108.96)",
-            "points_against_rank": "4th"
+        "Working From Mahomes": {
+            "record": "4-0 (1.000)",
+            "record_rank": "1st",
+            "all_play": "36-8 (.818)",
+            "all_play_rank": "1st",
+            "points_for": "499.54 (124.89)",
+            "points_for_rank": "1st",
+            "points_against": "430.00 (107.50)",
+            "points_against_rank": "7th"
         },
         "Wide Right": {
-            "finish": "9th place",
-            "record": "7-7 (.500)",
+            "record": "1-3 (.250)",
+            "record_rank": "T-8th",
+            "all_play": "17-27 (.386)",
+            "all_play_rank": "11th",
+            "points_for": "414.28 (103.57)",
+            "points_for_rank": "7th",
+            "points_against": "446.10 (111.53)",
+            "points_against_rank": "3rd"
+        },
+        "One Punt Man": {
+            "record": "3-1 (.750)",
+            "record_rank": "T-2nd",
+            "all_play": "22-22 (.500)",
+            "all_play_rank": "T-5th",
+            "points_for": "452.00 (113.00)",
+            "points_for_rank": "3rd",
+            "points_against": "436.76 (109.19)",
+            "points_against_rank": "5th"
+        },
+        "Austin Powers": {
+            "record": "2-2 (.500)",
             "record_rank": "T-5th",
-            "all_play": "64-90 (.416)",
-            "all_play_rank": "10th",
-            "points_for": "1455.72 (103.98)",
-            "points_for_rank": "9th",
-            "points_against": "1407.44 (100.53)",
-            "points_against_rank": "12th"
+            "all_play": "18-26 (.409)",
+            "all_play_rank": "T-9th",
+            "points_for": "410.32 (102.58)",
+            "points_for_rank": "8th",
+            "points_against": "403.78 (100.95)",
+            "points_against_rank": "10th"
         }
     }
 }

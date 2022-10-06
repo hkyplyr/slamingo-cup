@@ -5,7 +5,7 @@ from yfantasy_api.models.common import Team
 from database import Database
 
 db = Database()
-api = YahooFantasyApi(87025, "nfl")
+api = YahooFantasyApi(752449, "nfl")
 
 
 def get_positional_breakdowns():
@@ -34,7 +34,7 @@ def get_positional_breakdowns():
             if share < minimum:
                 minimum = share
 
-        print(team, shares)
+        print(f'"{team}":', shares)
     print(minimum)
 
 
@@ -48,6 +48,39 @@ def get_player_starts_and_points():
     print(data)
     with open("test.json", "w") as f:
         json.dump(data, f)
+
+
+def get_rolling_points():
+    weekly_results = {}
+    for week in range(1, 15):
+        results = db.get_weekly_results(week)
+        if results == []:
+            break
+        print(results)
+
+        for result in results:
+            if result.name not in weekly_results:
+                weekly_results[result.name] = []
+
+            weekly_results[result.name].append(result.pf)
+    averages = [average_points(value) for value in zip(*reversed(weekly_results.values()))]   
+    print(averages)
+
+    for key, value in weekly_results.items():
+        print(f'"{key}":', value)
+    print("Average:", averages)
+
+
+def average_points(points):
+    total = sum([float(value) for value in points])
+    return round(total / len(points), 2)
+
+
+def format_win_percentage(win_percentage):
+    if not win_percentage:
+        return win_percentage
+
+    return "{:.3f}".format(win_percentage)
 
 
 if __name__ == "__main__":
@@ -78,4 +111,4 @@ if __name__ == "__main__":
         freeagent = breakdown.get("freeagents", 0)
         waiver = breakdown.get("waivers", 0)
 
-        print(f'"{team_name}": [{draft}, {trade}, {freeagent}, {waiver}],')
+        print(f'"{team_name}": [{draft}, {trade}, {freeagent + waiver}],')

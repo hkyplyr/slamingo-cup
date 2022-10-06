@@ -54,14 +54,14 @@ class Writer:
         template = self.__load_template("nfl_report.html")
         values = self.__build_template_values(int(week))
 
-        with open(f"docs/week-{week}-recap.html", "w") as f:
+        with open(f"docs/recaps/week-{week}-recap.html", "w") as f:
             f.write(template.render(**values))
 
     def update_index(self, week):
         template = self.__load_template("index.html")
         weeks = [(w, num2words(w).title()) for w in range(1, week + 1)]
 
-        with open(f"docs/index.html", "w") as f:
+        with open(f"docs/recaps/index.html", "w") as f:
             f.write(template.render(weeks=weeks))
 
 

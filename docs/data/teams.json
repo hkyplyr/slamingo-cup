@@ -1,22 +1,17 @@
 {
   "teams": [
-    "Bishop Sycamore",
-    "Chalupa Batman",
-    "Christian Mingle",
+    "Austin Powers",
+    "Captain Saucy",
     "HotChubbTimeMachine",
     "Jason's Fine Team",
-    "Kato DeKaylin",
-    "Krispy Kareem",
-    "Mahomes Your Home",
+    "Los Angeles Akers",
+    "Mastas Got Me Pickens",
     "One Punt Man",
     "Taco Corp",
-    "The Hubbard Telescope",
-    "Wide Right"
+    "Weekend at Tua's",
+    "Wide Right",
+    "Working From Mahomes",
+    "WWJJD"
   ],
-  "translations": {
-    "Christian Mingle": "🥈",
-    "HotChubbTimeMachine": "🚽",
-    "Jason's Fine Team": "🏆",
-    "One Punt Man": "🥉"
-  }
+  "translations": {}
 }

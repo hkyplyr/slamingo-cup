@@ -234,7 +234,6 @@ function updateResults(teamName) {
       var tbody = document.createElement("tbody");
 
       [
-        ["Finish", data.finish, ""],
         ["Record", data.record, data.record_rank],
         ["All-Play", data.all_play, data.all_play_rank],
         ["Points for", data.points_for, data.points_for_rank],
