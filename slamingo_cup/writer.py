@@ -31,7 +31,7 @@ class Writer:
         if week == 0:
             return "index.html"
         url = f"week-{week}-recap.html"
-        if os.path.isfile(f"docs/{url}"):
+        if os.path.isfile(f"docs/recaps/{url}"):
             return url
 
     def __load_recaps(self, week):

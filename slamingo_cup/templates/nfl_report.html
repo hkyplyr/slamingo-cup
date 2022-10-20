@@ -186,7 +186,10 @@
                     <img src="{{ award.team_one_image }}" class="rounded-circle border">
                 </div>
                 <div class="font-weight-bold">{{ award.award_name }}</div>
-                {% if award.team_two_name %}
+                {% if award.team_two_name and award.points == 0.0 %}
+                <div>{{ award.team_one_name }} tied.</div>
+                <div>{{ award.team_two_name }} 🤢</div>
+                {% elif award.team_two_name %}
                 <div>{{ award.team_one_name }} def.</div>
                 <div>{{ award.team_two_name }} <em>({{ award.points }})</em></div>
                 {% elif award.points %}

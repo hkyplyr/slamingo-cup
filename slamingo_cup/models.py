@@ -47,10 +47,11 @@ class StandingsTeam:
         self.name = row[1]
         self.wins = row[2]
         self.losses = row[3]
-        self.record = format_record(row[2], row[3])
-        self.raw_pf = row[4]
-        self.pf = format_points(row[4])
-        self.luck = format_percentage(row[5])
+        self.ties = row[4]
+        self.record = format_record(row[2], row[3], row[4])
+        self.raw_pf = row[5]
+        self.pf = format_points(row[5])
+        self.luck = format_percentage(row[6])
 
     def __repr__(self):
         return str(self.__dict__)
@@ -72,12 +73,19 @@ class TeamAwards:
 
 class WeeklyResultsTeam:
     def __init__(self, row):
+        if row[2]:
+            result = "W"
+        elif row[3]:
+            result = "T"
+        else:
+            result = "L"
+
         self.rank = row[0]
         self.name = row[1]
-        self.result = "W" if row[2] else "L"
-        self.pf = format_points(row[3])
-        self.opf = format_points(row[4])
-        self.coach = format_percentage(row[5])
+        self.result = result
+        self.pf = format_points(row[4])
+        self.opf = format_points(row[5])
+        self.coach = format_percentage(row[6])
 
     def __repr__(self):
         return str(self.__dict__)
@@ -100,5 +108,8 @@ def format_points(points):
     return "{:.2f}".format(points)
 
 
-def format_record(wins, losses):
-    return f"({wins}-{losses})"
+def format_record(wins, losses, ties=None):
+    if ties is not None:
+        return f"({wins}-{losses}-{ties})"
+    else:
+        return f"({wins}-{losses})"
