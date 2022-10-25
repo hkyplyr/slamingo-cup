@@ -8,7 +8,7 @@ import copy
 fantasy_api = YahooFantasyApi(752449, "nfl")
 db = Database()
 
-week = 4
+week = 7
 
 points_for = {}
 for week in range(1, week + 1):
@@ -22,7 +22,7 @@ for value in points_for.values():
 
 standings = {}
 for team in db.get_standings(week):
-    team_data = {"w": team.wins, "l": team.losses, "pf": team.raw_pf}
+    team_data = {"w": team.wins, "l": team.losses, "t": team.ties, "pf": team.raw_pf}
     standings[team.name] = team_data
 
 remaining_matchups = []
@@ -86,9 +86,12 @@ def simulate_season(team_variables, standings, matchups):
         elif team_one_pf < team_two_pf:
             final_standings[team_one]["l"] += 1
             final_standings[team_two]["w"] += 1
+        else:
+            final_standings[team_one]["t"] += 1
+            final_standings[team_two]["t"] += 1
     final_standings = dict(
         sorted(
-            final_standings.items(), key=lambda x: (x[1]["w"], x[1]["pf"]), reverse=True
+            final_standings.items(), key=lambda x: (x[1]["w"], x[1]["t"], x[1]["pf"]), reverse=True
         )
     )
 
@@ -98,7 +101,7 @@ def simulate_season(team_variables, standings, matchups):
     return final_standings_prob
 
 
-headers = "Bye\tMake Playoffs\tTeam"
+headers = "Bye\tPlayoffs\tTeam"
 for team, result in monte_carlo(points_for, standings, remaining_matchups).items():
     if headers:
         print(headers)
@@ -120,5 +123,5 @@ for team, result in monte_carlo(points_for, standings, remaining_matchups).items
         have_bye = f"{have_bye}%" if have_bye != 0.0 else "-"
         make_playoffs = f"{make_playoffs}%"
 
-        team_record = f'({standings.get(team).get("w")}-{standings.get(team).get("l")})'
-        print(f"{have_bye}\t\t{make_playoffs}\t{team} {team_record}")
+        team_record = f'({standings[team]["w"]}-{standings[team]["l"]}-{standings[team]["t"]})'
+        print(f"{have_bye}\t{make_playoffs}\t\t{team} {team_record}")
