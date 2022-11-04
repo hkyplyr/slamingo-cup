@@ -1,6 +1,6 @@
 async function initialLoad() {
   buildDropdownMenu();
-  loadPage(loadSelectedTeam() || "Bishop Sycamore");
+  loadPage(loadSelectedTeam() || "Austin Powers");
 }
 
 function buildDropdownMenu() {
@@ -206,7 +206,7 @@ function updateRoster(teamName) {
     });
 }
 
-function buildResultRow(category, value, rank) {
+function buildResultRow(category, value) {
   var categoryCell = document.createElement("td");
   categoryCell.classList.add("text-end");
   categoryCell.append(`${category}:`);
@@ -215,17 +215,13 @@ function buildResultRow(category, value, rank) {
   valueCell.classList.add("text-center");
   valueCell.append(value);
 
-  var rankCell = document.createElement("td");
-  rankCell.classList.add("text-start");
-  rankCell.append(rank);
-
   var row = document.createElement("tr");
-  row.append(categoryCell, valueCell, rankCell);
+  row.append(categoryCell, valueCell);
   return row;
 }
 
-function addResultRow(category, value, rank, tbody) {
-  tbody.append(buildResultRow(category, value, rank));
+function addResultRow(category, value, tbody) {
+  tbody.append(buildResultRow(category, value));
 }
 
 function updateResults(teamName) {
@@ -234,11 +230,10 @@ function updateResults(teamName) {
       var tbody = document.createElement("tbody");
 
       [
-        ["Record", data.record, data.record_rank],
-        ["All-Play", data.all_play, data.all_play_rank],
-        ["Points for", data.points_for, data.points_for_rank],
-        ["Points against", data.points_against, data.points_against_rank],
-      ].forEach(result => addResultRow(result[0], result[1], result[2], tbody));
+        ["Record", data.record],
+        ["All-Play", data.all_play],
+        ["Points for", data.points_for],
+      ].forEach(result => addResultRow(result[0], result[1], tbody));
 
       replaceContent("results-table", tbody);
     });

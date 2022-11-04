@@ -1,167 +1,356 @@
 {
     "teams": {
-        "Austin Powers": [0.35, 0.65, 0.82, 0.31, 0.54, 1.0],
-        "Captain Saucy": [0.46, 1.0, 0.49, 0.31, 0.67, 0.51],
-        "HotChubbTimeMachine": [0.69, 0.87, 0.59, 0.58, 0.78, 0.31],
-        "Jason's Fine Team": [1.0, 0.47, 0.59, 0.26, 0.67, 0.37],
-        "Los Angeles Akers": [0.65, 0.7, 0.54, 0.44, 0.72, 0.49],
-        "Mastas Got Me Pickens": [0.71, 0.41, 0.69, 0.28, 1.0, 0.65],
-        "One Punt Man": [0.87, 0.58, 0.58, 0.86, 0.91, 0.67],
-        "Taco Corp": [0.96, 0.48, 0.73, 0.46, 0.89, 0.94],
-        "WWJJD": [0.51, 0.37, 0.93, 0.57, 0.54, 0.61],
-        "Weekend at Tua's": [0.29, 0.54, 0.88, 1.0, 0.72, 0.92],
-        "Wide Right": [0.61, 0.6, 0.6, 0.48, 0.78, 0.98],
-        "Working From Mahomes": [0.79, 0.58, 1.0, 0.84, 0.48, 0.71]
+        "Austin Powers": [
+            0.52,
+            0.73,
+            0.82,
+            0.25,
+            0.67,
+            0.96
+        ],
+        "Captain Saucy": [
+            0.58,
+            0.89,
+            0.53,
+            0.35,
+            0.71,
+            0.59
+        ],
+        "HotChubbTimeMachine": [
+            0.87,
+            1.0,
+            0.57,
+            0.51,
+            0.77,
+            0.27
+        ],
+        "Jason's Fine Team": [
+            0.86,
+            0.56,
+            0.85,
+            0.36,
+            0.76,
+            0.4
+        ],
+        "Mastas Got Me Pickens": [
+            0.75,
+            0.43,
+            0.9,
+            0.38,
+            0.95,
+            1.0
+        ],
+        "One Punt Man": [
+            0.87,
+            0.68,
+            0.66,
+            0.75,
+            0.87,
+            0.62
+        ],
+        "Samuels Super Heros": [
+            0.63,
+            0.67,
+            0.56,
+            0.34,
+            0.63,
+            0.4
+        ],
+        "Taco Corp": [
+            1.0,
+            0.51,
+            0.78,
+            0.59,
+            0.94,
+            0.62
+        ],
+        "WWJJD": [
+            0.57,
+            0.3,
+            0.94,
+            0.49,
+            0.61,
+            0.42
+        ],
+        "Weekend at Tua's": [
+            0.46,
+            0.61,
+            0.74,
+            1.0,
+            0.59,
+            0.89
+        ],
+        "Wide Right": [
+            0.66,
+            0.8,
+            0.62,
+            0.42,
+            1.0,
+            0.85
+        ],
+        "Working From Mahomes": [
+            0.89,
+            0.66,
+            1.0,
+            0.67,
+            0.87,
+            0.75
+        ]
     },
     "team_makeup": {
-        "Weekend at Tua's": [10, 0, 6],
-        "Captain Saucy": [14, 0, 0],
-        "WWJJD": [14, 0, 1],
-        "Los Angeles Akers": [8, 1, 8],
-        "HotChubbTimeMachine": [12, 0, 3],
-        "Jason's Fine Team": [14, 0, 1],
-        "Mastas Got Me Pickens": [15, 0, 0],
-        "Taco Corp": [12, 1, 2],
-        "Working From Mahomes": [14, 0, 1],
-        "Wide Right": [12, 1, 2],
-        "One Punt Man": [10, 0, 5],
-        "Austin Powers": [11, 1, 3]
+        "Weekend at Tua's": [
+            8,
+            0,
+            9
+        ],
+        "Captain Saucy": [
+            11,
+            0,
+            5
+        ],
+        "WWJJD": [
+            13,
+            0,
+            2
+        ],
+        "Samuels Super Heros": [
+            5,
+            1,
+            9
+        ],
+        "HotChubbTimeMachine": [
+            8,
+            1,
+            7
+        ],
+        "Jason's Fine Team": [
+            9,
+            0,
+            6
+        ],
+        "Mastas Got Me Pickens": [
+            13,
+            0,
+            3
+        ],
+        "Taco Corp": [
+            11,
+            1,
+            4
+        ],
+        "Working From Mahomes": [
+            12,
+            0,
+            3
+        ],
+        "Wide Right": [
+            8,
+            1,
+            5
+        ],
+        "One Punt Man": [
+            9,
+            0,
+            5
+        ],
+        "Austin Powers": [
+            10,
+            1,
+            5
+        ]
     },
     "weekly_points": {
-        "Mastas Got Me Pickens": [125.02, 89.58, 75.46, 95.98],
-        "Working From Mahomes": [121.80, 111.10, 100.58, 166.06],
-        "WWJJD": [117.78, 70.20, 89.94, 116.40],
-        "Captain Saucy": [109.80, 98.86, 106.60, 99.14],
-        "Jason's Fine Team": [100.82, 103.72, 82.72, 95.56],
-        "One Punt Man": [92.32, 149.32, 128.00, 82.36],
-        "Taco Corp": [116.78, 153.28, 98.20, 87.02],
-        "Los Angeles Akers": [114.66, 76.76, 96.24, 109.40],
-        "Wide Right": [106.16, 141.08, 77.82, 89.22],
-        "HotChubbTimeMachine": [98.72, 128.96, 96.20, 120.98],
-        "Austin Powers": [91.80, 101.46, 86.16, 130.90],
-        "Weekend at Tua's": [85.26, 76.70, 142.86, 136.06],
-        "Average": [106.74, 108.42, 98.4, 110.76]
+        "Mastas Got Me Pickens": [
+            "125.02",
+            "89.58",
+            "75.46",
+            "95.98",
+            "147.70",
+            "103.48",
+            "118.26",
+            "79.14"
+        ],
+        "Working From Mahomes": [
+            "121.80",
+            "111.10",
+            "100.58",
+            "166.06",
+            "140.58",
+            "122.92",
+            "95.42",
+            "135.08"
+        ],
+        "WWJJD": [
+            "117.78",
+            "70.20",
+            "89.94",
+            "116.40",
+            "88.66",
+            "77.22",
+            "50.50",
+            "81.80"
+        ],
+        "Captain Saucy": [
+            "109.80",
+            "98.86",
+            "106.60",
+            "99.14",
+            "87.08",
+            "70.44",
+            "103.46",
+            "116.92"
+        ],
+        "Jason's Fine Team": [
+            "100.82",
+            "103.72",
+            "82.72",
+            "95.56",
+            "83.66",
+            "119.10",
+            "101.90",
+            "130.12"
+        ],
+        "One Punt Man": [
+            "92.32",
+            "149.32",
+            "128.00",
+            "82.36",
+            "113.96",
+            "101.50",
+            "66.92",
+            "153.86"
+        ],
+        "Taco Corp": [
+            "116.78",
+            "153.28",
+            "98.20",
+            "87.02",
+            "105.46",
+            "120.06",
+            "89.30",
+            "103.28"
+        ],
+        "Samuels Super Heros": [
+            "114.66",
+            "76.76",
+            "96.24",
+            "109.40",
+            "67.22",
+            "56.12",
+            "96.12",
+            "88.18"
+        ],
+        "Wide Right": [
+            "106.16",
+            "141.08",
+            "77.82",
+            "89.22",
+            "114.24",
+            "77.22",
+            "147.38",
+            "108.10"
+        ],
+        "HotChubbTimeMachine": [
+            "98.72",
+            "128.96",
+            "96.20",
+            "120.98",
+            "109.18",
+            "102.70",
+            "108.14",
+            "140.58"
+        ],
+        "Austin Powers": [
+            "91.80",
+            "101.46",
+            "86.16",
+            "130.90",
+            "118.36",
+            "84.38",
+            "116.44",
+            "100.38"
+        ],
+        "Weekend at Tua's": [
+            "85.26",
+            "76.70",
+            "142.86",
+            "136.06",
+            "108.14",
+            "87.04",
+            "79.40",
+            "114.58"
+        ],
+        "Average": [
+            106.74,
+            108.42,
+            98.4,
+            110.76,
+            107.02,
+            93.51,
+            97.77,
+            112.67
+        ]
     },
     "results": {
-        "Weekend at Tua's": {
-            "record": "1-3 (.250)",
-            "record_rank": "T-8th",
-            "all_play": "22-22 (.500)",
-            "all_play_rank": "T-5th",
-            "points_for": "440.88 (110.22)",
-            "points_for_rank": "5th",
-            "points_against": "433.58 (108.40)",
-            "points_against_rank": "6th"
-        },
-        "Captain Saucy": {
-            "record": "2-2 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "24-20 (.545)",
-            "all_play_rank": "T-3rd",
-            "points_for": "414.40 (103.60)",
-            "points_for_rank": "6th",
-            "points_against": "415.20 (103.80)",
-            "points_against_rank": "9th"
-        },
-        "WWJJD": {
-            "record": "1-3 (.250)",
-            "record_rank": "T-8th",
-            "all_play": "20-24 (.455)",
-            "all_play_rank": "8th",
-            "points_for": "394.32 (98.58)",
-            "points_for_rank": "10th",
-            "points_against": "492.14 (123.04)",
-            "points_against_rank": "1st"
-        },
-        "Los Angeles Akers": {
-            "record": "3-1 (.750)",
-            "record_rank": "T-2nd",
-            "all_play": "21-23 (.477)",
-            "all_play_rank": "7th",
-            "points_for": "397.06 (99.27)",
-            "points_for_rank": "9th",
-            "points_against": "359.56 (89.89)",
-            "points_against_rank": "11th"
+        "Working From Mahomes": {
+            "record": "(7-1-0) (0.875)",
+            "all_play": "70-18 (0.795)",
+            "points_for": "993.54"
         },
         "HotChubbTimeMachine": {
-            "record": "2-2 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "24-20 (.545)",
-            "all_play_rank": "T-3rd",
-            "points_for": "444.86 (111.22)",
-            "points_for_rank": "4th",
-            "points_against": "441.26 (110.32)",
-            "points_against_rank": "4th"
-        },
-        "Jason's Fine Team": {
-            "record": "3-1 (.750)",
-            "record_rank": "T-2nd",
-            "all_play": "15-29 (.341)",
-            "all_play_rank": "12th",
-            "points_for": "382.82 (95.71)",
-            "points_for_rank": "12th",
-            "points_against": "340.92 (85.23)",
-            "points_against_rank": "12th"
-        },
-        "Mastas Got Me Pickens": {
-            "record": "1-3 (.250)",
-            "record_rank": "T-8th",
-            "all_play": "18-26 (.409)",
-            "all_play_rank": "T-9th",
-            "points_for": "386.04 (96.51)",
-            "points_for_rank": "11th",
-            "points_against": "426.68 (106.67)",
-            "points_against_rank": "8th"
-        },
-        "Taco Corp": {
-            "record": "1-3 (.250)",
-            "record_rank": "T-8th",
-            "all_play": "27-17 (.614)",
-            "all_play_rank": "2nd",
-            "points_for": "455.28 (113.82)",
-            "points_for_rank": "2nd",
-            "points_against": "465.82 (116.46)",
-            "points_against_rank": "2nd"
-        },
-        "Working From Mahomes": {
-            "record": "4-0 (1.000)",
-            "record_rank": "1st",
-            "all_play": "36-8 (.818)",
-            "all_play_rank": "1st",
-            "points_for": "499.54 (124.89)",
-            "points_for_rank": "1st",
-            "points_against": "430.00 (107.50)",
-            "points_against_rank": "7th"
-        },
-        "Wide Right": {
-            "record": "1-3 (.250)",
-            "record_rank": "T-8th",
-            "all_play": "17-27 (.386)",
-            "all_play_rank": "11th",
-            "points_for": "414.28 (103.57)",
-            "points_for_rank": "7th",
-            "points_against": "446.10 (111.53)",
-            "points_against_rank": "3rd"
-        },
-        "One Punt Man": {
-            "record": "3-1 (.750)",
-            "record_rank": "T-2nd",
-            "all_play": "22-22 (.500)",
-            "all_play_rank": "T-5th",
-            "points_for": "452.00 (113.00)",
-            "points_for_rank": "3rd",
-            "points_against": "436.76 (109.19)",
-            "points_against_rank": "5th"
+            "record": "(6-2-0) (0.750)",
+            "all_play": "55-33 (0.625)",
+            "points_for": "905.46"
         },
         "Austin Powers": {
-            "record": "2-2 (.500)",
-            "record_rank": "T-5th",
-            "all_play": "18-26 (.409)",
-            "all_play_rank": "T-9th",
-            "points_for": "410.32 (102.58)",
-            "points_for_rank": "8th",
-            "points_against": "403.78 (100.95)",
-            "points_against_rank": "10th"
+            "record": "(5-3-0) (0.625)",
+            "all_play": "43-45 (0.489)",
+            "points_for": "829.88"
+        },
+        "One Punt Man": {
+            "record": "(4-4-0) (0.500)",
+            "all_play": "47-41 (0.534)",
+            "points_for": "888.24"
+        },
+        "Taco Corp": {
+            "record": "(4-4-0) (0.500)",
+            "all_play": "48-40 (0.545)",
+            "points_for": "873.38"
+        },
+        "Mastas Got Me Pickens": {
+            "record": "(4-4-0) (0.500)",
+            "all_play": "47-41 (0.534)",
+            "points_for": "834.62"
+        },
+        "Jason's Fine Team": {
+            "record": "(4-4-0) (0.500)",
+            "all_play": "39-49 (0.443)",
+            "points_for": "817.60"
+        },
+        "Weekend at Tua's": {
+            "record": "(3-5-0) (0.375)",
+            "all_play": "40-48 (0.455)",
+            "points_for": "830.04"
+        },
+        "Captain Saucy": {
+            "record": "(3-5-0) (0.375)",
+            "all_play": "41-47 (0.466)",
+            "points_for": "792.30"
+        },
+        "Samuels Super Heros": {
+            "record": "(3-5-0) (0.375)",
+            "all_play": "28-60 (0.318)",
+            "points_for": "704.70"
+        },
+        "Wide Right": {
+            "record": "(2-5-1) (0.312)",
+            "all_play": "43-44 (0.494)",
+            "points_for": "861.22"
+        },
+        "WWJJD": {
+            "record": "(2-5-1) (0.312)",
+            "all_play": "26-61 (0.299)",
+            "points_for": "692.50"
         }
     }
 }

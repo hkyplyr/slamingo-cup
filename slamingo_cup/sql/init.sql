@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS weekly_results (
     team_id integer,
     week integer,
     is_winner boolean,
+    is_tied boolean,
     pf real,
     ppf real,
     ppf_percentage real,

@@ -25,6 +25,7 @@ def get_positional_breakdowns():
 
     minimum = 1
 
+    results = {}
     for team, values in data.items():
         shares = []
 
@@ -34,8 +35,9 @@ def get_positional_breakdowns():
             if share < minimum:
                 minimum = share
 
-        print(f'"{team}":', shares)
-    print(minimum)
+        results[team] = shares
+
+    return results
 
 
 def get_player_starts_and_points():
@@ -45,9 +47,7 @@ def get_player_starts_and_points():
         for player in db.get_played_players(team_id):
             players[player[1]].append(player)
         data[team_name] = players
-    print(data)
-    with open("test.json", "w") as f:
-        json.dump(data, f)
+    return data
 
 
 def get_rolling_points():
@@ -64,12 +64,12 @@ def get_rolling_points():
 
             weekly_results[result.name].append(result.pf)
     averages = [average_points(value) for value in zip(*reversed(weekly_results.values()))]   
-    print(averages)
 
+    results = {}
     for key, value in weekly_results.items():
-        print(f'"{key}":', value)
-    print("Average:", averages)
-
+        results[key] = value
+    results["Average"] = averages
+    return results
 
 def average_points(points):
     total = sum([float(value) for value in points])
@@ -82,8 +82,7 @@ def format_win_percentage(win_percentage):
 
     return "{:.3f}".format(win_percentage)
 
-
-if __name__ == "__main__":
+def get_team_makeup():
     source_map = {}
     for draft_pick in api.league().draft_results().get().draft_results:
         source_map[draft_pick.player.id] = "draft"
@@ -105,10 +104,55 @@ if __name__ == "__main__":
             team_makeup[source] += 1
         full_team_makeup[team_name] = team_makeup
 
+    results = {}
     for team_name, breakdown in full_team_makeup.items():
         draft = breakdown.get("draft", 0)
         trade = breakdown.get("trade", 0)
         freeagent = breakdown.get("freeagents", 0)
         waiver = breakdown.get("waivers", 0)
+        results[team_name] = [draft, trade, freeagent + waiver]
+    return results
 
-        print(f'"{team_name}": [{draft}, {trade}, {freeagent + waiver}],')
+def get_results():
+    all_play = {}
+
+    for row in db.get_power_rankings(8):
+        win, loss = row.record.replace("(", "").replace(")", "").split("-")
+
+        win_percentage = round((int(win) / (int(win) + int(loss))), 3)
+        win_percentage = "{:.3f}".format(win_percentage)
+
+        all_play[row.name] = f'{win}-{loss} ({win_percentage})'
+
+
+    results = {}
+    for row in db.get_standings(8):
+        win_percentage = round((row.wins + (0.5 * row.ties)) / (row.wins + row.losses + row.ties), 3)
+        win_percentage = "{:.3f}".format(win_percentage)
+
+        results[row.name] = {
+            "record": f'{row.record} ({win_percentage})',
+            "all_play": all_play[row.name],
+            "points_for": row.pf
+        }
+
+    return results
+
+
+if __name__ == "__main__":
+    data = get_player_starts_and_points()
+
+    with open('docs/data/positional.json', 'w') as f:
+        json.dump(data, f, indent=4)
+    exit()
+
+    data = {
+        "teams": get_positional_breakdowns(),
+        "team_makeup": get_team_makeup(),
+        "weekly_points": get_rolling_points(),
+        "results": get_results()
+    }
+
+    with open('docs/data/yearly.json', 'w') as f:
+        json.dump(data, f, indent=4)
+
