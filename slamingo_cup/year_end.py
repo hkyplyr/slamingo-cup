@@ -116,7 +116,7 @@ def get_team_makeup():
 def get_results():
     all_play = {}
 
-    for row in db.get_power_rankings(11):
+    for row in db.get_power_rankings(13):
         win, loss = row.record.replace("(", "").replace(")", "").split("-")
 
         win_percentage = round((int(win) / (int(win) + int(loss))), 3)
@@ -126,7 +126,7 @@ def get_results():
 
 
     results = {}
-    for row in db.get_standings(11):
+    for row in db.get_standings(13):
         win_percentage = round((row.wins + (0.5 * row.ties)) / (row.wins + row.losses + row.ties), 3)
         win_percentage = "{:.3f}".format(win_percentage)
 
