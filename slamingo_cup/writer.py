@@ -2,28 +2,31 @@ import json
 import os
 import sys
 
+from build_recap import build_recap
 from jinja2 import Environment, PackageLoader, select_autoescape
 from num2words import num2words
 
-from database import Database
-from build_recap import build_recap
+from slamingo_cup.queries import (
+    PlayerAwards,
+    PowerRankings,
+    Standings,
+    TeamAwards,
+    WeeklyResults,
+)
 
 
 class Writer:
-    def __init__(self):
-        self.db = Database()
-
     def __build_template_values(self, week):
         return {
             "week": num2words(week).title(),
             "next_week": num2words(week + 1).title(),
             "previous_week_url": self.__build_url(week - 1),
             "next_week_url": self.__build_url(week + 1),
-            "standings": self.db.get_standings(week),
-            "power_rankings": self.db.get_power_rankings(week),
-            "weekly_results": self.db.get_weekly_results(week),
-            "player_awards": self.db.get_player_awards(week),
-            "team_awards": self.db.get_team_awards(week),
+            "standings": Standings.get_standings(week),
+            "power_rankings": PowerRankings.get_power_rankings(week),
+            "weekly_results": WeeklyResults.get_weekly_results(week),
+            "player_awards": PlayerAwards.get_player_awards(week),
+            "team_awards": TeamAwards.get_awards(week),
             "recaps": self.__load_recaps(week),
         }
 

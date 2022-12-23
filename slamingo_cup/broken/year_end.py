@@ -1,8 +1,8 @@
 import json
 
+from database import Database
 from yfantasy_api.api import YahooFantasyApi
 from yfantasy_api.models.common import Team
-from database import Database
 
 db = Database()
 api = YahooFantasyApi(752449, "nfl")
@@ -56,7 +56,6 @@ def get_rolling_points():
         results = db.get_weekly_results(week)
         if results == []:
             break
-        print(results)
 
         for result in results:
             if result.name not in weekly_results:

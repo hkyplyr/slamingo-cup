@@ -1,11 +1,10 @@
 import json
 import os
-import sys
 
 from yfantasy_api.api import YahooFantasyApi
-from database import Database
 
-db = Database()
+from slamingo_cup.queries import Matchups, Standings
+
 api = YahooFantasyApi(752449, "nfl")
 
 
@@ -13,13 +12,14 @@ def get_last_matchups(week):
     return [
         f"<strong>{m.winner_name} ({m.winner_pf})</strong> beat "
         + f"<strong>{m.loser_name} ({m.loser_pf})</strong>"
-        for m in db.get_matchups(week)
+        for m in Matchups.get_matchups(week)
     ]
 
 
 def get_next_matchups(week):
     records = {
-        t.name: {"w": t.wins, "record": t.record} for t in db.get_standings(week)
+        t["team"]: {"w": t["wins"], "record": t["record"]}
+        for t in Standings.get_standings(week)
     }
 
     previews = []
@@ -53,7 +53,3 @@ def build_recap(week):
         json.dump(recap, f, indent=4)
 
     return recap
-
-
-if __name__ == "__main__":
-    build_recap(int(sys.argv[1]))

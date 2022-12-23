@@ -1,12 +1,11 @@
-from yfantasy_api.api import YahooFantasyApi
-from database import Database
-from statistics import mean, stdev
+import copy
 import math
 import random
-import copy
+from statistics import mean, stdev
+
+from yfantasy_api.api import YahooFantasyApi
 
 fantasy_api = YahooFantasyApi(752449, "nfl")
-db = Database()
 
 week = 11
 
