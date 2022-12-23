@@ -91,7 +91,9 @@ def simulate_season(team_variables, standings, matchups):
             final_standings[team_two]["t"] += 1
     final_standings = dict(
         sorted(
-            final_standings.items(), key=lambda x: (x[1]["w"], x[1]["t"], x[1]["pf"]), reverse=True
+            final_standings.items(),
+            key=lambda x: (x[1]["w"], x[1]["t"], x[1]["pf"]),
+            reverse=True,
         )
     )
 
@@ -123,5 +125,7 @@ for team, result in monte_carlo(points_for, standings, remaining_matchups).items
         have_bye = f"{have_bye}%" if have_bye != 0.0 else "-"
         make_playoffs = f"{make_playoffs}%"
 
-        team_record = f'({standings[team]["w"]}-{standings[team]["l"]}-{standings[team]["t"]})'
+        team_record = (
+            f'({standings[team]["w"]}-{standings[team]["l"]}-{standings[team]["t"]})'
+        )
         print(f"{have_bye}\t{make_playoffs}\t\t{team} {team_record}")

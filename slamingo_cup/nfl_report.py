@@ -95,9 +95,7 @@ def retrieve_data(week):
                         }
                     )
 
-                    proj_points_perc = (
-                        team.points / team.projected_points
-                    )
+                    proj_points_perc = team.points / team.projected_points
 
                     db.insert_weekly_results(
                         {
@@ -107,7 +105,7 @@ def retrieve_data(week):
                             "is_tied": True,
                             "pf": team.points,
                             "ppf": team.projected_points,
-                            "ppf_percentage": proj_points_perc
+                            "ppf_percentage": proj_points_perc,
                         }
                     )
 

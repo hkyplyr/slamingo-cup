@@ -63,13 +63,16 @@ def get_rolling_points():
                 weekly_results[result.name] = []
 
             weekly_results[result.name].append(result.pf)
-    averages = [average_points(value) for value in zip(*reversed(weekly_results.values()))]   
+    averages = [
+        average_points(value) for value in zip(*reversed(weekly_results.values()))
+    ]
 
     results = {}
     for key, value in weekly_results.items():
         results[key] = value
     results["Average"] = averages
     return results
+
 
 def average_points(points):
     total = sum([float(value) for value in points])
@@ -81,6 +84,7 @@ def format_win_percentage(win_percentage):
         return win_percentage
 
     return "{:.3f}".format(win_percentage)
+
 
 def get_team_makeup():
     source_map = {}
@@ -113,6 +117,7 @@ def get_team_makeup():
         results[team_name] = [draft, trade, freeagent + waiver]
     return results
 
+
 def get_results():
     all_play = {}
 
@@ -122,18 +127,19 @@ def get_results():
         win_percentage = round((int(win) / (int(win) + int(loss))), 3)
         win_percentage = "{:.3f}".format(win_percentage)
 
-        all_play[row.name] = f'{win}-{loss} ({win_percentage})'
-
+        all_play[row.name] = f"{win}-{loss} ({win_percentage})"
 
     results = {}
     for row in db.get_standings(14):
-        win_percentage = round((row.wins + (0.5 * row.ties)) / (row.wins + row.losses + row.ties), 3)
+        win_percentage = round(
+            (row.wins + (0.5 * row.ties)) / (row.wins + row.losses + row.ties), 3
+        )
         win_percentage = "{:.3f}".format(win_percentage)
 
         results[row.name] = {
-            "record": f'{row.record} ({win_percentage})',
+            "record": f"{row.record} ({win_percentage})",
             "all_play": all_play[row.name],
-            "points_for": row.pf
+            "points_for": row.pf,
         }
 
     return results
@@ -142,16 +148,15 @@ def get_results():
 if __name__ == "__main__":
     data = get_player_starts_and_points()
 
-    with open('docs/data/positional.json', 'w') as f:
+    with open("docs/data/positional.json", "w") as f:
         json.dump(data, f, indent=4)
 
     data = {
         "teams": get_positional_breakdowns(),
         "team_makeup": get_team_makeup(),
         "weekly_points": get_rolling_points(),
-        "results": get_results()
+        "results": get_results(),
     }
 
-    with open('docs/data/yearly.json', 'w') as f:
+    with open("docs/data/yearly.json", "w") as f:
         json.dump(data, f, indent=4)
-
