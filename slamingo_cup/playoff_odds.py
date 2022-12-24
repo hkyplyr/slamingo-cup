@@ -5,13 +5,15 @@ from statistics import mean, stdev
 
 from yfantasy_api.api import YahooFantasyApi
 
+from slamingo_cup.queries import RollingPoints, Standings
+
 fantasy_api = YahooFantasyApi(752449, "nfl")
 
 week = 11
 
 points_for = {}
 for week in range(1, week + 1):
-    for result in db.get_rolling_points_for(week):
+    for result in RollingPoints.get_rolling_points(week):
         if result[0] not in points_for:
             points_for[result[0]] = {"pf": []}
         points_for[result[0]]["pf"].append(result[1])
@@ -20,9 +22,9 @@ for value in points_for.values():
     value["std"] = stdev(value["pf"][-5:])
 
 standings = {}
-for team in db.get_standings(week):
-    team_data = {"w": team.wins, "l": team.losses, "t": team.ties, "pf": team.raw_pf}
-    standings[team.name] = team_data
+for team in Standings.get_standings(week):
+    team_data = {"w": team["wins"], "l": team["losses"], "t": team["ties"], "pf": team["raw_pf"]}
+    standings[team["name"]] = team_data
 
 remaining_matchups = []
 for week in range(week, 14 + 1):

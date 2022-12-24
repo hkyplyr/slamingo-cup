@@ -1,4 +1,4 @@
-from sqlalchemy import Integer, and_, func
+from sqlalchemy import and_
 from sqlalchemy.orm import aliased
 
 from slamingo_cup.models import Matchup, Team, WeeklyResult, db_session

@@ -139,10 +139,8 @@ def __build_standings_row(r):
         "ties": r.t,
         "all_play": f"({r.all_wins}-{r.all_losses})",
         "pf": Formatting.format_points(r.pf),
+        "raw_pf": r.pf,
         "opf": Formatting.format_points(r.opf),
         "coach": Formatting.format_percentage(r.coach),
         "luck": Formatting.format_percentage(r.luck),
     }
-
-    # "win%": format_win_percentage(r.win_percentage),
-    # "allWin%": format_win_percentage(r.all_percentage),

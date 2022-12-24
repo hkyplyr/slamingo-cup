@@ -1,8 +1,6 @@
-from sqlalchemy import and_, func, literal
-from sqlalchemy.orm import aliased
+from sqlalchemy import func
 
 from slamingo_cup.models import Player, Team, db_session
-from slamingo_cup.tools import Formatting
 
 session = db_session()
 
