@@ -1,14 +1,7 @@
 from sqlalchemy import Integer, and_, func
-from tools import Formatting
 
-from slamingo_cup.models import (
-    AllPlay,
-    OptimalPoints,
-    Player,
-    Team,
-    WeeklyResult,
-    db_session,
-)
+from slamingo_cup.models import AllPlay, OptimalPoints, Team, WeeklyResult, db_session
+from slamingo_cup.tools import Formatting
 
 session = db_session()
 
@@ -142,6 +135,8 @@ def __build_standings_row(r):
         "name": r.team_name,
         "record": f"({r.w}-{r.l}-{r.t})",
         "wins": r.w,
+        "losses": r.l,
+        "ties": r.t,
         "all_play": f"({r.all_wins}-{r.all_losses})",
         "pf": Formatting.format_points(r.pf),
         "opf": Formatting.format_points(r.opf),
