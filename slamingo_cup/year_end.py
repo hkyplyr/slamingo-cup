@@ -11,7 +11,7 @@ from slamingo_cup.queries import (
     WeeklyResults,
 )
 
-api = YahooFantasyApi(752449, "nfl")
+api = YahooFantasyApi(292234, "nfl")
 session = db_session()
 
 
@@ -131,7 +131,7 @@ def get_team_makeup():
 def get_results():
     all_play = {}
 
-    for row in PowerRankings.get_power_rankings(14):
+    for row in PowerRankings.get_power_rankings(1):
         win, loss = row["record"].replace("(", "").replace(")", "").split("-")
 
         win_percentage = round((int(win) / (int(win) + int(loss))), 3)
@@ -140,7 +140,7 @@ def get_results():
         all_play[row["name"]] = f"{win}-{loss} ({win_percentage})"
 
     results = {}
-    for row in Standings.get_standings(14):
+    for row in Standings.get_standings(1):
         win_percentage = round(
             (row["wins"] + (0.5 * row["ties"]))
             / (row["wins"] + row["losses"] + row["ties"]),

@@ -1,6 +1,6 @@
 async function initialLoad() {
   buildDropdownMenu();
-  loadPage(loadSelectedTeam() || "Austin Powers");
+  loadPage(loadSelectedTeam() || "Bed Bath & Bijan");
 }
 
 function buildDropdownMenu() {
