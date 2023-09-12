@@ -125,7 +125,7 @@ def inclusive_range(start, end):
 
 
 week = int(sys.argv[1])
-api = YahooFantasyApi(752449, "nfl")
+api = YahooFantasyApi(292234, "nfl")
 
 for i in inclusive_range(get_last_updated_week(), week):
     matchups = api.league().scoreboard(week=i).get().matchups

@@ -5,7 +5,7 @@ from yfantasy_api.api import YahooFantasyApi
 
 from slamingo_cup.queries import Matchups, Standings
 
-api = YahooFantasyApi(752449, "nfl")
+api = YahooFantasyApi(292234, "nfl")
 
 
 def get_last_matchups(week):
@@ -18,7 +18,7 @@ def get_last_matchups(week):
 
 def get_next_matchups(week):
     records = {
-        t["team"]: {"w": t["wins"], "record": t["record"]}
+        t["name"]: {"w": t["wins"], "record": t["record"]}
         for t in Standings.get_standings(week)
     }
 

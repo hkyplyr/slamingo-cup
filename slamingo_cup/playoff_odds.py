@@ -23,7 +23,12 @@ for value in points_for.values():
 
 standings = {}
 for team in Standings.get_standings(week):
-    team_data = {"w": team["wins"], "l": team["losses"], "t": team["ties"], "pf": team["raw_pf"]}
+    team_data = {
+        "w": team["wins"],
+        "l": team["losses"],
+        "t": team["ties"],
+        "pf": team["raw_pf"],
+    }
     standings[team["name"]] = team_data
 
 remaining_matchups = []
