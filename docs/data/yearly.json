@@ -1,107 +1,107 @@
 {
     "teams": {
         "Bed Bath & Bijan": [
-            0.89,
-            1.0,
-            0.74,
-            0.25,
-            0.7,
-            0.06
+            0.68,
+            0.96,
+            0.8,
+            0.39,
+            0.88,
+            0.11
         ],
         "Boats and Younghoes": [
-            0.6,
-            0.41,
+            0.57,
+            0.51,
             0.47,
-            0.4,
-            0.67,
-            0.27
+            0.71,
+            0.66,
+            0.47
         ],
         "Bye": [
-            0.31,
             0.58,
-            0.45,
-            0.34,
-            0.6,
-            0.33
+            0.58,
+            0.5,
+            0.49,
+            0.56,
+            0.34
         ],
         "Diggs' My Own Grave": [
-            0.45,
+            0.55,
             0.6,
-            0.84,
-            0.3,
-            0.53,
-            0.35
+            0.63,
+            0.37,
+            0.56,
+            0.49
         ],
         "Herb Your Enthusiasm": [
             1.0,
-            0.57,
-            0.36,
-            0.31,
-            0.5,
-            0.27
-        ],
-        "HotChubbTimeMachine": [
-            0.65,
-            0.69,
-            0.47,
-            0.6,
-            0.67,
-            0.35
+            0.78,
+            0.35,
+            0.32,
+            0.8,
+            0.4
         ],
         "Jason's Fine Team": [
-            0.9,
-            0.63,
-            0.66,
-            0.28,
-            0.43,
+            0.84,
+            0.68,
+            0.53,
+            0.51,
+            0.61,
             1.0
         ],
         "Make America Gronk Again": [
-            0.8,
-            0.6,
-            0.98,
-            0.3,
-            0.33,
-            0.29
+            0.84,
+            1.0,
+            0.95,
+            0.54,
+            0.71,
+            0.89
         ],
-        "Pittmaneuvered Carr": [
-            0.99,
-            0.57,
+        "Pittmaneuvered My Ford": [
+            0.95,
+            0.81,
             1.0,
-            1.0,
-            0.43,
-            0.21
+            0.97,
+            0.41,
+            0.38
+        ],
+        "Ridley me this": [
+            0.6,
+            0.81,
+            0.36,
+            0.7,
+            0.73,
+            0.42
         ],
         "Swiftly Pierce her Anus": [
-            0.71,
-            0.44,
-            0.64,
-            0.19,
-            0.33,
-            0.21
+            0.81,
+            0.76,
+            0.49,
+            0.31,
+            0.34,
+            0.36
         ],
         "Taco Corp": [
-            0.83,
-            0.73,
-            0.47,
-            0.59,
+            0.8,
+            0.9,
+            0.44,
+            0.51,
             1.0,
-            0.58
+            0.77
         ],
         "Wide Right": [
-            0.75,
-            0.59,
-            0.53,
-            0.52,
-            0.47,
-            0.38
+            0.71,
+            0.69,
+            0.4,
+            1.0,
+            0.63,
+            0.6
         ]
     },
     "team_makeup": {
         "Bed Bath & Bijan": [
-            14,
+            12,
             0,
-            2
+            5
         ],
         "Boats and Younghoes": [
             15,
@@ -109,24 +109,24 @@
             0
         ],
         "Bye": [
-            13,
+            12,
             2,
-            1
+            3
         ],
-        "Pittmaneuvered Carr": [
-            7,
+        "Pittmaneuvered My Ford": [
+            6,
             3,
-            5
+            6
         ],
-        "HotChubbTimeMachine": [
+        "Ridley me this": [
             14,
             0,
             2
         ],
         "Jason's Fine Team": [
-            14,
+            13,
             0,
-            1
+            2
         ],
         "Taco Corp": [
             13,
@@ -139,9 +139,9 @@
             1
         ],
         "Wide Right": [
-            11,
+            9,
             1,
-            3
+            5
         ],
         "Swiftly Pierce her Anus": [
             13,
@@ -162,117 +162,130 @@
     "weekly_points": {
         "Jason's Fine Team": [
             "134.40",
-            "93.82"
+            "93.82",
+            "90.98"
         ],
-        "HotChubbTimeMachine": [
+        "Ridley me this": [
             "111.44",
-            "76.24"
+            "76.24",
+            "81.96"
         ],
-        "Pittmaneuvered Carr": [
+        "Pittmaneuvered My Ford": [
             "104.64",
-            "130.20"
+            "130.20",
+            "159.18"
         ],
         "Bye": [
             "94.10",
-            "57.06"
+            "57.06",
+            "96.16"
         ],
         "Herb Your Enthusiasm": [
             "90.36",
-            "74.50"
+            "74.50",
+            "117.70"
         ],
         "Bed Bath & Bijan": [
             "83.06",
-            "144.14"
+            "144.14",
+            "116.00"
         ],
         "Make America Gronk Again": [
             "88.36",
-            "120.90"
+            "120.90",
+            "213.48"
         ],
         "Taco Corp": [
             "85.54",
-            "135.26"
+            "135.26",
+            "111.02"
         ],
         "Wide Right": [
             "84.24",
-            "97.84"
+            "97.84",
+            "106.12"
         ],
         "Diggs' My Own Grave": [
             "74.48",
-            "116.98"
+            "116.98",
+            "80.70"
         ],
         "Swiftly Pierce her Anus": [
             "63.66",
-            "90.68"
+            "90.68",
+            "113.38"
         ],
         "Boats and Younghoes": [
             "44.72",
-            "105.60"
+            "105.60",
+            "103.86"
         ],
         "Average": [
             88.25,
-            103.6
+            103.6,
+            115.88
         ]
     },
     "results": {
-        "Pittmaneuvered Carr": {
-            "record": "(2-0-0) (1.000)",
-            "all_play": "18-4 (0.818)",
-            "points_for": "234.84"
-        },
-        "Bed Bath & Bijan": {
-            "record": "(2-0-0) (1.000)",
-            "all_play": "14-8 (0.636)",
-            "points_for": "227.20"
+        "Pittmaneuvered My Ford": {
+            "record": "(3-0-0) (1.000)",
+            "all_play": "28-5 (0.848)",
+            "points_for": "394.02"
         },
         "Herb Your Enthusiasm": {
-            "record": "(2-0-0) (1.000)",
-            "all_play": "8-14 (0.364)",
-            "points_for": "164.86"
-        },
-        "Jason's Fine Team": {
-            "record": "(1-1-0) (0.500)",
-            "all_play": "15-7 (0.682)",
-            "points_for": "228.22"
-        },
-        "Taco Corp": {
-            "record": "(1-1-0) (0.500)",
-            "all_play": "15-7 (0.682)",
-            "points_for": "220.80"
+            "record": "(3-0-0) (1.000)",
+            "all_play": "17-16 (0.515)",
+            "points_for": "282.56"
         },
         "Make America Gronk Again": {
-            "record": "(1-1-0) (0.500)",
-            "all_play": "14-8 (0.636)",
-            "points_for": "209.26"
+            "record": "(2-1-0) (0.667)",
+            "all_play": "25-8 (0.758)",
+            "points_for": "422.74"
         },
-        "HotChubbTimeMachine": {
-            "record": "(1-1-0) (0.500)",
-            "all_play": "12-10 (0.545)",
-            "points_for": "187.68"
+        "Bed Bath & Bijan": {
+            "record": "(2-1-0) (0.667)",
+            "all_play": "22-11 (0.667)",
+            "points_for": "343.20"
+        },
+        "Taco Corp": {
+            "record": "(2-1-0) (0.667)",
+            "all_play": "21-12 (0.636)",
+            "points_for": "331.82"
         },
         "Wide Right": {
-            "record": "(1-1-0) (0.500)",
-            "all_play": "9-13 (0.409)",
-            "points_for": "182.08"
+            "record": "(2-1-0) (0.667)",
+            "all_play": "14-19 (0.424)",
+            "points_for": "288.20"
         },
-        "Bye": {
-            "record": "(1-1-0) (0.500)",
-            "all_play": "8-14 (0.364)",
-            "points_for": "151.16"
+        "Jason's Fine Team": {
+            "record": "(1-2-0) (0.333)",
+            "all_play": "17-16 (0.515)",
+            "points_for": "319.20"
         },
-        "Diggs' My Own Grave": {
-            "record": "(0-2-0) (0.000)",
-            "all_play": "9-13 (0.409)",
-            "points_for": "191.46"
-        },
-        "Swiftly Pierce her Anus": {
-            "record": "(0-2-0) (0.000)",
-            "all_play": "4-18 (0.182)",
-            "points_for": "154.34"
+        "Ridley me this": {
+            "record": "(1-2-0) (0.333)",
+            "all_play": "13-20 (0.394)",
+            "points_for": "269.64"
         },
         "Boats and Younghoes": {
-            "record": "(0-2-0) (0.000)",
-            "all_play": "6-16 (0.273)",
-            "points_for": "150.32"
+            "record": "(1-2-0) (0.333)",
+            "all_play": "10-23 (0.303)",
+            "points_for": "254.18"
+        },
+        "Bye": {
+            "record": "(1-2-0) (0.333)",
+            "all_play": "11-22 (0.333)",
+            "points_for": "247.32"
+        },
+        "Diggs' My Own Grave": {
+            "record": "(0-3-0) (0.000)",
+            "all_play": "9-24 (0.273)",
+            "points_for": "272.16"
+        },
+        "Swiftly Pierce her Anus": {
+            "record": "(0-3-0) (0.000)",
+            "all_play": "11-22 (0.333)",
+            "points_for": "267.72"
         }
     }
 }
