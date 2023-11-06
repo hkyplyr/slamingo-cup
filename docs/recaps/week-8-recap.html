@@ -1,0 +1,706 @@
+<html>
+
+<head>
+    <title>Slamingo Cup - Week Eight Recap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        /*
+        * { border: 1px solid black; }
+        */
+
+        .header {
+            background-color: #FF65C2;
+            color: #000000;
+            font-size: 72px;
+        }
+
+        .header-border {
+            background-color: #000000;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+        }
+
+        .team-bg {
+            position: absolute;
+        }
+        
+        .pagination {
+            color: #000000;
+        }
+
+        .player-img {
+            object-fit: cover;
+            object-position: center bottom;
+            position: relative;
+            z-index: 1;
+        }
+
+        .rank-up {
+            color: green;
+        }
+
+        .rank-down {
+            color: red;
+        }
+
+        table td:first-child {
+            text-align: left;
+        }
+
+        table {
+            text-align:center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row justify-content-between px-3">
+        
+        <a href="week-7-recap.html" class="pagination">Previous Week</a>
+        
+        
+        <span> </span>
+        
+    </div>
+    <div class="row row-cols-1 header-border pt-3"></div>
+    <div class="row row-cols-1 header py-3 text-center">
+        <span><u><strong>Slamingo Cup Recap - Week Eight</strong></u></span>
+    </div>
+    <div class="row row-cols-1 header-border pt-3"></div>
+    <div class="flex text-center">
+        <div class="container flex">
+            <div class="col">
+                <h2>Week Eight Recap</h2>
+                
+                <p class="text-justify"><strong>Taco Corp (159.56)</strong> beat <strong>Jason's Fine Team (149.86)</strong></p>
+                
+                <p class="text-justify"><strong>Little Buff Boys (125.56)</strong> beat <strong>Diggs' My Own Grave (99.3)</strong></p>
+                
+                <p class="text-justify"><strong>Herb Your Enthusiasm (128.02)</strong> beat <strong>Bed Bath & Bijan (95.46)</strong></p>
+                
+                <p class="text-justify"><strong>Swiftly Pierce her Anus (127.68)</strong> beat <strong>I’m Not Having Fun (87.38)</strong></p>
+                
+                <p class="text-justify"><strong>Make America Gronk Again (107.36)</strong> beat <strong>Pittmaneuvered My Ford (94.7)</strong></p>
+                
+                <p class="text-justify"><strong>Boats and Younghoes (111.46)</strong> beat <strong>Wide Right (88.78)</strong></p>
+                
+                <h2>Week Nine Preview</h2>
+                
+                <p class="text-justify"><strong>Pittmaneuvered My Ford (6-2-0)</strong> vs. <strong>Herb Your Enthusiasm (8-0-0)</strong></p>
+                
+                <p class="text-justify"><strong>Bed Bath & Bijan (2-6-0)</strong> vs. <strong>Little Buff Boys (6-2-0)</strong></p>
+                
+                <p class="text-justify"><strong>Taco Corp (4-4-0)</strong> vs. <strong>Wide Right (4-4-0)</strong></p>
+                
+                <p class="text-justify"><strong>Boats and Younghoes (4-4-0)</strong> vs. <strong>Swiftly Pierce her Anus (2-6-0)</strong></p>
+                
+                <p class="text-justify"><strong>I’m Not Having Fun (2-6-0)</strong> vs. <strong>Jason's Fine Team (4-4-0)</strong></p>
+                
+                <p class="text-justify"><strong>Diggs' My Own Grave (3-5-0)</strong> vs. <strong>Make America Gronk Again (3-5-0)</strong></p>
+                
+            </div>
+            </div>
+        <div class="flex row row-cols-3 justify-content-center">
+            <div class="flex-grow col-auto">
+                <h2>Standings</h2>
+                <div class="flex">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th></th>
+                            <th>Record</th>
+                            <th>PF</th>
+                            <th>Luck %</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1. Herb Your Enthusiasm</td>
+                            <td>(8-0-0)</td>
+                            <td>853.88</td>
+                            <td>37.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2. Pittmaneuvered My Ford</td>
+                            <td>(6-2-0)</td>
+                            <td>907.78</td>
+                            <td>11.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3. Little Buff Boys</td>
+                            <td>(6-2-0)</td>
+                            <td>762.30</td>
+                            <td>28.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4. Taco Corp</td>
+                            <td>(4-4-0)</td>
+                            <td>1000.58</td>
+                            <td>-25.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5. Jason&#39;s Fine Team</td>
+                            <td>(4-4-0)</td>
+                            <td>860.70</td>
+                            <td>-6.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>6. Boats and Younghoes</td>
+                            <td>(4-4-0)</td>
+                            <td>848.24</td>
+                            <td>-4.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7. Wide Right</td>
+                            <td>(4-4-0)</td>
+                            <td>751.70</td>
+                            <td>13.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8. Make America Gronk Again</td>
+                            <td>(3-5-0)</td>
+                            <td>849.16</td>
+                            <td>-4.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>9. Diggs&#39; My Own Grave</td>
+                            <td>(3-5-0)</td>
+                            <td>792.42</td>
+                            <td>-2.3</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>10. Swiftly Pierce her Anus</td>
+                            <td>(2-6-0)</td>
+                            <td>789.38</td>
+                            <td>-23.9</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11. Bed Bath &amp; Bijan</td>
+                            <td>(2-6-0)</td>
+                            <td>750.06</td>
+                            <td>-13.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12. I’m Not Having Fun</td>
+                            <td>(2-6-0)</td>
+                            <td>734.58</td>
+                            <td>-10.2</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div>
+                <div class="flex-grow col-auto">
+                <h2>Power Rankings</h2>
+                <div class="flex">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th></th>
+                            <th>All Play</th>
+                            <th>Optimal</th>
+                            <th>Coach %</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1. Pittmaneuvered My Ford
+                            
+                            </td>
+                            <td>(56-32)</td>
+                            <td>1031.98</td>
+                            <td>88.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2. Taco Corp
+                            
+                            </td>
+                            <td>(66-22)</td>
+                            <td>1077.48</td>
+                            <td>92.9</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3. Herb Your Enthusiasm
+                            
+                            </td>
+                            <td>(55-33)</td>
+                            <td>992.06</td>
+                            <td>86.1</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4. Boats and Younghoes
+                            
+                            </td>
+                            <td>(48-40)</td>
+                            <td>976.28</td>
+                            <td>86.9</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5. Jason&#39;s Fine Team
+                            
+                            (<span class="rank-up">+1</span>)
+                            
+                            </td>
+                            <td>(50-38)</td>
+                            <td>912.40</td>
+                            <td>94.3</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>6. Make America Gronk Again
+                            
+                            (<span class="rank-down">-1</span>)
+                            
+                            </td>
+                            <td>(37-51)</td>
+                            <td>955.66</td>
+                            <td>88.9</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7. Little Buff Boys
+                            
+                            (<span class="rank-up">+1</span>)
+                            
+                            </td>
+                            <td>(41-47)</td>
+                            <td>889.24</td>
+                            <td>85.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8. Swiftly Pierce her Anus
+                            
+                            (<span class="rank-up">+1</span>)
+                            
+                            </td>
+                            <td>(43-45)</td>
+                            <td>941.58</td>
+                            <td>83.8</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>9. Wide Right
+                            
+                            (<span class="rank-down">-2</span>)
+                            
+                            </td>
+                            <td>(32-56)</td>
+                            <td>943.32</td>
+                            <td>79.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>10. Diggs&#39; My Own Grave
+                            
+                            </td>
+                            <td>(35-53)</td>
+                            <td>880.06</td>
+                            <td>90.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11. I’m Not Having Fun
+                            
+                            </td>
+                            <td>(31-57)</td>
+                            <td>913.82</td>
+                            <td>80.4</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12. Bed Bath &amp; Bijan
+                            
+                            </td>
+                            <td>(34-54)</td>
+                            <td>871.66</td>
+                            <td>86.0</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div>
+                <div class="flex-grow col-auto">
+                <h2>Week Eight Results</h2>
+                <div class="flex">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th></th>
+                            <th>W/L</th>
+                            <th>PF</th>
+                            <th>Optimal</th>
+                            <th>Coach %</th>
+                        </tr>
+                        
+                        <tr>
+                            <td>1. Taco Corp</td>
+                            <td>W</td>
+                            <td>159.56</td>
+                            <td>165.66</td>
+                            <td>96.3</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>2. Herb Your Enthusiasm</td>
+                            <td>W</td>
+                            <td>128.02</td>
+                            <td>158.12</td>
+                            <td>81.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>3. Swiftly Pierce her Anus</td>
+                            <td>W</td>
+                            <td>127.68</td>
+                            <td>136.98</td>
+                            <td>93.2</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>4. Little Buff Boys</td>
+                            <td>W</td>
+                            <td>125.56</td>
+                            <td>125.56</td>
+                            <td>100</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5. Boats and Younghoes</td>
+                            <td>W</td>
+                            <td>111.46</td>
+                            <td>136.16</td>
+                            <td>81.9</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>6. Make America Gronk Again</td>
+                            <td>W</td>
+                            <td>107.36</td>
+                            <td>115.48</td>
+                            <td>93.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>7. Jason&#39;s Fine Team</td>
+                            <td>L</td>
+                            <td>149.86</td>
+                            <td>154.56</td>
+                            <td>97.0</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>8. Diggs&#39; My Own Grave</td>
+                            <td>L</td>
+                            <td>99.30</td>
+                            <td>113.32</td>
+                            <td>87.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>9. Bed Bath &amp; Bijan</td>
+                            <td>L</td>
+                            <td>95.46</td>
+                            <td>111.66</td>
+                            <td>85.5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>10. Pittmaneuvered My Ford</td>
+                            <td>L</td>
+                            <td>94.70</td>
+                            <td>98.00</td>
+                            <td>96.6</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>11. Wide Right</td>
+                            <td>L</td>
+                            <td>88.78</td>
+                            <td>95.78</td>
+                            <td>92.7</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>12. I’m Not Having Fun</td>
+                            <td>L</td>
+                            <td>87.38</td>
+                            <td>102.58</td>
+                            <td>85.2</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+                </div> 
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="row row-cols-1 header-border pt-3 mt-3">
+    </div>
+    <div class="row row-cols-1 header p-3 text-center">
+        <span><u><strong>Slamingo Cup Awards - Week Eight</strong></u></span>
+    </div>
+    <div class="row row-cols-1 header-border pt-3"></div>
+    <div class="container text-center">
+        <div class="row row-cols-4 pt-5">
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f53ae9b48343cb38cb11b04505f23c463098ff84a4cebc2fda737176762cb468.jpg" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Biggest Blowout</div>
+                
+                <div>Swiftly Pierce her Anus def.</div>
+                <div>I’m Not Having Fun <em>(40.30)</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Closest Victory</div>
+                
+                <div>Taco Corp def.</div>
+                <div>Jason&#39;s Fine Team <em>(9.70)</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Highest Scorer</div>
+                
+                <div>Taco Corp</div>
+                <div><em>159.56pts</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Lowest Scorer</div>
+                
+                <div>I’m Not Having Fun</div>
+                <div><em>87.38pts</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_12_j.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Overacheiving Team</div>
+                
+                <div>Jason&#39;s Fine Team</div>
+                <div><em>144.4% of projection</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_m.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Underacheiving Team</div>
+                
+                <div>I’m Not Having Fun</div>
+                <div><em>81.0% of projection</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/9a70e13c23ed77d48ff485013289d55fc03960c6cd31d58eb642368ede9e79fa.jpg" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Best Coach</div>
+                
+                <div>Little Buff Boys</div>
+                <div><em>100% of optimal</em></div>
+                
+
+
+
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png" class="rounded-circle border">
+                </div>
+                <div class="font-weight-bold">Worst Coach</div>
+                
+                <div>Herb Your Enthusiasm</div>
+                <div><em>81.0% of optimal</em></div>
+                
+
+
+
+            </div>
+            
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222023/30977.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting QB</div>
+                <div>Josh Allen (30.06)</div>
+                <div><em>Taco Corp</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_12_j.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08222023/31424.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting RB</div>
+                <div>Gus Edwards (28.40)</div>
+                <div><em>Jason&#39;s Fine Team</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f53ae9b48343cb38cb11b04505f23c463098ff84a4cebc2fda737176762cb468.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08282023/32687.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting WR</div>
+                <div>CeeDee Lamb (35.00)</div>
+                <div><em>Swiftly Pierce her Anus</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43711c376fa1bb8eefe1b1f2a30ad7c874163a5156664046f24ee5f43a1fa44a.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09112022/30614.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Starting TE</div>
+                <div>Taysom Hill (21.96)</div>
+                <div><em>Bed Bath &amp; Bijan</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/694edced9c2d56ad982d07bcc1d9ac66ca2f91b583f825129c278c9fc6e5cc8f.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08302023/30123.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting QB</div>
+                <div>Patrick Mahomes (7.60)</div>
+                <div><em>Pittmaneuvered My Ford</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_9_m.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/07272023/31885.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting RB</div>
+                <div>Miles Sanders (0.0)</div>
+                <div><em>Diggs&#39; My Own Grave</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/694edced9c2d56ad982d07bcc1d9ac66ca2f91b583f825129c278c9fc6e5cc8f.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08142023/27581.1.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting WR</div>
+                <div>Davante Adams (1.60)</div>
+                <div><em>Pittmaneuvered My Ford</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://s.yimg.com/cv/apiv2/default/nfl/nfl_2_m.png" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08072023/28592.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Worst Starting TE</div>
+                <div>Darren Waller (0.90)</div>
+                <div><em>Taco Corp</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/1023ba09e8af9d344037b498ca492d38de47ebe78ebfe551438574d099d77b66.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08282023/29369.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched QB</div>
+                <div>Dak Prescott (29.06)</div>
+                <div><em>Boats and Younghoes</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43711c376fa1bb8eefe1b1f2a30ad7c874163a5156664046f24ee5f43a1fa44a.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08182023/34047.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched RB</div>
+                <div>Rachaad White (14.40)</div>
+                <div><em>Bed Bath &amp; Bijan</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/1023ba09e8af9d344037b498ca492d38de47ebe78ebfe551438574d099d77b66.jpg" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/07252023/28457.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched WR</div>
+                <div>Tyler Lockett (18.10)</div>
+                <div><em>Boats and Younghoes</em></div>
+            </div>
+            
+            <div class="col mb-5">
+                <div>
+                    <img src="https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24995808050_8282fe5db3.gif" class="rounded-circle team-bg border">
+                    <img src="https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08112023/40064.png" class="rounded-circle player-img">
+                </div>
+                <div class="font-weight-bold">Best Benched TE</div>
+                <div>Sam LaPorta (15.70)</div>
+                <div><em>Wide Right</em></div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>
