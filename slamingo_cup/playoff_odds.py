@@ -7,9 +7,9 @@ from yfantasy_api.api import YahooFantasyApi
 
 from slamingo_cup.queries import RollingPoints, Standings
 
-fantasy_api = YahooFantasyApi(752449, "nfl")
+fantasy_api = YahooFantasyApi(292234, "nfl")
 
-week = 11
+week = 13
 
 points_for = {}
 for week in range(1, week + 1):
