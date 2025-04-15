@@ -1,4 +1,4 @@
-black==21.9b0
+black==24.3.0
 Jinja2==3.1.6
 num2words==0.5.10
 pycodestyle==2.8.0
