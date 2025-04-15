@@ -64,7 +64,7 @@ class Writer:
         template = self.__load_template("index.html")
         weeks = [(w, num2words(w).title()) for w in range(1, week + 1)]
 
-        with open(f"docs/recaps/index.html", "w") as f:
+        with open("docs/recaps/index.html", "w") as f:
             f.write(template.render(weeks=weeks))
 
 

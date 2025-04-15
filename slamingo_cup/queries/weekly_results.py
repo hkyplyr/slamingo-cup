@@ -1,13 +1,6 @@
 from sqlalchemy import and_, func
 
-from slamingo_cup.models import (
-    AllPlay,
-    OptimalPoints,
-    Player,
-    Team,
-    WeeklyResult,
-    db_session,
-)
+from slamingo_cup.models import AllPlay, OptimalPoints, Team, WeeklyResult, db_session
 from slamingo_cup.tools import Formatting
 
 session = db_session()

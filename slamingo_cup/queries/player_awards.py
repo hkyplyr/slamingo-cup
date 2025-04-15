@@ -59,7 +59,7 @@ def highest_scoring_bench(week, position):
         .join(Team, Team.id == Player.team_id)
         .filter(Player.week == week)
         .filter(Player.positions.like(f"%{position}%"))
-        .filter(Player.started == False)
+        .filter(not Player.started)
         .order_by(Player.points.desc())
         .limit(1)
         .one()

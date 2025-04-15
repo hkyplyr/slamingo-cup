@@ -188,7 +188,7 @@ def worst_coach(week):
 
 
 def build_row(data):
-    if data.points != None:
+    if data.points is not None:
         points = Formatting.format_points(data.points)
     else:
         points = None

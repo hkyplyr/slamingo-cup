@@ -1,16 +1,15 @@
 async function initialLoad() {
-  buildDropdownMenu();
-  loadPage(loadSelectedTeam() || "Bed Bath & Bijan");
+  updateCareerStats();
 }
 
 function buildDropdownMenu() {
-  loadTeams().then(teams => {
+  loadTeams().then((teams) => {
     var menu = document.getElementById("dropdown-menu");
     menu.innerHTML = "";
 
     for (const team of teams) {
       var a = document.createElement("a");
-      a.classList.add("dropdown-item")
+      a.classList.add("dropdown-item");
       a.href = `javascript:loadPage("${team}")`;
       a.innerText = team;
 
@@ -21,7 +20,7 @@ function buildDropdownMenu() {
       menu.append(li);
     }
   });
-};
+}
 
 function loadPage(teamName) {
   updateSelectedTeam(teamName);
@@ -37,25 +36,26 @@ async function updateSelectedTeam(teamName) {
 }
 
 async function updateCharts(teamName) {
-
-  getPositionalBreakdown(teamName).then(data => {
+  getPositionalBreakdown(teamName).then((data) => {
     const chartData = {
       labels: POSITIONS,
-      datasets: [{
-        data: data,
-        backgroundColor: LIGHT_PINK,
-        borderColor: PINK,
-        pointBackgroundColor: PINK,
-        pointBorderColor: WHITE
-      }]
+      datasets: [
+        {
+          data: data,
+          backgroundColor: LIGHT_PINK,
+          borderColor: PINK,
+          pointBackgroundColor: PINK,
+          pointBorderColor: WHITE,
+        },
+      ],
     };
 
     const chartOptions = {
       events: [],
       plugins: {
         legend: {
-          display: false
-        }
+          display: false,
+        },
       },
       scales: {
         r: {
@@ -63,42 +63,62 @@ async function updateCharts(teamName) {
             display: false,
           },
           suggestedMin: 0.0,
-          suggestedMax: 1.0
-        }
+          suggestedMax: 1.0,
+        },
       },
-      responsive: false
+      responsive: false,
     };
 
-    updateChart("radar", "roster-strength-chart", "#roster-strength-container", chartData, chartOptions);
+    updateChart(
+      "radar",
+      "roster-strength-chart",
+      "#roster-strength-container",
+      chartData,
+      chartOptions
+    );
   });
 
-  getRosterMakeup(teamName).then(data => {
+  getRosterMakeup(teamName).then((data) => {
     const chartData = {
       labels: ["Draft", "Trade", "Add"],
-      datasets: [{
-        label: teamName,
-        data: data,
-        backgroundColor: [RED, GREEN, BLUE]
-      }]
+      datasets: [
+        {
+          label: teamName,
+          data: data,
+          backgroundColor: [RED, GREEN, BLUE],
+        },
+      ],
     };
 
     const chartOptions = { responsive: false };
 
-    updateChart("pie", "team-makeup-chart", "#team-makeup-container", chartData, chartOptions);
+    updateChart(
+      "pie",
+      "team-makeup-chart",
+      "#team-makeup-container",
+      chartData,
+      chartOptions
+    );
   });
 
-  getWeeklyPoints(teamName).then(data => {
+  getWeeklyPoints(teamName).then((data) => {
     const chartData = {
-      labels: [...Array(14).keys()].map(week => `Week ${week + 1}`),
+      labels: [...Array(14).keys()].map((week) => `Week ${week + 1}`),
       datasets: [
         { label: "Team Points", data: data[0], borderColor: PINK },
-        { label: "Avg. Points", data: data[1] }
-      ]
+        { label: "Avg. Points", data: data[1] },
+      ],
     };
 
     const chartOptions = { maintainAspectRatio: false };
 
-    updateChart("line", "weekly-points-chart", "#weekly-points-container", chartData, chartOptions);
+    updateChart(
+      "line",
+      "weekly-points-chart",
+      "#weekly-points-container",
+      chartData,
+      chartOptions
+    );
   });
 }
 
@@ -114,39 +134,44 @@ function updateChart(chartType, chartId, containerId, data, options) {
 }
 
 async function loadTeams() {
-  return await loadFile("./data/teams.json")
-    .then(json => json.teams);
+  return await loadFile("./data/_teams.json").then((json) => json.teams);
 }
 
 async function loadEmoji(teamName) {
-  return await loadFile("./data/teams.json")
-    .then(json => json.translations[teamName] || "");
+  return await loadFile("./data/_teams.json").then(
+    (json) => json.translations[teamName] || ""
+  );
 }
 
 async function getPositionalBreakdown(teamName) {
-  return await loadFile("./data/yearly.json")
-    .then(json => json.teams[teamName]);
-
+  return await loadFile("./data/_yearly.json").then(
+    (json) => json.teams[teamName]
+  );
 }
 
 async function getRosterMakeup(teamName) {
-  return await loadFile("./data/yearly.json")
-    .then(json => json.team_makeup[teamName]);
+  return await loadFile("./data/_yearly.json").then(
+    (json) => json.team_makeup[teamName]
+  );
 }
 
 async function getRosters(teamName) {
-  return await loadFile("./data/positional.json")
-    .then(json => json[teamName]);
+  return await loadFile("./data/_positional.json").then(
+    (json) => json[teamName]
+  );
 }
 
 async function getResults(teamName) {
-  return await loadFile("./data/yearly.json")
-    .then(json => json.results[teamName]);
+  return await loadFile("./data/_yearly.json").then(
+    (json) => json.results[teamName]
+  );
 }
 
 async function getWeeklyPoints(teamName) {
-  return await loadFile("./data/yearly.json")
-    .then(json => [json.weekly_points[teamName], json.weekly_points.Average]);
+  return await loadFile("./data/_yearly.json").then((json) => [
+    json.weekly_points[teamName],
+    json.weekly_points.Average,
+  ]);
 }
 
 function buildHeaderRow(position, data) {
@@ -195,15 +220,15 @@ function addPositionalPlayers(position, data, tbody) {
 }
 
 function updateRoster(teamName) {
-  getRosters(teamName)
-    .then(data => {
-      var tbody = document.createElement("tbody");
+  getRosters(teamName).then((data) => {
+    var tbody = document.createElement("tbody");
 
-      POSITIONS.forEach(position =>
-        addPositionalPlayers(position, data, tbody));
+    POSITIONS.forEach((position) =>
+      addPositionalPlayers(position, data, tbody)
+    );
 
-      replaceContent("roster-table", tbody);
-    });
+    replaceContent("roster-table", tbody);
+  });
 }
 
 function buildResultRow(category, value) {
@@ -224,17 +249,91 @@ function addResultRow(category, value, tbody) {
   tbody.append(buildResultRow(category, value));
 }
 
-function updateResults(teamName) {
-  getResults(teamName)
-    .then(data => {
-      var tbody = document.createElement("tbody");
+async function loadFile(fileName) {
+  return await fetch(fileName).then((res) => res.json());
+}
 
-      [
-        ["Record", data.record],
-        ["All-Play", data.all_play],
-        ["Points for", data.points_for],
-      ].forEach(result => addResultRow(result[0], result[1], tbody));
+async function getCareerStats() {
+  return await loadFile("./data/stats.json").then((json) => json.career);
+}
 
-      replaceContent("results-table", tbody);
+function updateCareerStats() {
+  getCareerStats().then((data) => {
+    var tbody = document.getElementById("career-stats");
+
+    data.forEach((row) => {
+      var tr = document.createElement("tr");
+
+      var team = document.createElement("td")
+      if (row["active"]) {
+        team.innerText = `🟢 ${row["team"]}`
+      } else {
+        team.innerText = `🔴 ${row["team"]}`
+      }
+      team.classList.add("text-nowrap")
+      tr.append(team);
+    
+      var record = document.createElement("td")
+      record.innerText = `${row["w"]}-${row["l"]}-${row["l"]}`
+      record.classList.add("text-center")
+      tr.append(record);
+      
+      var win_percentage = document.createElement("td")
+      win_percentage.innerText = `${row["w%"].toFixed(1)}%`
+      win_percentage.classList.add("text-center")
+      tr.append(win_percentage);
+      
+      var pf = document.createElement("td")
+      pf.innerText = row["pf"].toFixed(2);
+      pf.classList.add("text-end")
+      tr.append(pf);
+
+      var pa = document.createElement("td")
+      pa.innerText = row["pa"].toFixed(2);
+      pa.classList.add("text-end")
+      tr.append(pa);
+
+      var pd = document.createElement("td")
+      pd.innerText = row["pd"].toFixed(2);
+      pd.classList.add("text-end")
+      tr.append(pd);
+
+      var pf_per_game = document.createElement("td")
+      pf_per_game.innerText = row["pf/g"].toFixed(2);
+      pf_per_game.classList.add("text-end")
+      tr.append(pf_per_game);
+
+      var pa_per_game = document.createElement("td")
+      pa_per_game.innerText = row["pa/g"].toFixed(2);
+      pa_per_game.classList.add("text-end")
+      tr.append(pa_per_game);
+
+      var pd_per_game = document.createElement("td")
+      pd_per_game.innerText = row["pd/g"].toFixed(2);
+      pd_per_game.classList.add("text-end")
+      tr.append(pd_per_game);
+
+      tbody.append(tr);
     });
+  });
+}
+
+function replaceContent(elementId, content) {
+  var element = document.getElementById(elementId);
+  element.innerHTML = "";
+  element.append(content);
+}
+
+function updateResults(teamName) {
+  getResults(teamName).then((data) => {
+    var tbody = document.createElement("tbody");
+
+    [
+      ["Record", data.record],
+      ["All-Play", data.all_play],
+      ["Points for", data.points_for],
+    ].forEach((result) => addResultRow(result[0], result[1], tbody));
+
+    replaceContent("results-table", tbody);
+  });
 }
