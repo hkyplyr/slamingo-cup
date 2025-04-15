@@ -5,6 +5,5 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "sqlalchemy>=2.0.40",
     "yfantasy-api>=0.0.6",
 ]

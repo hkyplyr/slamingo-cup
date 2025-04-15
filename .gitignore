@@ -1,5 +1,6 @@
 .tokens.json
-slamingo_cup.db
+*.db
+*.pkl
 
 __pycache__/
 .python-version

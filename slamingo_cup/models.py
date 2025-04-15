@@ -1,79 +1,17 @@
-from sqlalchemy import (
-    Boolean,
-    Column,
-    Float,
-    ForeignKey,
-    Integer,
-    String,
-    create_engine,
-)
-from sqlalchemy.orm import Session, declarative_base, relationship
+class WeeklyResult:
+    def __init__(self, params):
+        self.season = params["season"]
+        self.week = params["week"]
+        self.team = params["team"]
+        self.opponent = params["opponent"]
+        self.points_for = params["points_for"]
+        self.points_against = params["points_against"]
+        self.projected_points_for = params["projected_points_for"]
+        self.projected_points_against = params["projected_points_against"]
+        self.win = params["win"]
+        self.tie = params["tie"]
+        self.playoffs = params["playoffs"]
+        self.consolation = params["consolation"]
 
-Base = declarative_base()
-
-
-class Team(Base):
-    __tablename__ = "teams"
-
-    id = Column(Integer, primary_key=True)
-    name = Column(String(255))
-    image_url = Column(String(255))
-
-
-class Player(Base):
-    __tablename__ = "players"
-
-    id = Column(Integer, primary_key=True)
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    name = Column(String(255))
-    image_url = Column(String(255))
-    positions = Column(String(255))
-    points = Column(Float)
-    started = Column(Boolean)
-
-
-class WeeklyResult(Base):
-    __tablename__ = "weekly_results"
-
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    is_winner = Column(Boolean)
-    is_tied = Column(Boolean)
-    pf = Column(Float)
-    ppf = Column(Float)
-    ppf_percentage = Column(Float)
-
-    team = relationship("Team")
-
-
-class AllPlay(Base):
-    __tablename__ = "all_play"
-
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    all_win = Column(Integer)
-    all_loss = Column(Integer)
-
-
-class OptimalPoints(Base):
-    __tablename__ = "optimal_points"
-
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    points = Column(Float)
-
-
-class Matchup(Base):
-    __tablename__ = "matchups"
-
-    winner_team = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    loser_team = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    victory_margin = Column(Float)
-
-
-def db_session():
-    engine = create_engine("sqlite:///slamingo_cup.db", future=True)
-    Base.metadata.create_all(engine)
-    return Session(engine)
+    def __repr__(self):
+        return str(self.__dict__)
