@@ -1,7 +1,7 @@
 import sys
 
 from sqlalchemy import func
-from yfantasy_api.api import YahooFantasyApi
+from yfantasy_api import YahooFantasyApi
 
 from slamingo_cup.models import (
     AllPlay,
