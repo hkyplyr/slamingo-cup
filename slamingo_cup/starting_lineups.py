@@ -64,12 +64,12 @@ def yahoo_manager(name):
 
 
 def get_players():
-    if os.path.exists("players.json"):
-        with open("players.json", "r") as f:
+    if os.path.exists(".cache/players.json"):
+        with open(".cache/players.json", "r") as f:
             return json.load(f)
     else:
         players = requests.get(" https://api.sleeper.app/v1/players/nfl").json()
-        with open("players.json", "w") as f:
+        with open(".cache/players.json", "w") as f:
             json.dump(players, f)
             return players
 

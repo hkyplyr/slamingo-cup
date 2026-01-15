@@ -1,6 +1,6 @@
 .tokens.json
-slamingo_cup.db
 
 __pycache__/
-.venv/
+.cache/
 .ruff_cache/
+.venv/

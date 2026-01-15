@@ -1,7 +1,8 @@
 import requests
+from helpers import inclusive_range
 
-SEASONS = [2020, 2021, 2022, 2023, 2024, 2025]
-WEEKS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+SEASONS = inclusive_range(2020, 2025)
+WEEKS = inclusive_range(1, 17)
 
 
 BASE_URL = "https://api.sleeper.com/stats/nfl"
