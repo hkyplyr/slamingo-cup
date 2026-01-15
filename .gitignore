@@ -2,5 +2,5 @@
 slamingo_cup.db
 
 __pycache__/
-.python-version
-.venv
+.venv/
+.ruff_cache/

@@ -1,79 +1,52 @@
-from sqlalchemy import (
-    Boolean,
-    Column,
-    Float,
-    ForeignKey,
-    Integer,
-    String,
-    create_engine,
-)
-from sqlalchemy.orm import Session, declarative_base, relationship
+from client import get_players
+from peewee import BooleanField, CharField, IntegerField, Model, SqliteDatabase
 
-Base = declarative_base()
+BATCH_SIZE = 1000
+
+db = SqliteDatabase("slamingo_cup.db")
 
 
-class Team(Base):
-    __tablename__ = "teams"
+class Player(Model):
+    id = CharField(unique=True)
+    name = CharField()
+    positions = CharField(null=True)
+    yahoo_id = IntegerField(null=True)
 
-    id = Column(Integer, primary_key=True)
-    name = Column(String(255))
-    image_url = Column(String(255))
+    class Meta:
+        database = db
 
+    @classmethod
+    def to_params(cls, json):
+        id = json["player_id"]
+        name = f"{json['first_name']} {json['last_name']}"
+        fantasy_positions = json["fantasy_positions"]
+        positions = None if not fantasy_positions else ",".join(fantasy_positions)
+        yahoo_id = None if not json.get("yahoo_id") else int(json.get("yahoo_id"))
 
-class Player(Base):
-    __tablename__ = "players"
-
-    id = Column(Integer, primary_key=True)
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    name = Column(String(255))
-    image_url = Column(String(255))
-    positions = Column(String(255))
-    points = Column(Float)
-    started = Column(Boolean)
-
-
-class WeeklyResult(Base):
-    __tablename__ = "weekly_results"
-
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    is_winner = Column(Boolean)
-    is_tied = Column(Boolean)
-    pf = Column(Float)
-    ppf = Column(Float)
-    ppf_percentage = Column(Float)
-
-    team = relationship("Team")
+        return {"id": id, "name": name, "positions": positions, "yahoo_id": yahoo_id}
 
 
-class AllPlay(Base):
-    __tablename__ = "all_play"
-
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    all_win = Column(Integer)
-    all_loss = Column(Integer)
-
-
-class OptimalPoints(Base):
-    __tablename__ = "optimal_points"
-
-    team_id = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    points = Column(Float)
+class RosterPosition(Model):
+    started = BooleanField()
+    season = IntegerField()
+    week = IntegerField()
+    player_id = CharField()
+    team_id = CharField()
 
 
-class Matchup(Base):
-    __tablename__ = "matchups"
+def populate_players():
+    player_data = [Player.to_params(p) for p in get_players().values()]
 
-    winner_team = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    loser_team = Column(Integer, ForeignKey("teams.id"), primary_key=True)
-    week = Column(Integer, primary_key=True)
-    victory_margin = Column(Float)
+    with db.atomic():
+        for idx in range(0, len(player_data), BATCH_SIZE):
+            Player.insert_many(
+                player_data[idx : idx + BATCH_SIZE]
+            ).on_conflict_replace().execute()
 
 
-def db_session():
-    engine = create_engine("sqlite:///slamingo_cup.db", future=True)
-    Base.metadata.create_all(engine)
-    return Session(engine)
+if __name__ == "__main__":
+    db.connect()
+    db.create_tables([Player])
+    populate_players()
+
+    print(Player.select().count())

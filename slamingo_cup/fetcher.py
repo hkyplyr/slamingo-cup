@@ -1,238 +1,298 @@
-import sys
+import os
+import pickle
 
-from sqlalchemy import func
+import requests
 from yfantasy_api import YahooFantasyApi
 
-from slamingo_cup.models import (
-    AllPlay,
-    Matchup,
-    OptimalPoints,
-    Player,
-    Team,
-    WeeklyResult,
-    db_session,
-)
 
-session = db_session()
+class WeeklyResult:
+    def __init__(self, params):
+        self.season = params["season"]
+        self.week = params["week"]
+        self.team = params["team"]
+        self.opponent = params["opponent"]
+        self.points_for = params["points_for"]
+        self.points_against = params["points_against"]
+        self.projected_points_for = params["projected_points_for"]
+        self.projected_points_against = params["projected_points_against"]
+        self.win = params["win"]
+        self.tie = params["tie"]
+        self.playoffs = params["playoffs"]
+        self.consolation = params["consolation"]
+
+    def __repr__(self):
+        return str(self.__dict__)
 
 
-def all_play_wins():
-    return (func.rank().over(order_by=WeeklyResult.pf.asc()) - 1).label("w")
+yahoo_leagues = [
+    ("399", "903720"),  # 2020
+    ("406", "87025"),  # 2021
+    ("414", "752449"),  # 2022
+    ("423", "292234"),  # 2023
+]
+
+sleeper_leagues = [
+    1135061048144519168,  # 2024
+    1253952102217039872,  # 2025
+]
 
 
-def all_play_losses():
-    return (func.rank().over(order_by=WeeklyResult.pf.desc()) - 1).label("l")
+def build_weeks_param(api):
+    total_weeks = api.league().get().end_week
+    weeks = [str(w) for w in range(1, total_weeks + 1)]
+    return ",".join(weeks)
 
 
-def update_all_play(week):
-    result = (
-        session.query(
-            Team.id.label("team_id"),
-            WeeklyResult.week,
-            WeeklyResult.pf,
-            all_play_wins(),
-            all_play_losses(),
-        )
-        .join(WeeklyResult, Team.id == WeeklyResult.team_id)
-        .filter(WeeklyResult.week == week)
+def manager(team):
+    raw_name = team.managers[0].name.split(" ")
+    if len(raw_name) == 1:
+        return yahoo_manager(raw_name[0].capitalize())
+    else:
+        first_name = raw_name[0].capitalize()
+        last_initial = raw_name[1].capitalize()[0]
+        return yahoo_manager(f"{first_name} {last_initial}.")
+
+
+def yahoo_weekly_result(team_idx, matchup, league):
+    team = matchup.teams[team_idx]
+    opponent = matchup.teams[abs(team_idx - 1)]
+
+    return WeeklyResult(
+        {
+            "season": league.season,
+            "week": matchup.week,
+            "team": manager(team),
+            "opponent": manager(opponent),
+            "points_for": team.points,
+            "points_against": opponent.points,
+            "projected_points_for": team.projected_points,
+            "projected_points_against": opponent.projected_points,
+            "win": hasattr(matchup, "winning_team")
+            and matchup.winning_team.key == team.key,
+            "tie": matchup.is_tied,
+            "playoffs": matchup.is_playoffs,
+            "consolation": matchup.is_consolation,
+        }
     )
 
-    for r in result:
-        session.merge(
-            AllPlay(team_id=r.team_id, week=r.week, all_win=r.w, all_loss=r.l)
-        )
-    session.commit()
+
+def fetch_all_matchups():
+    weekly_results = []
+    for game_id, league_id in yahoo_leagues:
+        print(f"Loading matchups for {game_id}.l.{league_id}")
+        api = YahooFantasyApi(league_id, game_id)
+        weeks_param = build_weeks_param(api)
+
+        league = api.league().scoreboard(week=weeks_param).get()
+        for matchup in league.matchups:
+            weekly_results.append(yahoo_weekly_result(0, matchup, league))
+            weekly_results.append(yahoo_weekly_result(1, matchup, league))
+
+    for league_id in sleeper_leagues:
+        print(f"Loading matchups for {league_id}")
+        league_data = requests.get(
+            f"https://api.sleeper.app/v1/league/{league_id}"
+        ).json()
+        season = int(league_data["season"])
+        rosters_data = requests.get(
+            f"https://api.sleeper.app/v1/league/{league_id}/rosters"
+        ).json()
+        roster_to_user = {d["owner_id"]: d["roster_id"] for d in rosters_data}
+        users_data = requests.get(
+            f"https://api.sleeper.app/v1/league/{league_id}/users"
+        ).json()
+        user_to_name = {
+            roster_to_user[d["user_id"]]: sleeper_managers(d["display_name"])
+            for d in users_data
+        }
+        start_week = league_data["settings"]["start_week"]
+        end_week = league_data["settings"]["last_scored_leg"]
+        playoffs_start = league_data["settings"]["playoff_week_start"]
+        for week in range(start_week, end_week + 1):
+            matchups = requests.get(
+                f"https://api.sleeper.app/v1/league/{league_id}/matchups/{week}"
+            ).json()
+            weekly_matchups = {}
+            for entry in matchups:
+                team = user_to_name[entry["roster_id"]]
+                matchup_id = entry["matchup_id"]
+                points = entry["points"]
+
+                if matchup_id not in weekly_matchups:
+                    weekly_matchups[matchup_id] = []
+
+                weekly_matchups[matchup_id].append(
+                    {
+                        "season": season,
+                        "week": week,
+                        "team": team,
+                        "points": points,
+                        "playoffs": week >= playoffs_start,
+                    }
+                )
+
+            for matchup in weekly_matchups.values():
+                weekly_results.append(sleeper_weekly_result(0, matchup))
+                weekly_results.append(sleeper_weekly_result(1, matchup))
+
+    return weekly_results
 
 
-def get_optimal_position(players, position, number_of_spots, used):
-    players = filter(lambda player: player.id not in used, players)
-    players = list(
-        filter(lambda player: position in player.eligible_positions, players)
-    )
+def get_or_load_weekly_results(output=False):
+    if os.path.exists("weekly_results.pkl"):
+        with open("weekly_results.pkl", "rb") as f:
+            weekly_results = pickle.load(f)
+    else:
+        weekly_results = fetch_all_matchups()
+        with open("weekly_results.pkl", "wb") as f:
+            pickle.dump(weekly_results, f)
 
-    return [float(player.points) for player in players[:number_of_spots]], used + [
-        player.id for player in players[:number_of_spots]
+    if output:
+        for entry in weekly_results:
+            # if not entry.win:
+            #     continue
+
+            fields = [
+                str(entry.season),
+                str(entry.week),
+                "",
+                "",
+                str(entry.team),
+                str(entry.points_for),
+                str(entry.projected_points_for),
+                str(entry.opponent),
+                str(entry.points_against),
+                str(entry.projected_points_against),
+                "W" if entry.win else "L",
+                str(entry.points_for - entry.points_against),
+            ]
+
+            print(",".join(fields))
+
+    return weekly_results
+
+
+def sleeper_managers(display_name):
+    if display_name == "hkyplyr":
+        return "Travis"
+    elif display_name == "hoagie14":
+        return "Mike"
+    elif display_name == "MMacLeod17":
+        return "Mason"
+    elif display_name == "KeeganZiemer":
+        return "Keegan"
+    elif display_name == "EthanPlaysSports":
+        return "Ethan"
+    elif display_name == "NoctisZi":
+        return "Coulton"
+    elif display_name == "VonSchweetzz":
+        return "Mitch"
+    elif display_name == "HalfricanCaptain":
+        return "Chance"
+    elif display_name == "jpagee":
+        return "Jason"
+    elif display_name == "jsgwop":
+        return "Joe"
+    elif display_name == "mgaron13":
+        return "Mel"
+    elif display_name == "mrgaron21":
+        return "Betty"
+    elif display_name == "cziemer13":
+        return "Clint"
+    elif display_name == "erichogan8":
+        return "Eric"
+
+
+def active_manager(name):
+    return name in [
+        "Travis",
+        "Mike",
+        "Mason",
+        "Keegan",
+        "Ethan",
+        "Coulton",
+        "Mitch",
+        "Chance",
+        "Jason",
+        "Joe",
+        "Mel",
+        "Betty",
+        "Clint",
+        "Eric",
     ]
 
 
-def get_rb_wr_te(players, used):
-    rb, used = get_optimal_position(players, "RB", 2, used)
-    wr, used = get_optimal_position(players, "WR", 2, used)
-    te, used = get_optimal_position(players, "TE", 1, used)
-    flx, used = get_optimal_position(players, "W/R/T", 1, used)
-    return sum(rb) + sum(wr) + sum(te) + sum(flx)
+def yahoo_manager(name):
+    if name == "Mitchell":
+        return "Mitch"
+    return name
 
 
-def get_rb_te_wr(players, used):
-    rb, used = get_optimal_position(players, "RB", 2, used)
-    te, used = get_optimal_position(players, "TE", 1, used)
-    wr, used = get_optimal_position(players, "WR", 2, used)
-    flx, used = get_optimal_position(players, "W/R/T", 1, used)
-    return sum(rb) + sum(wr) + sum(te) + sum(flx)
+def sleeper_weekly_result(team_idx, matchup):
+    team_data = matchup[team_idx]
+    opponent_data = matchup[abs(team_idx - 1)]
+
+    points_for = team_data["points"]
+    points_against = opponent_data["points"]
+
+    return WeeklyResult(
+        {
+            "season": team_data["season"],
+            "week": team_data["week"],
+            "team": team_data["team"],
+            "opponent": opponent_data["team"],
+            "points_for": points_for,
+            "points_against": points_against,
+            "projected_points_for": None,
+            "projected_points_against": None,
+            "win": points_for > points_against,
+            "tie": points_for == points_against,
+            "playoffs": team_data["playoffs"],
+            "consolation": False,
+        }
+    )
 
 
-def get_wr_rb_te(players, used):
-    wr, used = get_optimal_position(players, "WR", 2, used)
-    rb, used = get_optimal_position(players, "RB", 2, used)
-    te, used = get_optimal_position(players, "TE", 1, used)
-    flx, used = get_optimal_position(players, "W/R/T", 1, used)
-    return sum(rb) + sum(wr) + sum(te) + sum(flx)
+def get_head_to_head():
+    weekly_results = get_or_load_weekly_results(output=False)
+    head_to_head = {}
+    for wr in weekly_results:
+        if wr.playoffs:
+            continue
+        team = wr.team
+        opp = wr.opponent
+        if team not in head_to_head:
+            head_to_head[team] = {}
 
+        if opp not in head_to_head[team]:
+            head_to_head[team][opp] = {"w": 0, "l": 0}
 
-def get_wr_te_rb(players, used):
-    wr, used = get_optimal_position(players, "WR", 2, used)
-    te, used = get_optimal_position(players, "TE", 1, used)
-    rb, used = get_optimal_position(players, "RB", 2, used)
-    flx, used = get_optimal_position(players, "W/R/T", 1, used)
-    return sum(rb) + sum(wr) + sum(te) + sum(flx)
-
-
-def get_sorted_players(api, team_id, week):
-    players = api.team(team_id).roster(week=week).stats().get().players
-
-    for player in players:
-        session.merge(
-            Player(
-                id=player.id,
-                team_id=team_id,
-                week=week,
-                name=player.name,
-                image_url=player.image_url,
-                positions=",".join(
-                    [
-                        pos
-                        for pos in player.eligible_positions
-                        if pos in ["QB", "RB", "WR", "TE", "DEF", "K"]
-                    ]
-                ),
-                points=player.points,
-                started=player.selected_position not in ["BN", "IR"],
-            )
-        )
-
-    players = filter(lambda player: float(player.points) >= 0, players)
-    players = sorted(players, key=lambda player: float(player.points), reverse=True)
-    return list(players)
-
-
-def get_last_updated_week():
-    week = session.query(func.max(Player.week)).one()[0]
-    return 1 if not week else week
-
-
-def inclusive_range(start, end):
-    return range(start, end + 1)
-
-
-week = int(sys.argv[1])
-api = YahooFantasyApi(292234, "nfl")
-
-for i in inclusive_range(get_last_updated_week(), week):
-    matchups = api.league().scoreboard(week=i).get().matchups
-
-    for matchup in matchups:
-        if matchup.is_tied:
-            for team in matchup.teams:
-                session.merge(
-                    Team(id=team.id, name=team.name, image_url=team.team_logos)
-                )
-
-                session.merge(
-                    WeeklyResult(
-                        team_id=team.id,
-                        week=i,
-                        is_winner=False,
-                        is_tied=True,
-                        pf=team.points,
-                        ppf=team.projected_points,
-                        ppf_percentage=(team.points / team.projected_points),
-                    )
-                )
-
-            session.merge(
-                Matchup(
-                    winner_team=matchup.teams[0].id,
-                    loser_team=matchup.teams[1].id,
-                    week=i,
-                    victory_margin=0.0,
-                )
-            )
+        if wr.win:
+            head_to_head[team][opp]["w"] += 1
         else:
-            session.merge(
-                Team(
-                    id=matchup.winning_team.id,
-                    name=matchup.winning_team.name,
-                    image_url=matchup.winning_team.team_logos,
-                )
-            )
+            head_to_head[team][opp]["l"] += 1
 
-            session.merge(
-                Team(
-                    id=matchup.losing_team.id,
-                    name=matchup.losing_team.name,
-                    image_url=matchup.losing_team.team_logos,
-                )
-            )
-
-            session.merge(
-                WeeklyResult(
-                    team_id=matchup.winning_team.id,
-                    week=i,
-                    is_winner=True,
-                    is_tied=False,
-                    pf=matchup.winning_team.points,
-                    ppf=matchup.winning_team.projected_points,
-                    ppf_percentage=(
-                        matchup.winning_team.points
-                        / matchup.winning_team.projected_points
-                    ),
-                )
-            )
-
-            session.merge(
-                WeeklyResult(
-                    team_id=matchup.losing_team.id,
-                    week=i,
-                    is_winner=False,
-                    is_tied=False,
-                    pf=matchup.losing_team.points,
-                    ppf=matchup.losing_team.projected_points,
-                    ppf_percentage=(
-                        matchup.losing_team.points
-                        / matchup.losing_team.projected_points
-                    ),
-                )
-            )
-
-            session.merge(
-                Matchup(
-                    winner_team=matchup.winning_team.id,
-                    loser_team=matchup.losing_team.id,
-                    week=i,
-                    victory_margin=float(matchup.winning_team.points)
-                    - float(matchup.losing_team.points),
-                )
-            )
-
-    session.commit()
-
-    teams = api.league().teams().get().teams
+    league_h2h = []
+    teams = sorted(head_to_head.keys(), key=lambda x: (not active_manager(x), x))
+    headers = [None] + teams
+    league_h2h.append(headers)
     for team in teams:
-        print(f"Getting players for {team.name} for week {i}")
-        players = get_sorted_players(api, team.id, i)
-        qb, used = get_optimal_position(players, "QB", 1, [])
-        dst, used = get_optimal_position(players, "DEF", 1, used)
-        k, used = get_optimal_position(players, "K", 1, used)
-        rest = max(
-            get_rb_wr_te(players, used),
-            get_rb_te_wr(players, used),
-            get_wr_rb_te(players, used),
-            get_wr_te_rb(players, used),
-        )
+        team_h2h = [team]
+        team_records = head_to_head.get(team, {})
+        for opp in teams:
+            record_vs_opp = team_records.get(opp)
 
-        session.merge(
-            OptimalPoints(team_id=team.id, week=i, points=sum(qb + dst + k + [rest]))
-        )
+            if record_vs_opp:
+                record = f"{record_vs_opp['w']}-{record_vs_opp['l']}"
+                # record = record_vs_opp["w"] + record_vs_opp["l"]
+                team_h2h.append(record)
+            else:
+                team_h2h.append(None)
+        league_h2h.append(team_h2h)
 
-    for i in range(1, week + 1):
-        update_all_play(i)
+    for row in league_h2h:
+        print(row)
+
+
+if __name__ == "__main__":
+    get_head_to_head()
