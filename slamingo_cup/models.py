@@ -1,6 +1,6 @@
 from database import db
-from peewee import (CharField, CompositeKey, ForeignKeyField, IntegerField,
-                    Model)
+from peewee import (BooleanField, CharField, CompositeKey, ForeignKeyField,
+                    IntegerField, Model)
 
 
 class BaseModel(Model):
@@ -45,6 +45,24 @@ class PlayerStatistics(BaseModel):
         primary_key = CompositeKey("player", "season", "week")
 
 
+class Manager(BaseModel):
+    id = IntegerField(primary_key=True)
+    name = CharField()
+    active = BooleanField()
+
+
+class PlayerStarted(BaseModel):
+    manager = ForeignKeyField(Manager)
+    player = ForeignKeyField(Player)
+    season = IntegerField()
+    week = IntegerField()
+    started = BooleanField()
+
+    class Meta:
+        table_name = "player_started"
+        primary_key = CompositeKey("player", "season", "week")
+
+
 if __name__ == "__main__":
     db.connect()
-    db.create_tables([Player, PlayerStatistics])
+    db.create_tables([Player, PlayerStatistics, Manager, PlayerStarted])

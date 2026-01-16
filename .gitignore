@@ -1,4 +1,5 @@
 .tokens.json
+config.py
 
 __pycache__/
 .cache/
