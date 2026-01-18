@@ -1,6 +1,12 @@
 from database import db
-from peewee import (BooleanField, CharField, CompositeKey, ForeignKeyField,
-                    IntegerField, Model)
+from peewee import (
+    BooleanField,
+    CharField,
+    CompositeKey,
+    ForeignKeyField,
+    IntegerField,
+    Model,
+)
 
 
 class BaseModel(Model):
@@ -23,6 +29,7 @@ class Player(BaseModel):
     id = CharField(primary_key=True)
     name = CharField()
     positions = CharField(null=True)
+    pro_team = CharField(null=True)
     yahoo_id = IntegerField(null=True)
 
 

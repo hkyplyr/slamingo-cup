@@ -13,6 +13,4 @@ def insert_all(cls, data):
     with db.atomic():
         for idx in range(0, len(data), BATCH_SIZE):
             logging.info(f"Upserting {cls} from {idx}-{idx + BATCH_SIZE}")
-            cls.insert_many(
-                data[idx : idx + BATCH_SIZE]
-            ).on_conflict_replace().execute()
+            cls.insert_many(data[idx : idx + BATCH_SIZE]).on_conflict_ignore().execute()

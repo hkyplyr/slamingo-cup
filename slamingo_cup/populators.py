@@ -1,8 +1,18 @@
 import client
+import peewee
 from database import insert_all
-from helpers import (all_managers, get_in, inclusive_range, is_active,
-                     sleeper_leagues, sleeper_manager)
+from helpers import (
+    all_managers,
+    get_in,
+    inclusive_range,
+    is_active,
+    sleeper_leagues,
+    sleeper_manager,
+    yahoo_leagues,
+    yahoo_manager,
+)
 from models import Manager, Player, PlayerStarted, PlayerStatistics
+from thefuzz import fuzz
 
 SEASONS = inclusive_range(2020, 2025)
 WEEKS = inclusive_range(1, 18)
@@ -13,6 +23,7 @@ def run():
     __populate_players()
     __populate_statistics()
     __populate_started_sleeper_players()
+    __populate_started_yahoo_players()
 
 
 def __populate_managers():
@@ -73,6 +84,71 @@ def __populate_started_sleeper_players():
     insert_all(PlayerStarted, started_players_data)
 
 
+def __populate_started_yahoo_players():
+    started_players_data = []
+    for season, game_id, league_id in yahoo_leagues():
+        league = client.get_yahoo_league_teams(league_id=league_id, game_id=game_id)
+        for team_id in inclusive_range(1, league.num_teams):
+            for week in inclusive_range(1, league.end_week):
+                team = client.get_yahoo_team_roster(
+                    league_id=league_id, game_id=game_id, team_id=team_id, week=week
+                )
+                for yahoo_player in team.players:
+                    player = __get_player(yahoo_player)
+                    if player is None:
+                        continue
+
+                    manager = Manager.get(
+                        Manager.name == yahoo_manager(team.managers[0].name)
+                    )
+
+                    started = yahoo_player.selected_position not in ["BN", "IR", "IR+"]
+                    started_players_data.append(
+                        {
+                            "manager": manager,
+                            "player": player,
+                            "season": season,
+                            "week": week,
+                            "started": started,
+                        }
+                    )
+    insert_all(PlayerStarted, started_players_data)
+
+
+def __get_player(yahoo_player):
+    player = None
+    try:
+        if yahoo_player.position == "DEF":
+            player = Player.get_by_id(yahoo_player.pro_team)
+            player.yahoo_id = yahoo_player.id
+            player.save()
+        else:
+            player = Player.get(Player.yahoo_id == yahoo_player.id)
+    except peewee.DoesNotExist:
+        try:
+            player = Player.get(Player.name == yahoo_player.name)
+            player.yahoo_id = yahoo_player.id
+            player.save()
+        except peewee.DoesNotExist as e:
+            players = Player.select().where(
+                Player.yahoo_id == None,
+                Player.positions == yahoo_player.position,
+                Player.pro_team == yahoo_player.pro_team,
+            )
+            players_with_score = [
+                (p, fuzz.ratio(yahoo_player.name, p.name)) for p in players
+            ]
+            player, score = sorted(players_with_score, key=lambda x: -x[1])[0]
+
+            if score < 65:
+                print(score, yahoo_player.name, player)
+            else:
+                player.yahoo_id = yahoo_player.id
+                player.save()
+
+    return player
+
+
 def __player_params(json):
     fantasy_positions = json["fantasy_positions"]
 
@@ -80,6 +156,7 @@ def __player_params(json):
         "id": json["player_id"],
         "name": f"{json['first_name']} {json['last_name']}",
         "positions": None if not fantasy_positions else ",".join(fantasy_positions),
+        "pro_team": json["team"],
         "yahoo_id": None if not json.get("yahoo_id") else int(json.get("yahoo_id")),
     }
 
