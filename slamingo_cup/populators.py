@@ -11,7 +11,7 @@ from helpers import (
     yahoo_leagues,
     yahoo_manager,
 )
-from models import Manager, Player, PlayerStarted, PlayerStatistics
+from models import Manager, Player, PlayerStarted, PlayerStatistics, WeeklyResult
 from thefuzz import fuzz
 
 SEASONS = inclusive_range(2020, 2025)
@@ -19,11 +19,13 @@ WEEKS = inclusive_range(1, 18)
 
 
 def run():
-    __populate_managers()
-    __populate_players()
-    __populate_statistics()
-    __populate_started_sleeper_players()
-    __populate_started_yahoo_players()
+    # __populate_managers()
+    # __populate_players()
+    # __populate_statistics()
+    # __populate_started_sleeper_players()
+    # __populate_started_yahoo_players()
+    # __populate_sleeper_matchups()
+    __populate_yahoo_matchups()
 
 
 def __populate_managers():
@@ -129,9 +131,9 @@ def __get_player(yahoo_player):
             player = Player.get(Player.name == yahoo_player.name)
             player.yahoo_id = yahoo_player.id
             player.save()
-        except peewee.DoesNotExist as e:
+        except peewee.DoesNotExist:
             players = Player.select().where(
-                Player.yahoo_id == None,
+                Player.yahoo_id is None,
                 Player.positions == yahoo_player.position,
                 Player.pro_team == yahoo_player.pro_team,
             )
@@ -147,6 +149,149 @@ def __get_player(yahoo_player):
                 player.save()
 
     return player
+
+
+def __populate_yahoo_matchups():
+    for season, game_id, league_id in yahoo_leagues():
+        league = client.get_yahoo_league_teams(league_id=league_id, game_id=game_id)
+
+        for matchup in client.get_yahoo_matchups(
+            league_id=league_id,
+            game_id=game_id,
+            weeks=inclusive_range(1, league.end_week),
+        ).matchups:
+            week = matchup.week
+            manager_one = Manager.get(
+                Manager.name == yahoo_manager(matchup.teams[0].managers[0].name)
+            )
+            manager_two = Manager.get(
+                Manager.name == yahoo_manager(matchup.teams[1].managers[0].name)
+            )
+
+            result_one = {
+                "id": int(
+                    f"{season}{str(week).zfill(4)}{str(manager_one.id).zfill(4)}"
+                ),
+                "season": season,
+                "week": week,
+                "manager": manager_one,
+                "points_for": matchup.teams[0].points,
+                "playoffs": matchup.is_playoffs,
+                "consolation": False,  # TODO - fix consolation calculation,
+                "result": None,
+                "opponent": None,
+            }
+
+            result_two = {
+                "id": int(
+                    f"{season}{str(week).zfill(4)}{str(manager_two.id).zfill(4)}"
+                ),
+                "season": season,
+                "week": week,
+                "manager": manager_two,
+                "points_for": matchup.teams[1].points,
+                "playoffs": matchup.is_playoffs,
+                "consolation": False,  # TODO - fix consolation calculation,
+                "result": None,
+                "opponent": None,
+            }
+
+            if result_one["points_for"] > result_two["points_for"]:
+                result_one["result"] = "W"
+                result_two["result"] = "L"
+            elif result_one["points_for"] < result_two["points_for"]:
+                result_one["result"] = "L"
+                result_two["result"] = "W"
+            else:
+                result_one["result"] = "T"
+                result_two["result"] = "T"
+
+            try:
+                created_one = WeeklyResult.create(**result_one)
+            except peewee.IntegrityError:
+                created_one = WeeklyResult.get_by_id(result_one["id"])
+
+            try:
+                result_two["opponent"] = created_one
+                created_two = WeeklyResult.create(**result_two)
+            except peewee.IntegrityError:
+                created_two = WeeklyResult.get_by_id(result_two["id"])
+
+            created_one.opponent = created_two
+            created_one.save()
+
+
+def __populate_sleeper_matchups():
+    for season, league_id in sleeper_leagues():
+        league_data = client.get_sleeper_league(league_id=league_id)
+        roster_to_user = {
+            d["owner_id"]: d["roster_id"]
+            for d in client.get_sleeper_rosters(league_id=league_id)
+        }
+        user_to_name = {
+            roster_to_user[d["user_id"]]: sleeper_manager(d["display_name"])
+            for d in client.get_sleeper_users(league_id=league_id)
+        }
+
+        start_week = league_data["settings"]["start_week"]
+        end_week = league_data["settings"]["last_scored_leg"]
+        playoffs_start_week = league_data["settings"]["playoff_week_start"]
+
+        for week in inclusive_range(start_week, end_week):
+            weekly_matchups = {}
+            for matchup in client.get_sleeper_matchups(league_id=league_id, week=week):
+                manager_name = user_to_name[matchup["roster_id"]]
+                manager = Manager.get(Manager.name == manager_name)
+
+                matchup_id = matchup["matchup_id"]
+                points = matchup["points"]
+
+                if matchup_id is None:
+                    continue
+
+                if matchup_id not in weekly_matchups:
+                    weekly_matchups[matchup_id] = []
+
+                weekly_matchups[matchup_id].append(
+                    {
+                        "id": int(
+                            f"{season}{str(week).zfill(4)}{str(manager.id).zfill(4)}"
+                        ),
+                        "season": season,
+                        "week": week,
+                        "manager": manager,
+                        "points_for": points,
+                        "playoffs": week >= playoffs_start_week,
+                        "consolation": False,  # TODO - fix consolation calculation,
+                        "result": None,
+                        "opponent": None,
+                    }
+                )
+
+            for result_one, result_two in weekly_matchups.values():
+                if result_one["points_for"] > result_two["points_for"]:
+                    result_one["result"] = "W"
+                    result_two["result"] = "L"
+                elif result_one["points_for"] < result_two["points_for"]:
+                    result_one["result"] = "L"
+                    result_two["result"] = "W"
+                else:
+                    result_one["result"] = "T"
+                    result_two["result"] = "T"
+
+                try:
+                    created_one = WeeklyResult.create(**result_one)
+                except peewee.IntegrityError:
+                    created_one = WeeklyResult.get_by_id(result_one["id"])
+
+                try:
+                    result_two["opponent"] = created_one
+                    created_two = WeeklyResult.create(**result_two)
+                except peewee.IntegrityError:
+                    created_two = WeeklyResult.get_by_id(result_two["id"])
+
+                created_one.opponent = created_two
+                created_one.save()
 
 
 def __player_params(json):

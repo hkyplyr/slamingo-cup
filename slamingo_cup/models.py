@@ -3,6 +3,7 @@ from peewee import (
     BooleanField,
     CharField,
     CompositeKey,
+    FloatField,
     ForeignKeyField,
     IntegerField,
     Model,
@@ -70,6 +71,18 @@ class PlayerStarted(BaseModel):
         primary_key = CompositeKey("player", "season", "week")
 
 
+class WeeklyResult(BaseModel):
+    id = IntegerField(primary_key=True)
+    season = IntegerField()
+    week = IntegerField()
+    manager = ForeignKeyField(Manager)
+    points_for = FloatField()
+    result = CharField()
+    playoffs = BooleanField()
+    consolation = BooleanField()
+    opponent = ForeignKeyField("self", null=True)
+
+
 if __name__ == "__main__":
     db.connect()
-    db.create_tables([Player, PlayerStatistics, Manager, PlayerStarted])
+    db.create_tables([Player, PlayerStatistics, Manager, PlayerStarted, WeeklyResult])

@@ -91,3 +91,10 @@ def get_yahoo_league_teams(league_id, game_id):
 @pickled("league_info/yahoo/{game_id}/{league_id}/{team_id}/{week}/roster.pkl")
 def get_yahoo_team_roster(league_id, game_id, team_id, week):
     return YahooFantasyApi(league_id, game_id).team(team_id).roster(week=week).get()
+
+
+@pickled("league_info/yahoo/{game_id}/{league_id}/matchups.pkl")
+def get_yahoo_matchups(league_id, game_id, weeks):
+    weeks = ",".join([str(w) for w in weeks])
+
+    return YahooFantasyApi(league_id, game_id).league().scoreboard(week=weeks).get()
