@@ -1,6 +1,6 @@
 import client
 import peewee
-from database import insert_all
+from database import db, insert_all
 from helpers import (
     all_managers,
     get_in,
@@ -11,7 +11,14 @@ from helpers import (
     yahoo_leagues,
     yahoo_manager,
 )
-from models import Manager, Player, PlayerStarted, PlayerStatistics, WeeklyResult
+from models import (
+    AllPlay,
+    Manager,
+    Player,
+    PlayerStarted,
+    PlayerStatistics,
+    WeeklyResult,
+)
 from thefuzz import fuzz
 
 SEASONS = inclusive_range(2020, 2025)
@@ -19,13 +26,14 @@ WEEKS = inclusive_range(1, 18)
 
 
 def run():
-    # __populate_managers()
-    # __populate_players()
-    # __populate_statistics()
-    # __populate_started_sleeper_players()
-    # __populate_started_yahoo_players()
-    # __populate_sleeper_matchups()
+    __populate_managers()
+    __populate_players()
+    __populate_statistics()
+    __populate_started_sleeper_players()
+    __populate_started_yahoo_players()
+    __populate_sleeper_matchups()
     __populate_yahoo_matchups()
+    __populate_all_play_records()
 
 
 def __populate_managers():
@@ -321,6 +329,53 @@ def __statistic_params(json, season, week):
         "rec_touchdowns": int(get_in(json, ["stats", "rec_td"], 0)),
         "fumbles": int(get_in(json, ["stats", "fum_lost"], 0)),
     }
+
+
+def __populate_all_play_records():
+    matchups = WeeklyResult.select(
+        WeeklyResult.season,
+        WeeklyResult.week,
+        WeeklyResult.manager_id,
+        peewee.fn.RANK()
+        .over(
+            order_by=[WeeklyResult.points_for],
+            partition_by=[WeeklyResult.season, WeeklyResult.week],
+        )
+        .alias("rank"),
+    ).where(WeeklyResult.playoffs == False)
+
+    all_play_records = []
+    matchup_groupings = {}
+    for matchup in matchups:
+        id = (matchup.season, matchup.week)
+        if id not in matchup_groupings:
+            matchup_groupings[id] = []
+
+        matchup_groupings[id].append((matchup.manager, matchup.rank))
+
+    for (season, week), entries in matchup_groupings.items():
+        total_games = len(entries) - 1
+        missing_ranks = set(inclusive_range(1, len(entries))) - set(
+            [r for _, r in entries]
+        )
+        tied_rank = None if not missing_ranks else (missing_ranks.pop() - 1)
+
+        for manager, rank in entries:
+            wins = rank - 1
+            ties = 1 if tied_rank == rank else 0
+            losses = total_games - wins - ties
+
+            all_play_records.append(
+                {
+                    "season": season,
+                    "week": week,
+                    "manager": manager,
+                    "win": wins,
+                    "tie": ties,
+                    "loss": losses,
+                }
+            )
+    insert_all(AllPlay, all_play_records)
 
 
 def __manager_params(manager_id, name):

@@ -83,6 +83,20 @@ class WeeklyResult(BaseModel):
     opponent = ForeignKeyField("self", null=True)
 
 
+class AllPlay(BaseModel):
+    season = IntegerField()
+    week = IntegerField()
+    manager = ForeignKeyField(Manager)
+    win = IntegerField()
+    loss = IntegerField()
+    tie = IntegerField()
+
+    class Meta:
+        primary_key = CompositeKey("season", "week", "manager")
+
+
 if __name__ == "__main__":
     db.connect()
-    db.create_tables([Player, PlayerStatistics, Manager, PlayerStarted, WeeklyResult])
+    db.create_tables(
+        [Player, PlayerStatistics, Manager, PlayerStarted, WeeklyResult, AllPlay]
+    )
