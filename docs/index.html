@@ -1,4 +1,37 @@
 <!DOCTYPE html>
-<head>WIP</head>
-<body>WIP</body>
+
+<head>
+    <title>Slamingo Cup</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/table-sort-js/table-sort.min.js"></script>
+
+    <script src="./js/helpers.js"></script>
+    <script src="./js/main.js" async onload="initialLoad()"></script>
+</head>
+
+<body class="container">
+    <table id="records-table" class="table table-sm table-sort text-center">
+        <thead id="records-thead">
+            <tr>
+                <th class="col-1">Manager</th>
+                <th class="col-2 disable-sort">Record</th>
+                <th class="col-1 order-by-desc">Win %</th>
+                <th class="col-2 order-by-desc">PF (PF/G)</th>
+                <th class="col-2 order-by-desc">PA (PA/G)</th>
+                <th class="col-2 disable-sort">All-Play Record</th>
+                <th class="col-1 order-by-desc">AP Win %</th>
+                <th class="col-1 order-by-desc">Luck %</th>
+            </tr>
+        </thead>
+        <tbody id="records-tbody">
+            <!-- Placeholder for records -->
+        </tbody>
+    </table>
+</body>
+
 </html>

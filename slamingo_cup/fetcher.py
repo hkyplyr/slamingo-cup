@@ -26,30 +26,32 @@ def update_record_data():
 
         record_data.append(
             {
-                "manager_name": manager_name,
+                "manager": manager_name,
                 "seasons": career_record.seasons,
                 "active": all_play_record.manager.active,
                 "gp": career_record.gp,
                 "w": career_record.w,
                 "l": career_record.l,
                 "t": career_record.t,
-                "w%": career_win_percentage,
+                "w_pct": career_win_percentage,
                 "pf": career_record.pf,
                 "pa": career_record.pa,
                 "pd": career_record.pd,
-                "pf/g": career_record.pfg,
-                "pa/g": career_record.pag,
-                "pd/g": career_record.pdg,
-                "ap gp": all_play_record.gp,
-                "ap w": all_play_record.w,
-                "ap l": all_play_record.l,
-                "ap t": all_play_record.t,
-                "ap w%": all_play_win_percentage,
+                "pf_g": career_record.pfg,
+                "pa_g": career_record.pag,
+                "pd_g": career_record.pdg,
+                "ap_gp": all_play_record.gp,
+                "ap_w": all_play_record.w,
+                "ap_l": all_play_record.l,
+                "ap_t": all_play_record.t,
+                "ap_w_pct": all_play_win_percentage,
                 "luck": luck_percentage,
             }
         )
 
-    persist_json("records", sorted(record_data, key=lambda x: (-x["active"], -x["w%"])))
+    persist_json(
+        "records", sorted(record_data, key=lambda x: (-x["active"], -x["w_pct"]))
+    )
 
 
 def persist_json(filename, data):
