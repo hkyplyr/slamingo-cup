@@ -1,6 +1,6 @@
 import client
 import peewee
-from database import db, insert_all
+from database import insert_all
 from helpers import (
     all_managers,
     get_in,
@@ -141,7 +141,7 @@ def __get_player(yahoo_player):
             player.save()
         except peewee.DoesNotExist:
             players = Player.select().where(
-                Player.yahoo_id is None,
+                Player.yahoo_id.is_null(),
                 Player.positions == yahoo_player.position,
                 Player.pro_team == yahoo_player.pro_team,
             )

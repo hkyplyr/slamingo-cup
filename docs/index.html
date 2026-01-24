@@ -1,37 +1,347 @@
-<!DOCTYPE html>
-
-<head>
-    <title>Slamingo Cup</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/table-sort-js/table-sort.min.js"></script>
+  </head>
 
-    <script src="./js/helpers.js"></script>
-    <script src="./js/main.js" async onload="initialLoad()"></script>
-</head>
+  <body class="container">
+    
+<button id="active-toggle" type="button" onclick="myFunction()">
+  Show Inactive
+</button>
+<table
+  id="records-table"
+  class="table table-sm table-sort table-arrows text-center"
+>
+  <thead id="records-thead">
+    <tr>
+      <th class="col-1">Manager</th>
+      <th class="col-2 disable-sort">Record</th>
+      <th class="col-1 order-by-desc">Win %</th>
+      <th class="col-2 order-by-desc">PF (PF/G)</th>
+      <th class="col-2 order-by-desc">PA (PA/G)</th>
+      <th class="col-2 disable-sort">All-Play Record</th>
+      <th class="col-1 order-by-desc">AP Win %</th>
+      <th class="col-1 order-by-desc">Luck %</th>
+    </tr>
+  </thead>
+  <tbody id="records-tbody">
+     
+    <tr data-active="false" style="display: none">
+      
+      <td class="text-start">Curt (1)</td>
+      <td>9-4-0</td>
+      <td>0.692</td>
+      <td>1492.84 (114.83)</td>
+      <td>
+        1318.32 (101.41)
+      </td>
+      <td>85-58-0</td>
+      <td>0.594</td>
+      <td>9.8</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Betty (6)</td>
+      <td>52-31-0</td>
+      <td>0.627</td>
+      <td>8773.56 (105.71)</td>
+      <td>
+        8556.26 (103.09)
+      </td>
+      <td>505-436-0</td>
+      <td>0.537</td>
+      <td>9.0</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Keegan (6)</td>
+      <td>50-33-0</td>
+      <td>0.602</td>
+      <td>8876.72 (106.95)</td>
+      <td>
+        8348.82 (100.59)
+      </td>
+      <td>512-429-0</td>
+      <td>0.544</td>
+      <td>5.8</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Clint (1)</td>
+      <td>8-6-0</td>
+      <td>0.571</td>
+      <td>1400.92 (100.07)</td>
+      <td>
+        1321.62 (94.40)
+      </td>
+      <td>95-87-0</td>
+      <td>0.522</td>
+      <td>4.9</td>
+    </tr>
+     
+    <tr data-active="false" style="display: none">
+      
+      <td class="text-start">Ryan (1)</td>
+      <td>8-6-0</td>
+      <td>0.571</td>
+      <td>1359.50 (97.11)</td>
+      <td>
+        1471.44 (105.10)
+      </td>
+      <td>65-89-0</td>
+      <td>0.422</td>
+      <td>14.9</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Chance (6)</td>
+      <td>46-37-0</td>
+      <td>0.554</td>
+      <td>9069.88 (109.28)</td>
+      <td>
+        8679.78 (104.58)
+      </td>
+      <td>536-405-0</td>
+      <td>0.570</td>
+      <td>-1.5</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Jason (6)</td>
+      <td>42-41-0</td>
+      <td>0.506</td>
+      <td>8830.42 (106.39)</td>
+      <td>
+        8908.96 (107.34)
+      </td>
+      <td>489-452-0</td>
+      <td>0.520</td>
+      <td>-1.4</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Eric (1)</td>
+      <td>7-7-0</td>
+      <td>0.500</td>
+      <td>1397.32 (99.81)</td>
+      <td>
+        1419.88 (101.42)
+      </td>
+      <td>79-103-0</td>
+      <td>0.434</td>
+      <td>6.6</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Mel (6)</td>
+      <td>41-41-1</td>
+      <td>0.500</td>
+      <td>8440.18 (101.69)</td>
+      <td>
+        8710.18 (104.94)
+      </td>
+      <td>422-518-1</td>
+      <td>0.449</td>
+      <td>5.1</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Hogan (6)</td>
+      <td>41-42-0</td>
+      <td>0.494</td>
+      <td>8732.70 (105.21)</td>
+      <td>
+        8618.48 (103.84)
+      </td>
+      <td>473-468-0</td>
+      <td>0.503</td>
+      <td>-0.9</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Travis (6)</td>
+      <td>39-44-0</td>
+      <td>0.470</td>
+      <td>9038.60 (108.90)</td>
+      <td>
+        8884.06 (107.04)
+      </td>
+      <td>505-436-0</td>
+      <td>0.537</td>
+      <td>-6.7</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Mason (6)</td>
+      <td>38-45-0</td>
+      <td>0.458</td>
+      <td>9025.50 (108.74)</td>
+      <td>
+        8881.10 (107.00)
+      </td>
+      <td>521-420-0</td>
+      <td>0.554</td>
+      <td>-9.6</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Coulton (5)</td>
+      <td>32-38-0</td>
+      <td>0.457</td>
+      <td>7256.96 (103.67)</td>
+      <td>
+        7331.16 (104.73)
+      </td>
+      <td>393-405-0</td>
+      <td>0.492</td>
+      <td>-3.5</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Joe (6)</td>
+      <td>37-45-1</td>
+      <td>0.452</td>
+      <td>8162.06 (98.34)</td>
+      <td>
+        8393.08 (101.12)
+      </td>
+      <td>390-550-1</td>
+      <td>0.415</td>
+      <td>3.7</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Mitch (4)</td>
+      <td>24-32-0</td>
+      <td>0.429</td>
+      <td>5747.62 (102.64)</td>
+      <td>
+        5813.42 (103.81)
+      </td>
+      <td>311-333-0</td>
+      <td>0.483</td>
+      <td>-5.4</td>
+    </tr>
+     
+    <tr data-active="false" style="display: none">
+      
+      <td class="text-start">Jason H. (1)</td>
+      <td>6-8-0</td>
+      <td>0.429</td>
+      <td>1387.76 (99.13)</td>
+      <td>
+        1583.98 (113.14)
+      </td>
+      <td>72-82-0</td>
+      <td>0.468</td>
+      <td>-3.9</td>
+    </tr>
+     
+    <tr data-active="false" style="display: none">
+      
+      <td class="text-start">Laura (1)</td>
+      <td>5-8-0</td>
+      <td>0.385</td>
+      <td>1371.98 (105.54)</td>
+      <td>
+        1489.28 (114.56)
+      </td>
+      <td>67-76-0</td>
+      <td>0.469</td>
+      <td>-8.4</td>
+    </tr>
+     
+    <tr data-active="true">
+      
+      <td class="text-start">Ethan (3)</td>
+      <td>16-26-0</td>
+      <td>0.381</td>
+      <td>4260.62 (101.44)</td>
+      <td>
+        4606.50 (109.68)
+      </td>
+      <td>204-286-0</td>
+      <td>0.416</td>
+      <td>-3.5</td>
+    </tr>
+     
+    <tr data-active="false" style="display: none">
+      
+      <td class="text-start">Spencer (2)</td>
+      <td>10-17-0</td>
+      <td>0.370</td>
+      <td>2701.08 (100.04)</td>
+      <td>
+        2989.90 (110.74)
+      </td>
+      <td>103-194-0</td>
+      <td>0.347</td>
+      <td>2.4</td>
+    </tr>
+    
+  </tbody>
+</table>
 
-<body class="container">
-    <table id="records-table" class="table table-sm table-sort text-center">
-        <thead id="records-thead">
-            <tr>
-                <th class="col-1">Manager</th>
-                <th class="col-2 disable-sort">Record</th>
-                <th class="col-1 order-by-desc">Win %</th>
-                <th class="col-2 order-by-desc">PF (PF/G)</th>
-                <th class="col-2 order-by-desc">PA (PA/G)</th>
-                <th class="col-2 disable-sort">All-Play Record</th>
-                <th class="col-1 order-by-desc">AP Win %</th>
-                <th class="col-1 order-by-desc">Luck %</th>
-            </tr>
-        </thead>
-        <tbody id="records-tbody">
-            <!-- Placeholder for records -->
-        </tbody>
-    </table>
-</body>
+<script>
+  function myFunction() {
+    var input = document.getElementById("active-toggle");
+    var tbody = document.getElementById("records-tbody");
+    var trs = tbody.getElementsByTagName("tr");
 
+    var showInactive;
+    if (input.innerHTML == "Show Inactive") {
+      input.innerHTML = "Hide Inactive";
+      showInactive = true;
+    } else {
+      input.innerHTML = "Show Inactive";
+      showInactive = false;
+    }
+    console.log(showInactive);
+
+    for (i = 0; i < trs.length; i++) {
+      var manager = trs[i].getElementsByTagName("td")[0].textContent;
+      var activeRow = trs[i].dataset.active;
+      var style = trs[i].style.display;
+      //console.log(`${manager}, ${activeRow}, ${style}`);
+      console.log(activeRow);
+      if (activeRow == "false") {
+        if (showInactive) {
+          console.log("Displaying");
+          trs[i].style.display = "";
+        } else {
+          console.log("Hiding");
+          trs[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+
+  </body>
 </html>

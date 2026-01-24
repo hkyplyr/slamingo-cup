@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "jinja2>=3.1.6",
     "peewee>=3.19.0",
+    "requests>=2.32.5",
     "thefuzz>=0.22.1",
     "yfantasy-api>=0.0.6",
 ]

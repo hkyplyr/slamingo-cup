@@ -1,12 +1,13 @@
 import json
 import os
 
+from helpers import format_percentage, format_points, format_record
 from queries import get_all_play_records, get_career_records
 
 DATA_PATH = "docs/data"
 
 
-def update_record_data():
+def fetch_record_data():
     career_records = {c.manager.name: c for c in get_career_records()}
     all_play_records = {ap.manager.name: ap for ap in get_all_play_records()}
 
@@ -22,36 +23,34 @@ def update_record_data():
             all_play_record.gp, all_play_record.w, all_play_record.t
         )
 
-        luck_percentage = (career_win_percentage - all_play_win_percentage) * 100
+        luck_percentage = format_percentage(
+            (career_win_percentage - all_play_win_percentage) * 100, 1
+        )
 
         record_data.append(
             {
                 "manager": manager_name,
                 "seasons": career_record.seasons,
                 "active": all_play_record.manager.active,
-                "gp": career_record.gp,
-                "w": career_record.w,
-                "l": career_record.l,
-                "t": career_record.t,
-                "w_pct": career_win_percentage,
-                "pf": career_record.pf,
-                "pa": career_record.pa,
-                "pd": career_record.pd,
-                "pf_g": career_record.pfg,
-                "pa_g": career_record.pag,
-                "pd_g": career_record.pdg,
-                "ap_gp": all_play_record.gp,
-                "ap_w": all_play_record.w,
-                "ap_l": all_play_record.l,
-                "ap_t": all_play_record.t,
-                "ap_w_pct": all_play_win_percentage,
-                "luck": luck_percentage,
+                "career_record": format_record(
+                    career_record.w, career_record.l, career_record.t
+                ),
+                "sort": career_win_percentage,
+                "career_win_percentage": format_percentage(career_win_percentage, 3),
+                "points_for": format_points(career_record.pf),
+                "points_for_per_game": format_points(career_record.pfg),
+                "points_against": format_points(career_record.pa),
+                "points_against_per_game": format_points(career_record.pag),
+                "all_play_record": format_record(
+                    all_play_record.w, all_play_record.l, all_play_record.t
+                ),
+                "all_play_win_percentage": format_percentage(
+                    all_play_win_percentage, 3
+                ),
+                "luck_percentage": luck_percentage,
             }
         )
-
-    persist_json(
-        "records", sorted(record_data, key=lambda x: (-x["active"], -x["w_pct"]))
-    )
+    return sorted(record_data, key=lambda x: -x["sort"])
 
 
 def persist_json(filename, data):
@@ -63,7 +62,3 @@ def persist_json(filename, data):
 
 def calculate_win_percentage(gp, w, t):
     return (w * 2 + t) / (gp * 2)
-
-
-if __name__ == "__main__":
-    update_record_data()

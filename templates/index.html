@@ -1,0 +1,76 @@
+{% extends "base.html" %} {% block content %}
+<button id="active-toggle" type="button" onclick="myFunction()">
+  Show Inactive
+</button>
+<table
+  id="records-table"
+  class="table table-sm table-sort table-arrows text-center"
+>
+  <thead id="records-thead">
+    <tr>
+      <th class="col-1">Manager</th>
+      <th class="col-2 disable-sort">Record</th>
+      <th class="col-1 order-by-desc">Win %</th>
+      <th class="col-2 order-by-desc">PF (PF/G)</th>
+      <th class="col-2 order-by-desc">PA (PA/G)</th>
+      <th class="col-2 disable-sort">All-Play Record</th>
+      <th class="col-1 order-by-desc">AP Win %</th>
+      <th class="col-1 order-by-desc">Luck %</th>
+    </tr>
+  </thead>
+  <tbody id="records-tbody">
+    {% for record in records %} {% if record.active %}
+    <tr data-active="true">
+      {% else %}
+    <tr data-active="false" style="display: none">
+      {% endif %}
+      <td class="text-start">{{ record.manager }} ({{ record.seasons }})</td>
+      <td>{{ record.career_record }}</td>
+      <td>{{ record.career_win_percentage }}</td>
+      <td>{{ record.points_for }} ({{ record.points_for_per_game }})</td>
+      <td>
+        {{ record.points_against }} ({{ record.points_against_per_game }})
+      </td>
+      <td>{{ record.all_play_record }}</td>
+      <td>{{ record.all_play_win_percentage }}</td>
+      <td>{{ record.luck_percentage }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script>
+  function myFunction() {
+    var input = document.getElementById("active-toggle");
+    var tbody = document.getElementById("records-tbody");
+    var trs = tbody.getElementsByTagName("tr");
+
+    var showInactive;
+    if (input.innerHTML == "Show Inactive") {
+      input.innerHTML = "Hide Inactive";
+      showInactive = true;
+    } else {
+      input.innerHTML = "Show Inactive";
+      showInactive = false;
+    }
+    console.log(showInactive);
+
+    for (i = 0; i < trs.length; i++) {
+      var manager = trs[i].getElementsByTagName("td")[0].textContent;
+      var activeRow = trs[i].dataset.active;
+      var style = trs[i].style.display;
+      //console.log(`${manager}, ${activeRow}, ${style}`);
+      console.log(activeRow);
+      if (activeRow == "false") {
+        if (showInactive) {
+          console.log("Displaying");
+          trs[i].style.display = "";
+        } else {
+          console.log("Hiding");
+          trs[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+{% endblock content %}
