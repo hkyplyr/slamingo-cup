@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..800&family=Source+Serif+4:opsz,wght@8..60,400;600&display=swap');
+
+:root {
+  --paper: #ffffff;
+  --paper-shade: #f65b5e;
+  --ink: #23241f;
+  --ink-soft: #4a4a3e;
+
+  /* Team colors, sampled from the jersey proposal (Pantone 319 / 2346).
+     The "-deep" variants are darkened for text/accent contrast on the
+     cream paper (raw swatches fail WCAG at ~1.6:1 and ~2.6:1); the
+     "-bright" variants are the true swatch colors, used only for
+     decorative fills/borders where legibility isn't the point. */
+  --teal-deep: #78c5cd;
+  --teal-bright: #78c5cd;
+  --coral-deep: #b72d30;
+  --coral-bright: #f65b5e;
+
+  --rule: #f65b5e;
+  --rule-strong: #f65b5e;
+
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'Source Serif 4', 'Georgia', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--teal-bright);
+  background-image: url("../assets/header.png");
+  background-repeat: repeat;
+  background-size: 700px auto;
+  background-position: top center;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 1100px;
+  width: 92%; /* Keeps a consistent relative edge padding on smaller desktop screens */
+  
+  /* Centers the frame horizontally and creates clear, consistent 4rem vertical air gaps */
+  margin: 0 auto 4rem; 
+  
+  /* Clean internal cushioning around your layout text/table elements */
+  padding: 2.5rem; 
+  
+  background: var(--paper);
+  position: relative;
+  z-index: 2;
+  
+  /* Gives the frame structural depth, floating it heavily off your teal flamingo background */
+  border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15), 
+              0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Banner -----------------------------------------------------------
+   The one bold move: a full-bleed color-blocked header using the jersey's
+   true swatch colors as large fills (not thin accents), a corner cutout
+   echoing the raglan sleeve color-block, and a tiled silhouette pulled
+   from the jersey's own flamingo print as texture, not decoration. Ink
+   text is used here (not white/cream) because it's the only combination
+   that clears accessible contrast against these bright fills. */
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  background-repeat: repeat-x;
+  background-size: auto 320px;
+  background-position: center center;
+  /* Removed clip-path so it doesn't leave an awkward white diagonal slice behind a floating frame */
+  padding: 4rem 1.5rem 2rem; 
+}
+
+.banner-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: 'MLB Block', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: clamp(4rem, 10vw, 7.5rem);
+  line-height: 0.95;
+  margin: 0;
+  
+  /* White interior with your specific coral-pink outline */
+  color: #ffffff;
+  -webkit-text-stroke: 1px #f65b5e;
+}
+
+/* --- Filter toggle --------------------------------------------------
+   Styled like jersey number tags: filled, not a thin underline. */
+
+.filter-toggle {
+  display: flex;
+  gap: 0.6rem;
+  margin: 0 0 1.5rem;
+}
+
+.filter-toggle button {
+  font-family: var(--font-body);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-size: 0.95rem;
+  background: none;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: 5px;
+  padding: 0.45rem 1rem;
+  cursor: pointer;
+  color: var(--ink-soft);
+}
+
+.filter-toggle button:hover {
+  border-color: var(--teal-deep);
+  color: var(--ink);
+}
+
+.filter-toggle button.is-active {
+  background: var(--teal-deep);
+  border-color: var(--teal-deep);
+  color: var(--paper);
+  font-weight: 600;
+}
+
+/* --- Table ----------------------------------------------------------
+   A ledger, not a card: hairline rules, no borders/boxes/shadows. */
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+thead th {
+  text-align: right;
+  font-family: var(--font-body);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid var(--teal-deep);
+  white-space: nowrap;
+}
+
+thead th.col-left {
+  text-align: left;
+}
+
+thead th.sortable {
+  cursor: pointer;
+}
+
+thead th.sortable:hover {
+  color: var(--teal-deep);
+}
+
+thead th.sort-asc::after {
+  content: ' \2191';
+}
+
+thead th.sort-desc::after {
+  content: ' \2193';
+}
+
+tbody td {
+  text-align: right;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+tbody td.col-rank {
+  color: var(--coral-deep);
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-align: right;
+  width: 2ch;
+}
+
+tbody td.col-name {
+  text-align: left;
+  font-weight: 600;
+  position: sticky;
+  left: 0;
+  background: var(--paper);
+}
+
+.name-badges {
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
+}
+
+tbody tr:hover td {
+  background: var(--paper-shade);
+}
+
+tbody tr:hover td.col-name {
+  background: var(--paper-shade);
+}
+
+tbody tr.is-inactive td {
+  color: var(--ink-soft);
+}
+
+.tag-inactive {
+  font-variant: small-caps;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  border: 1px solid var(--rule-strong);
+  border-radius: 2px;
+  padding: 0.05rem 0.35rem;
+  margin-left: 0.4rem;
+}
+
+.luck-pos {
+  color: var(--teal-deep);
+}
+
+.luck-neg {
+  color: var(--coral-deep);
+}
+
+/* --- Footer bookend ----------------------------------------------------
+   Mirrors the banner: same bright coral fill, same diagonal language,
+   so color frames the page top and bottom instead of only living up top. */
+
+.footer-band {
+  background: var(--coral-bright);
+  clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+  padding: 2.5rem 1.5rem 2rem;
+  margin-top: -1px;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  color: var(--ink);
+  opacity: 0.85;
+}
+
+@font-face {
+  font-family: 'MLB Block';
+  src: url('../assets/mlb-block.tff.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 640px) {
+  .banner {
+    padding: 3rem 1rem 1rem;
+    background-size: auto 240px;
+  }
+  .page {
+    width: 95%;
+    margin: 1rem auto 2rem;
+    padding: 1.5rem 1rem; /* Snugger padding for tight mobile environments */
+  }
+}

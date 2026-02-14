@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slamingo Cup</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+  <header class="banner">
+    <div class="banner-inner">
+      <h1 id="league-name">Slamingo Cup</h1>
+    </div>
+  </header>
+
+  <div class="page">
+    <div class="filter-toggle">
+      <button data-filter="active" class="is-active">Active</button>
+      <button data-filter="inactive">Inactive</button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead id="standings-head"></thead>
+        <tbody id="standings-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/standings.js"></script>
+</body>
+</html>
