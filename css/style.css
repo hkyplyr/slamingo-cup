@@ -47,8 +47,7 @@ body {
 }
 
 .page {
-  max-width: 1100px;
-  width: 92%; /* Keeps a consistent relative edge padding on smaller desktop screens */
+  width: 80%; /* Keeps a consistent relative edge padding on smaller desktop screens */
   
   /* Centers the frame horizontally and creates clear, consistent 4rem vertical air gaps */
   margin: 0 auto 4rem; 
@@ -64,6 +63,42 @@ body {
   border-radius: 8px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15), 
               0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0 0 2rem;
+}
+
+.site-nav a {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.6rem 1.5rem;
+  border: 2px solid var(--rule-strong);
+  border-radius: 6px;
+}
+
+.site-nav a:hover {
+  border-color: var(--teal-deep);
+}
+
+.site-nav a.is-active {
+  background: var(--teal-deep);
+  border-color: var(--teal-deep);
+  color: var(--paper);
 }
 
 /* --- Banner -----------------------------------------------------------
@@ -261,6 +296,156 @@ tbody tr.is-inactive td {
   font-size: 0.9rem;
   color: var(--ink);
   opacity: 0.85;
+}
+
+/* --- Record book -----------------------------------------------------
+   Explicit column counts per breakpoint (not auto-fit) since the intent
+   is "4 across on desktop," not "however many happen to fit." */
+
+.record-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .record-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .record-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.record-card {
+  min-width: 0; /* lets the card shrink with its grid track instead of
+                   holding out for the table's full intrinsic width */
+  overflow-x: auto; /* fallback: scrolls internally if a row is still
+                        too wide, instead of pushing past the page */
+}
+
+.record-card table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.record-card thead th {
+  text-align: left;
+  font-family: var(--font-body);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--ink);
+  padding: 0 0 0.5rem;
+  border-bottom: 2px solid var(--teal-deep);
+}
+
+.record-card tbody td {
+  padding: 0.4rem 0.25rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.record-card td.col-rank {
+  color: var(--coral-deep);
+  font-family: var(--font-display);
+  font-weight: 600;
+  width: 1.5ch;
+}
+
+.record-card td.col-name {
+  font-weight: 600;
+}
+
+.record-card td.col-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1em;
+  color: var(--ink);
+}
+
+.record-footer {
+  font-weight: 400;
+  font-size: 0.8em;
+  color: var(--ink-soft);
+}
+
+/* --- Head-to-head matrix -----------------------------------------------
+   Structurally matches a standard win/loss grid: diagonal dashed out,
+   green/red per-cell color for winning/losing that pairing, a Total
+   column summing each manager's row. Colors reuse the site's existing
+   win/loss language (same teal/coral as Luck% elsewhere) rather than
+   introducing a separate dark theme just for this table. */
+
+.h2h-wrap {
+  overflow-x: auto;
+  margin-top: 2.5rem;
+}
+
+.h2h-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+}
+
+.h2h-table th,
+.h2h-table td {
+  padding: 0.5rem 0.65rem;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--rule);
+}
+
+.h2h-table thead th {
+  font-family: var(--font-body);
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  border-bottom: 2px solid var(--teal-deep);
+}
+
+.h2h-table .h2h-corner {
+  text-align: left;
+}
+
+.h2h-table tbody th {
+  text-align: left;
+  font-weight: 600;
+  position: sticky;
+  left: 0;
+  background: var(--paper);
+}
+
+.h2h-win {
+  color: var(--teal-deep);
+  font-weight: 600;
+}
+
+.h2h-loss {
+  color: var(--coral-deep);
+  font-weight: 600;
+}
+
+.h2h-tie {
+  color: var(--ink);
+}
+
+.h2h-diag,
+.h2h-empty {
+  color: var(--ink-soft);
+  opacity: 0.5;
 }
 
 @font-face {

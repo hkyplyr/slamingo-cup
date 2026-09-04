@@ -21,6 +21,18 @@ const DataStore = (() => {
     return load('data/career_stats.json');
   }
 
+  function loadRecordBook() {
+    // Fixed: was '../data/record_book.json', which only worked when this
+    // page lived one folder down (record-book/index.html). Now that
+    // standings and record book share one root-level page, this needs
+    // to be root-relative like loadCareerStats() already is.
+    return load('data/record_book.json');
+  }
+
+  function loadHeadToHead() {
+    return load('data/head_to_head.json');
+  }
+
   // --- Derived stats -------------------------------------------------
   // Stored data holds raw counts only (wins/losses/ties, all-play
   // record, etc). Percentages are computed here so there is exactly
@@ -47,7 +59,6 @@ const DataStore = (() => {
 
   function playoffPct(m) {
     return m.playoff_appearances / m.seasons;
-
   }
 
   function record(m) {
@@ -60,11 +71,13 @@ const DataStore = (() => {
 
   return {
     loadCareerStats,
+    loadRecordBook,
+    loadHeadToHead,
     winPct,
     allPlayWinPct,
     luckPct,
     record,
     allPlayRecord,
-    playoffPct
+    playoffPct,
   };
 })();

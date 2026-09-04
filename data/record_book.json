@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Highest Scores",
+    "entries": [
+      {
+        "rank": 1,
+        "manager": "Ethan",
+        "footer": "Week 3, 2023 (vs. Travis)",
+        "value": "213.48"
+      },
+      {
+        "rank": 2,
+        "manager": "Travis",
+        "footer": "Week 12, 2020 (vs. Mason)",
+        "value": "182.44"
+      },
+      {
+        "rank": 3,
+        "manager": "Coulton",
+        "footer": "Week 11, 2021 (vs. Betty)",
+        "value": "179.58"
+      },
+      {
+        "rank": 4,
+        "manager": "Betty",
+        "footer": "Week 12, 2025 (vs. Coulton)",
+        "value": "173.56"
+      },
+      {
+        "rank": 5,
+        "manager": "Travis",
+        "footer": "Week 7, 2020 (vs. Mel)",
+        "value": "171.48"
+      },
+      {
+        "rank": 6,
+        "manager": "Hogan",
+        "footer": "Week 8, 2025 (vs. Mason)",
+        "value": "170.32"
+      },
+      {
+        "rank": 7,
+        "manager": "Betty",
+        "footer": "Week 4, 2022 (vs. Travis)",
+        "value": "166.06"
+      },
+      {
+        "rank": 8,
+        "manager": "Curt",
+        "footer": "Week 10, 2020 (vs. Travis)",
+        "value": "165.36"
+      },
+      {
+        "rank": 9,
+        "manager": "Chance",
+        "footer": "Week 11, 2024 (vs. Joe)",
+        "value": "164.84"
+      },
+      {
+        "rank": 10,
+        "manager": "Mel",
+        "footer": "Week 7, 2024 (vs. Joe)",
+        "value": "162.96"
+      }
+    ]
+  },
+  {
+    "name": "Lowest Scores",
+    "entries": [
+      {
+        "rank": 1,
+        "manager": "Jason H.",
+        "footer": "Week 13, 2021 (vs. Chance)",
+        "value": "24.36"
+      },
+      {
+        "rank": 2,
+        "manager": "Chance",
+        "footer": "Week 1, 2023 (vs. Travis)",
+        "value": "44.72"
+      },
+      {
+        "rank": 3,
+        "manager": "Mitch",
+        "footer": "Week 11, 2025 (vs. Clint)",
+        "value": "46.92"
+      },
+      {
+        "rank": 4,
+        "manager": "Mel",
+        "footer": "Week 7, 2022 (vs. Mason)",
+        "value": "50.50"
+      },
+      {
+        "rank": 5,
+        "manager": "Chance",
+        "footer": "Week 8, 2020 (vs. Hogan)",
+        "value": "53.14"
+      },
+      {
+        "rank": 6,
+        "manager": "Mitch",
+        "footer": "Week 13, 2025 (vs. Mel)",
+        "value": "55.04"
+      },
+      {
+        "rank": 7,
+        "manager": "Keegan",
+        "footer": "Week 6, 2022 (vs. Betty)",
+        "value": "56.12"
+      },
+      {
+        "rank": 8,
+        "manager": "Joe",
+        "footer": "Week 1, 2024 (vs. Betty)",
+        "value": "56.22"
+      },
+      {
+        "rank": 9,
+        "manager": "Mel",
+        "footer": "Week 9, 2020 (vs. Keegan)",
+        "value": "56.32"
+      },
+      {
+        "rank": 10,
+        "manager": "Travis",
+        "footer": "Week 5, 2023 (vs. Coulton)",
+        "value": "56.76"
+      }
+    ]
+  },
+  {
+    "name": "Biggest Blowouts",
+    "entries": [
+      {
+        "rank": 1,
+        "manager": "Ethan",
+        "footer": "Week 3, 2023 (vs. Travis)",
+        "value": "97.48"
+      },
+      {
+        "rank": 2,
+        "manager": "Mason",
+        "footer": "Week 4, 2023 (vs. Ethan)",
+        "value": "93.84"
+      },
+      {
+        "rank": 3,
+        "manager": "Hogan",
+        "footer": "Week 8, 2025 (vs. Mason)",
+        "value": "87.20"
+      },
+      {
+        "rank": 4,
+        "manager": "Chance",
+        "footer": "Week 13, 2021 (vs. Jason H.)",
+        "value": "86.32"
+      },
+      {
+        "rank": 5,
+        "manager": "Chance",
+        "footer": "Week 11, 2024 (vs. Joe)",
+        "value": "83.48"
+      },
+      {
+        "rank": 6,
+        "manager": "Ethan",
+        "footer": "Week 3, 2025 (vs. Mason)",
+        "value": "79.62"
+      },
+      {
+        "rank": 7,
+        "manager": "Keegan",
+        "footer": "Week 3, 2023 (vs. Hogan)",
+        "value": "77.22"
+      },
+      {
+        "rank": 8,
+        "manager": "Travis",
+        "footer": "Week 9, 2023 (vs. Mel)",
+        "value": "76.10"
+      },
+      {
+        "rank": 9,
+        "manager": "Travis",
+        "footer": "Week 12, 2020 (vs. Mason)",
+        "value": "74.72"
+      },
+      {
+        "rank": 10,
+        "manager": "Coulton",
+        "footer": "Week 8, 2022 (vs. Mel)",
+        "value": "72.06"
+      }
+    ]
+  },
+  {
+    "name": "Closest Matchups",
+    "entries": [
+      {
+        "rank": 1,
+        "manager": "Keegan",
+        "footer": "Week 2, 2022 (vs. Travis)",
+        "value": "0.06"
+      },
+      {
+        "rank": 2,
+        "manager": "Eric",
+        "footer": "Week 12, 2025 (vs. Mason)",
+        "value": "0.10"
+      },
+      {
+        "rank": 3,
+        "manager": "Keegan",
+        "footer": "Week 11, 2023 (vs. Chance)",
+        "value": "0.12"
+      },
+      {
+        "rank": 4,
+        "manager": "Jason",
+        "footer": "Week 8, 2020 (vs. Travis)",
+        "value": "0.12"
+      },
+      {
+        "rank": 5,
+        "manager": "Mason",
+        "footer": "Week 9, 2021 (vs. Spencer)",
+        "value": "0.30"
+      },
+      {
+        "rank": 6,
+        "manager": "Mel",
+        "footer": "Week 7, 2025 (vs. Joe)",
+        "value": "0.30"
+      },
+      {
+        "rank": 7,
+        "manager": "Joe",
+        "footer": "Week 8, 2025 (vs. Clint)",
+        "value": "0.34"
+      },
+      {
+        "rank": 8,
+        "manager": "Travis",
+        "footer": "Week 13, 2024 (vs. Chance)",
+        "value": "0.44"
+      },
+      {
+        "rank": 9,
+        "manager": "Coulton",
+        "footer": "Week 1, 2022 (vs. Ryan)",
+        "value": "0.52"
+      },
+      {
+        "rank": 10,
+        "manager": "Hogan",
+        "footer": "Week 11, 2024 (vs. Ethan)",
+        "value": "0.66"
+      }
+    ]
+  }
+]
