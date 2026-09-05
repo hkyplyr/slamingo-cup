@@ -33,6 +33,10 @@ const DataStore = (() => {
     return load('data/head_to_head.json');
   }
 
+  function loadHallOfFame() {
+    return load('data/hall_of_fame.json');
+  }
+
   // --- Derived stats -------------------------------------------------
   // Stored data holds raw counts only (wins/losses/ties, all-play
   // record, etc). Percentages are computed here so there is exactly
@@ -73,6 +77,7 @@ const DataStore = (() => {
     loadCareerStats,
     loadRecordBook,
     loadHeadToHead,
+    loadHallOfFame,
     winPct,
     allPlayWinPct,
     luckPct,

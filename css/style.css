@@ -47,7 +47,7 @@ body {
 }
 
 .page {
-  width: 80%; /* Keeps a consistent relative edge padding on smaller desktop screens */
+  width: 95%; /* Keeps a consistent relative edge padding on smaller desktop screens */
   
   /* Centers the frame horizontally and creates clear, consistent 4rem vertical air gaps */
   margin: 0 auto 4rem; 
@@ -446,6 +446,50 @@ tbody tr.is-inactive td {
 .h2h-empty {
   color: var(--ink-soft);
   opacity: 0.5;
+}
+
+.h2h-total {
+  font-weight: 700;
+  font-family: var(--font-display);
+  border-left: 2px solid var(--rule-strong);
+}
+
+/* --- Hall of Fame --------------------------------------------------- */
+
+.hof-card td.col-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.player-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--paper-shade);
+  flex-shrink: 0;
+}
+
+.hof-player-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.hof-player-info .record-footer {
+  white-space: normal;
+}
+
+.hof-player-name {
+  font-weight: 600;
+}
+
+.hof-empty {
+  text-align: center;
+  color: var(--ink-soft);
+  font-style: italic;
+  padding: 1.25rem 0;
 }
 
 @font-face {

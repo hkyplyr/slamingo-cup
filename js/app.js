@@ -10,6 +10,7 @@ const Router = (() => {
   const views = {
     standings: { started: false, init: () => StandingsView.init() },
     'record-book': { started: false, init: () => RecordBookView.init() },
+    'hall-of-fame': { started: false, init: () => HallOfFameView.init() },
   };
 
   function currentViewFromHash() {

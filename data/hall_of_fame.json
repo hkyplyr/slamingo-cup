@@ -1,0 +1,1077 @@
+{
+  "top_seasons": {
+    "QB": [
+      {
+        "player": "Patrick Mahomes",
+        "player_id": "4046",
+        "season": 2022,
+        "points": "413.92",
+        "points_per_game": "25.87",
+        "managers": "Betty"
+      },
+      {
+        "player": "Lamar Jackson",
+        "player_id": "4881",
+        "season": 2024,
+        "points": "411.40",
+        "points_per_game": "25.71",
+        "managers": "Mitch"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2021,
+        "points": "393.72",
+        "points_per_game": "24.61",
+        "managers": "Spencer"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2022,
+        "points": "389.48",
+        "points_per_game": "24.34",
+        "managers": "Mason"
+      },
+      {
+        "player": "Kyler Murray",
+        "player_id": "5849",
+        "season": 2020,
+        "points": "386.96",
+        "points_per_game": "25.80",
+        "managers": "Chance"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2023,
+        "points": "385.58",
+        "points_per_game": "24.10",
+        "managers": "Mason"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2020,
+        "points": "385.30",
+        "points_per_game": "25.69",
+        "managers": "Curt"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2024,
+        "points": "385.04",
+        "points_per_game": "24.07",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Patrick Mahomes",
+        "player_id": "4046",
+        "season": 2020,
+        "points": "380.40",
+        "points_per_game": "25.36",
+        "managers": "Jason"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2025,
+        "points": "374.62",
+        "points_per_game": "23.41",
+        "managers": "Keegan"
+      }
+    ],
+    "RB": [
+      {
+        "player": "Christian McCaffrey",
+        "player_id": "4034",
+        "season": 2023,
+        "points": "357.80",
+        "points_per_game": "22.36",
+        "managers": "Mason"
+      },
+      {
+        "player": "Christian McCaffrey",
+        "player_id": "4034",
+        "season": 2025,
+        "points": "356.90",
+        "points_per_game": "22.31",
+        "managers": "Jason"
+      },
+      {
+        "player": "Jonathan Taylor",
+        "player_id": "6813",
+        "season": 2021,
+        "points": "342.10",
+        "points_per_game": "21.38",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Saquon Barkley",
+        "player_id": "4866",
+        "season": 2024,
+        "points": "338.80",
+        "points_per_game": "21.18",
+        "managers": "Chance"
+      },
+      {
+        "player": "Alvin Kamara",
+        "player_id": "4035",
+        "season": 2020,
+        "points": "336.30",
+        "points_per_game": "22.42",
+        "managers": "Curt"
+      },
+      {
+        "player": "Jonathan Taylor",
+        "player_id": "6813",
+        "season": 2025,
+        "points": "334.40",
+        "points_per_game": "20.90",
+        "managers": "Eric"
+      },
+      {
+        "player": "Bijan Robinson",
+        "player_id": "9509",
+        "season": 2025,
+        "points": "325.50",
+        "points_per_game": "20.34",
+        "managers": "Hogan"
+      },
+      {
+        "player": "Dalvin Cook",
+        "player_id": "4029",
+        "season": 2020,
+        "points": "315.80",
+        "points_per_game": "21.05",
+        "managers": "Mason"
+      },
+      {
+        "player": "Austin Ekeler",
+        "player_id": "4663",
+        "season": 2022,
+        "points": "312.20",
+        "points_per_game": "19.51",
+        "managers": "Ryan"
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "player_id": "9221",
+        "season": 2025,
+        "points": "309.60",
+        "points_per_game": "19.35",
+        "managers": "Betty"
+      }
+    ],
+    "WR": [
+      {
+        "player": "Cooper Kupp",
+        "player_id": "4039",
+        "season": 2021,
+        "points": "343.90",
+        "points_per_game": "21.49",
+        "managers": "Jason"
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "player_id": "7564",
+        "season": 2024,
+        "points": "318.90",
+        "points_per_game": "19.93",
+        "managers": "Ethan"
+      },
+      {
+        "player": "CeeDee Lamb",
+        "player_id": "6786",
+        "season": 2023,
+        "points": "306.70",
+        "points_per_game": "19.17",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Tyreek Hill",
+        "player_id": "3321",
+        "season": 2023,
+        "points": "299.20",
+        "points_per_game": "19.95",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Justin Jefferson",
+        "player_id": "6794",
+        "season": 2022,
+        "points": "298.86",
+        "points_per_game": "18.68",
+        "managers": "Mel"
+      },
+      {
+        "player": "Puka Nacua",
+        "player_id": "9493",
+        "season": 2025,
+        "points": "289.50",
+        "points_per_game": "19.30",
+        "managers": "Chance"
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "player_id": "9488",
+        "season": 2025,
+        "points": "289.00",
+        "points_per_game": "18.06",
+        "managers": "Chance"
+      },
+      {
+        "player": "Davante Adams",
+        "player_id": "2133",
+        "season": 2020,
+        "points": "287.30",
+        "points_per_game": "19.15",
+        "managers": "Travis"
+      },
+      {
+        "player": "Tyreek Hill",
+        "player_id": "3321",
+        "season": 2020,
+        "points": "285.40",
+        "points_per_game": "19.03",
+        "managers": "Hogan,Travis"
+      },
+      {
+        "player": "Tyreek Hill",
+        "player_id": "3321",
+        "season": 2022,
+        "points": "278.40",
+        "points_per_game": "17.40",
+        "managers": "Betty"
+      }
+    ],
+    "TE": [
+      {
+        "player": "Travis Kelce",
+        "player_id": "1466",
+        "season": 2020,
+        "points": "260.26",
+        "points_per_game": "17.35",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Travis Kelce",
+        "player_id": "1466",
+        "season": 2022,
+        "points": "254.50",
+        "points_per_game": "15.91",
+        "managers": "Travis"
+      },
+      {
+        "player": "Trey McBride",
+        "player_id": "8130",
+        "season": 2025,
+        "points": "242.90",
+        "points_per_game": "15.18",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Mark Andrews",
+        "player_id": "5012",
+        "season": 2021,
+        "points": "235.10",
+        "points_per_game": "14.69",
+        "managers": "Joe"
+      },
+      {
+        "player": "Travis Kelce",
+        "player_id": "1466",
+        "season": 2021,
+        "points": "205.40",
+        "points_per_game": "13.69",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Darren Waller",
+        "player_id": "2505",
+        "season": 2020,
+        "points": "202.90",
+        "points_per_game": "13.53",
+        "managers": "Spencer"
+      },
+      {
+        "player": "George Kittle",
+        "player_id": "4217",
+        "season": 2024,
+        "points": "193.90",
+        "points_per_game": "13.85",
+        "managers": "Mel"
+      },
+      {
+        "player": "Brock Bowers",
+        "player_id": "11604",
+        "season": 2024,
+        "points": "193.70",
+        "points_per_game": "12.11",
+        "managers": "Chance"
+      },
+      {
+        "player": "Sam LaPorta",
+        "player_id": "10859",
+        "season": 2023,
+        "points": "184.90",
+        "points_per_game": "11.56",
+        "managers": "Joe"
+      },
+      {
+        "player": "Travis Kelce",
+        "player_id": "1466",
+        "season": 2023,
+        "points": "172.90",
+        "points_per_game": "11.53",
+        "managers": "Chance"
+      }
+    ]
+  },
+
+  "top_weeks": {
+    "QB": [
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2024,
+        "week": 14,
+        "points": "51.88",
+        "points_per_game": "51.88",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2025,
+        "week": 11,
+        "points": "44.68",
+        "points_per_game": "44.68",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Justin Herbert",
+        "player_id": "6797",
+        "season": 2021,
+        "week": 5,
+        "points": "42.82",
+        "points_per_game": "42.82",
+        "managers": "Chance"
+      },
+      {
+        "player": "Lamar Jackson",
+        "player_id": "4881",
+        "season": 2022,
+        "week": 2,
+        "points": "42.62",
+        "points_per_game": "42.62",
+        "managers": "Jason"
+      },
+      {
+        "player": "Lamar Jackson",
+        "player_id": "4881",
+        "season": 2021,
+        "week": 5,
+        "points": "41.88",
+        "points_per_game": "41.88",
+        "managers": "Mel"
+      },
+      {
+        "player": "C.J. Stroud",
+        "player_id": "9758",
+        "season": 2023,
+        "week": 9,
+        "points": "41.80",
+        "points_per_game": "41.80",
+        "managers": "Travis"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2024,
+        "week": 15,
+        "points": "41.28",
+        "points_per_game": "41.28",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Jared Goff",
+        "player_id": "3163",
+        "season": 2024,
+        "week": 15,
+        "points": "41.06",
+        "points_per_game": "41.06",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Tua Tagovailoa",
+        "player_id": "6768",
+        "season": 2022,
+        "week": 2,
+        "points": "40.86",
+        "points_per_game": "40.86",
+        "managers": "Ryan"
+      },
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "season": 2023,
+        "week": 12,
+        "points": "40.66",
+        "points_per_game": "40.66",
+        "managers": "Mason"
+      }
+    ],
+
+    "RB": [
+      {
+        "player": "Alvin Kamara",
+        "player_id": "4035",
+        "season": 2020,
+        "week": 16,
+        "points": "54.70",
+        "points_per_game": "54.70",
+        "managers": "Curt"
+      },
+      {
+        "player": "Joe Mixon",
+        "player_id": "4018",
+        "season": 2022,
+        "week": 9,
+        "points": "53.10",
+        "points_per_game": "53.10",
+        "managers": "Mitch"
+      },
+      {
+        "player": "Jonathan Taylor",
+        "player_id": "6813",
+        "season": 2021,
+        "week": 11,
+        "points": "51.90",
+        "points_per_game": "51.90",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "player_id": "9221",
+        "season": 2025,
+        "week": 12,
+        "points": "49.90",
+        "points_per_game": "49.90",
+        "managers": "Betty"
+      },
+      {
+        "player": "De'Von Achane",
+        "player_id": "9226",
+        "season": 2023,
+        "week": 3,
+        "points": "49.30",
+        "points_per_game": "49.30",
+        "managers": "Betty"
+      },
+      {
+        "player": "Jonathan Taylor",
+        "player_id": "6813",
+        "season": 2025,
+        "week": 10,
+        "points": "48.10",
+        "points_per_game": "48.10",
+        "managers": "Eric"
+      },
+      {
+        "player": "Dalvin Cook",
+        "player_id": "4029",
+        "season": 2020,
+        "week": 8,
+        "points": "47.60",
+        "points_per_game": "47.60",
+        "managers": "Mason"
+      },
+      {
+        "player": "Derrick Henry",
+        "player_id": "3198",
+        "season": 2025,
+        "week": 17,
+        "points": "45.60",
+        "points_per_game": "45.60",
+        "managers": "Keegan"
+      },
+      {
+        "player": "Josh Jacobs",
+        "player_id": "5850",
+        "season": 2022,
+        "week": 12,
+        "points": "45.30",
+        "points_per_game": "45.30",
+        "managers": "Joe"
+      },
+      {
+        "player": "Christian McCaffrey",
+        "player_id": "4034",
+        "season": 2023,
+        "week": 4,
+        "points": "45.20",
+        "points_per_game": "45.20",
+        "managers": "Mason"
+      }
+    ],
+    "WR": [
+      {
+        "player": "Tyreek Hill",
+        "player_id": "3321",
+        "season": 2020,
+        "week": 12,
+        "points": "51.40",
+        "points_per_game": "51.40",
+        "managers": "Travis"
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "player_id": "7564",
+        "season": 2021,
+        "week": 17,
+        "points": "50.10",
+        "points_per_game": "50.10",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "player_id": "7564",
+        "season": 2024,
+        "week": 10,
+        "points": "49.90",
+        "points_per_game": "49.90",
+        "managers": "Ethan"
+      },
+      {
+        "player": "Amari Cooper",
+        "player_id": "2309",
+        "season": 2023,
+        "week": 16,
+        "points": "46.00",
+        "points_per_game": "46.00",
+        "managers": "Mason"
+      },
+      {
+        "player": "Tyler Lockett",
+        "player_id": "2374",
+        "season": 2020,
+        "week": 7,
+        "points": "45.50",
+        "points_per_game": "45.50",
+        "managers": "Spencer"
+      },
+      {
+        "player": "DJ Moore",
+        "player_id": "4983",
+        "season": 2023,
+        "week": 5,
+        "points": "45.00",
+        "points_per_game": "45.00",
+        "managers": "Hogan"
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "player_id": "7564",
+        "season": 2023,
+        "week": 5,
+        "points": "44.70",
+        "points_per_game": "44.70",
+        "managers": "Mel"
+      },
+      {
+        "player": "Mike Evans",
+        "player_id": "2216",
+        "season": 2022,
+        "week": 17,
+        "points": "43.70",
+        "points_per_game": "43.70",
+        "managers": "Ryan"
+      },
+      {
+        "player": "Tyreek Hill",
+        "player_id": "3321",
+        "season": 2021,
+        "week": 4,
+        "points": "42.10",
+        "points_per_game": "42.10",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Jauan Jennings",
+        "player_id": "7049",
+        "season": 2024,
+        "week": 3,
+        "points": "41.00",
+        "points_per_game": "41.00",
+        "managers": "Mitch"
+      }
+    ],
+    "TE": [
+      {
+        "player": "Kyle Pitts",
+        "player_id": "7553",
+        "season": 2025,
+        "week": 15,
+        "points": "40.10",
+        "points_per_game": "40.10",
+        "managers": "Jason"
+      },
+      {
+        "player": "Taysom Hill",
+        "player_id": "4381",
+        "season": 2024,
+        "week": 11,
+        "points": "38.52",
+        "points_per_game": "38.52",
+        "managers": "Mel"
+      },
+      {
+        "player": "Darren Waller",
+        "player_id": "2505",
+        "season": 2020,
+        "week": 13,
+        "points": "38.50",
+        "points_per_game": "38.50",
+        "managers": "Spencer"
+      },
+      {
+        "player": "Brock Bowers",
+        "player_id": "11604",
+        "season": 2025,
+        "week": 9,
+        "points": "37.30",
+        "points_per_game": "37.30",
+        "managers": "Betty"
+      },
+      {
+        "player": "Mark Andrews",
+        "player_id": "5012",
+        "season": 2021,
+        "week": 5,
+        "points": "36.20",
+        "points_per_game": "36.20",
+        "managers": "Joe"
+      },
+      {
+        "player": "Travis Kelce",
+        "player_id": "1466",
+        "season": 2021,
+        "week": 15,
+        "points": "36.10",
+        "points_per_game": "36.10",
+        "managers": "Keegan"
+      },
+      {
+        "player": "T.J. Hockenson",
+        "player_id": "5844",
+        "season": 2022,
+        "week": 4,
+        "points": "35.90",
+        "points_per_game": "35.90",
+        "managers": "Betty"
+      },
+      {
+        "player": "George Kittle",
+        "player_id": "4217",
+        "season": 2021,
+        "week": 13,
+        "points": "35.10",
+        "points_per_game": "35.10",
+        "managers": "Coulton"
+      },
+      {
+        "player": "Evan Engram",
+        "player_id": "4066",
+        "season": 2022,
+        "week": 14,
+        "points": "33.70",
+        "points_per_game": "33.70",
+        "managers": "Joe"
+      },
+      {
+        "player": "George Kittle",
+        "player_id": "4217",
+        "season": 2020,
+        "week": 4,
+        "points": "32.60",
+        "points_per_game": "32.60",
+        "managers": "Curt"
+      }
+    ]
+  },
+
+  "all_time": {
+    "QB": [
+      {
+        "player": "Josh Allen",
+        "player_id": "4984",
+        "points": "2313.74",
+        "points_per_game": "24.36",
+        "games_played": 95,
+        "managers": ["Mason", "Keegan", "Spencer", "Curt"]
+      },
+      {
+        "player": "Patrick Mahomes",
+        "player_id": "4046",
+        "points": "2026.70",
+        "points_per_game": "21.33",
+        "games_played": 95,
+        "managers": ["Betty", "Jason", "Keegan"]
+      },
+      {
+        "player": "Jalen Hurts",
+        "player_id": "6904",
+        "points": "1786.80",
+        "points_per_game": "19.64",
+        "games_played": 91,
+        "managers": ["Coulton", "Jason", "Mel", "Betty", "Keegan"]
+      },
+      {
+        "player": "Lamar Jackson",
+        "player_id": "4881",
+        "points": "1762.68",
+        "points_per_game": "21.50",
+        "games_played": 82,
+        "managers": ["Mitch", "Coulton", "Spencer", "Mel", "Jason"]
+      },
+      {
+        "player": "Justin Herbert",
+        "player_id": "6797",
+        "points": "1749.54",
+        "points_per_game": "18.42",
+        "games_played": 95,
+        "managers": ["Chance", "Clint", "Keegan", "Betty", "Joe", "Travis"]
+      },
+      {
+        "player": "Jared Goff",
+        "player_id": "3163",
+        "points": "1613.16",
+        "points_per_game": "17.35",
+        "games_played": 93,
+        "managers": [
+          "Coulton",
+          "Mel",
+          "Joe",
+          "Betty",
+          "Mitch",
+          "Jason",
+          "Spencer"
+        ]
+      },
+      {
+        "player": "Joe Burrow",
+        "player_id": "6770",
+        "points": "1502.66",
+        "points_per_game": "16.70",
+        "games_played": 90,
+        "managers": [
+          "Chance",
+          "Hogan",
+          "Jason H.",
+          "Curt",
+          "Mitch",
+          "Mel",
+          "Travis"
+        ]
+      },
+      {
+        "player": "Matthew Stafford",
+        "player_id": "421",
+        "points": "1498.94",
+        "points_per_game": "16.29",
+        "games_played": 92,
+        "managers": ["Joe", "Betty", "Hogan", "Jason", "Chance"]
+      },
+      {
+        "player": "Baker Mayfield",
+        "player_id": "4892",
+        "points": "1462.46",
+        "points_per_game": "15.90",
+        "games_played": 92,
+        "managers": ["Ethan", "Mel", "Travis", "Mason"]
+      },
+      {
+        "player": "Dak Prescott",
+        "player_id": "3294",
+        "points": "1415.06",
+        "points_per_game": "18.14",
+        "games_played": 78,
+        "managers": ["Chance", "Hogan", "Joe", "Betty", "Jason"]
+      }
+    ],
+    "RB": [
+      {
+        "player": "Derrick Henry",
+        "player_id": "3198",
+        "points": "1514.42",
+        "points_per_game": "16.11",
+        "games_played": 94,
+        "managers": ["Mason", "Mel", "Travis", "Keegan", "Mitch", "Jason H."]
+      },
+      {
+        "player": "Jonathan Taylor",
+        "player_id": "6813",
+        "points": "1337.30",
+        "points_per_game": "15.73",
+        "games_played": 85,
+        "managers": ["Coulton", "Eric", "Hogan", "Keegan", "Mel"]
+      },
+      {
+        "player": "Josh Jacobs",
+        "player_id": "5850",
+        "points": "1313.00",
+        "points_per_game": "14.43",
+        "games_played": 91,
+        "managers": ["Joe", "Hogan", "Chance", "Travis"]
+      },
+      {
+        "player": "Christian McCaffrey",
+        "player_id": "4034",
+        "points": "1244.36",
+        "points_per_game": "14.14",
+        "games_played": 88,
+        "managers": ["Mason", "Jason", "Coulton", "Mel", "Betty", "Joe"]
+      },
+      {
+        "player": "Alvin Kamara",
+        "player_id": "4035",
+        "points": "1213.00",
+        "points_per_game": "14.79",
+        "games_played": 82,
+        "managers": ["Curt", "Keegan", "Mason", "Joe", "Jason", "Mitch"]
+      },
+      {
+        "player": "Saquon Barkley",
+        "player_id": "4866",
+        "points": "1122.20",
+        "points_per_game": "14.77",
+        "games_played": 76,
+        "managers": ["Chance", "Travis", "Keegan", "Jason"]
+      },
+      {
+        "player": "David Montgomery",
+        "player_id": "5892",
+        "points": "1080.64",
+        "points_per_game": "12.14",
+        "games_played": 89,
+        "managers": ["Mitch", "Joe", "Betty", "Keegan", "Jason"]
+      },
+      {
+        "player": "Aaron Jones",
+        "player_id": "4199",
+        "points": "1048.80",
+        "points_per_game": "11.92",
+        "games_played": 88,
+        "managers": ["Chance", "Joe", "Jason", "Mason", "Coulton", "Mel"]
+      },
+      {
+        "player": "D'Andre Swift",
+        "player_id": "6790",
+        "points": "1039.70",
+        "points_per_game": "11.95",
+        "games_played": 87,
+        "managers": ["Chance", "Mason", "Jason", "Coulton", "Travis"]
+      },
+      {
+        "player": "Austin Ekeler",
+        "player_id": "4663",
+        "points": "991.50",
+        "points_per_game": "11.66",
+        "games_played": 85,
+        "managers": ["Mason", "Ryan", "Jason", "Betty"]
+      }
+    ],
+    "WR": [
+      {
+        "player": "Davante Adams",
+        "player_id": "2133",
+        "points": "1412.00",
+        "points_per_game": "15.69",
+        "games_played": 90,
+        "managers": ["Travis", "Keegan", "Mitch", "Ethan"]
+      },
+      {
+        "player": "Tyreek Hill",
+        "player_id": "3321",
+        "points": "1321.00",
+        "points_per_game": "14.05",
+        "games_played": 94,
+        "managers": ["Keegan", "Betty", "Coulton", "Travis", "Hogan", "Ethan"]
+      },
+      {
+        "player": "Justin Jefferson",
+        "player_id": "6794",
+        "points": "1310.44",
+        "points_per_game": "13.79",
+        "games_played": 95,
+        "managers": ["Joe", "Mel", "Ethan", "Chance"]
+      },
+      {
+        "player": "CeeDee Lamb",
+        "player_id": "6786",
+        "points": "1271.90",
+        "points_per_game": "13.98",
+        "games_played": 91,
+        "managers": ["Mason", "Coulton", "Mel", "Mitch", "Spencer"]
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "player_id": "7564",
+        "points": "1200.02",
+        "points_per_game": "16.00",
+        "games_played": 75,
+        "managers": ["Mel", "Ethan", "Coulton", "Jason"]
+      },
+      {
+        "player": "Stefon Diggs",
+        "player_id": "2449",
+        "points": "1184.22",
+        "points_per_game": "12.47",
+        "games_played": 95,
+        "managers": ["Mason", "Chance", "Mitch", "Keegan", "Jason"]
+      },
+      {
+        "player": "A.J. Brown",
+        "player_id": "5859",
+        "points": "1161.00",
+        "points_per_game": "12.76",
+        "games_played": 91,
+        "managers": ["Mason", "Ryan", "Chance", "Jason", "Mel"]
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "player_id": "7547",
+        "points": "1108.48",
+        "points_per_game": "14.21",
+        "games_played": 78,
+        "managers": ["Coulton", "Hogan", "Mitch", "Joe"]
+      },
+      {
+        "player": "DK Metcalf",
+        "player_id": "5846",
+        "points": "1095.00",
+        "points_per_game": "11.90",
+        "games_played": 92,
+        "managers": ["Jason", "Mel", "Jason H.", "Ethan"]
+      },
+      {
+        "player": "Mike Evans",
+        "player_id": "2216",
+        "points": "1090.70",
+        "points_per_game": "12.39",
+        "games_played": 88,
+        "managers": ["Travis", "Jason", "Hogan", "Ryan"]
+      }
+    ],
+    "TE": [
+      {
+        "player": "Travis Kelce",
+        "player_id": "1466",
+        "points": "1192.46",
+        "points_per_game": "12.82",
+        "games_played": 93,
+        "managers": ["Keegan", "Travis", "Chance"]
+      },
+      {
+        "player": "George Kittle",
+        "player_id": "4217",
+        "points": "895.60",
+        "points_per_game": "10.66",
+        "games_played": 84,
+        "managers": ["Mel", "Ethan", "Coulton", "Mason", "Joe", "Curt"]
+      },
+      {
+        "player": "Mark Andrews",
+        "player_id": "5012",
+        "points": "890.90",
+        "points_per_game": "9.79",
+        "games_played": 91,
+        "managers": ["Joe", "Coulton", "Laura", "Ethan"]
+      },
+      {
+        "player": "T.J. Hockenson",
+        "player_id": "5844",
+        "points": "745.80",
+        "points_per_game": "8.02",
+        "games_played": 93,
+        "managers": ["Chance", "Keegan", "Betty", "Mason", "Clint"]
+      },
+      {
+        "player": "Dalton Schultz",
+        "player_id": "5001",
+        "points": "696.60",
+        "points_per_game": "7.65",
+        "games_played": 91,
+        "managers": [
+          "Betty",
+          "Coulton",
+          "Mitch",
+          "Hogan",
+          "Chance",
+          "Spencer",
+          "Jason"
+        ]
+      },
+      {
+        "player": "Dallas Goedert",
+        "player_id": "5022",
+        "points": "672.60",
+        "points_per_game": "8.01",
+        "games_played": 84,
+        "managers": ["Mel", "Betty", "Hogan", "Coulton"]
+      },
+      {
+        "player": "Hunter Henry",
+        "player_id": "3214",
+        "points": "671.70",
+        "points_per_game": "7.30",
+        "games_played": 92,
+        "managers": [
+          "Ethan",
+          "Joe",
+          "Jason",
+          "Travis",
+          "Coulton",
+          "Chance",
+          "Spencer",
+          "Keegan",
+          "Mason"
+        ]
+      },
+      {
+        "player": "Taysom Hill",
+        "player_id": "4381",
+        "points": "637.00",
+        "points_per_game": "7.32",
+        "games_played": 87,
+        "managers": ["Mason", "Coulton", "Mel", "Jason H.", "Travis", "Mitch"]
+      },
+      {
+        "player": "Evan Engram",
+        "player_id": "4066",
+        "points": "613.30",
+        "points_per_game": "6.74",
+        "games_played": 91,
+        "managers": [
+          "Hogan",
+          "Joe",
+          "Travis",
+          "Coulton",
+          "Mason",
+          "Mel",
+          "Eric"
+        ]
+      },
+      {
+        "player": "Trey McBride",
+        "player_id": "8130",
+        "points": "586.70",
+        "points_per_game": "9.46",
+        "games_played": 62,
+        "managers": ["Coulton", "Mitch", "Travis"]
+      }
+    ]
+  }
+}
