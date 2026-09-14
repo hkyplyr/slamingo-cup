@@ -1,6 +1,7 @@
 [
   {
     "name": "Highest Scores",
+    "ordinal": 1,
     "entries": [
       {
         "rank": 1,
@@ -66,6 +67,7 @@
   },
   {
     "name": "Lowest Scores",
+    "ordinal": 2,
     "entries": [
       {
         "rank": 1,
@@ -131,6 +133,7 @@
   },
   {
     "name": "Biggest Blowouts",
+    "ordinal": 3,
     "entries": [
       {
         "rank": 1,
@@ -196,6 +199,7 @@
   },
   {
     "name": "Closest Matchups",
+    "ordinal": 4,
     "entries": [
       {
         "rank": 1,

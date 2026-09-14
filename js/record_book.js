@@ -72,14 +72,14 @@ const RecordBookView = (() => {
     const { managers, matchups } = data;
     const lookup = buildLookup(matchups);
 
-    const headerCells = managers.map((m) => `<th>${m}</th>`).join('');
+    const headerCells = managers.map((m) => `<th>${m.name}</th>`).join('');
 
     const bodyRows = managers
       .map((rowMgr) => {
         const cells = managers
           .map((colMgr) => {
-            if (rowMgr === colMgr) return `<td class="h2h-diag">—</td>`;
-            const rec = getRecord(lookup, rowMgr, colMgr);
+            if (rowMgr.name === colMgr.name) return `<td class="h2h-diag">—</td>`;
+            const rec = getRecord(lookup, rowMgr.name, colMgr.name);
             if (!rec) return `<td class="h2h-empty">—</td>`;
             const cls = rec.wins > rec.losses ? 'h2h-win' : rec.wins < rec.losses ? 'h2h-loss' : 'h2h-tie';
             return `<td class="${cls}">${fmtRecord(rec)}</td>`;
@@ -88,7 +88,7 @@ const RecordBookView = (() => {
 
         return `
           <tr>
-            <th scope="row">${rowMgr}</th>
+            <th scope="row">${rowMgr.name}</th>
             ${cells}
           </tr>`;
       })

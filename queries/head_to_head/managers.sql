@@ -1,0 +1,1 @@
+SELECT name FROM managers WHERE active = 1;

@@ -86,10 +86,27 @@ const StandingsView = (() => {
       const bv = b[field];
       if (av === null || av === undefined) return 1;
       if (bv === null || bv === undefined) return -1;
+
+      let primaryComparison = 0;
+
       if (typeof av === 'string') {
-        return sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+        primaryComparison = sortDir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+      } else {
+        primaryComparison = sortDir === 'asc' ? av - bv : bv - av;
       }
-      return sortDir === 'asc' ? av - bv : bv - av;
+
+      if (primaryComparison === 0 && field !== 'points_for') {
+        const pointsForA = a.points_for ?? 0;
+        const pointsForB = b.points_for ?? 0;
+
+        if (field === 'avg_finish' && sortDir === 'asc') {
+          return pointsForB - pointsForA;
+        }
+
+        return sortDir === 'asc' ? pointsForA - pointsForB : pointsForB - pointsForA;
+      }
+
+      return primaryComparison;
     });
     return rows;
   }

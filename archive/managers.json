@@ -1,0 +1,21 @@
+[
+  { "name": "Betty", "active": 1 },
+  { "name": "Chance", "active": 1 },
+  { "name": "Clint", "active": 1 },
+  { "name": "Coulton", "active": 1 },
+  { "name": "Curt", "active": 0 },
+  { "name": "Eric", "active": 1 },
+  { "name": "Ethan", "active": 1 },
+  { "name": "Hogan", "active": 1 },
+  { "name": "Jason", "active": 1 },
+  { "name": "Jason H.", "active": 0 },
+  { "name": "Joe", "active": 1 },
+  { "name": "Keegan", "active": 1 },
+  { "name": "Laura", "active": 0 },
+  { "name": "Mason", "active": 1 },
+  { "name": "Mel", "active": 1 },
+  { "name": "Mitch", "active": 1 },
+  { "name": "Ryan", "active": 0 },
+  { "name": "Spencer", "active": 0 },
+  { "name": "Travis", "active": 1 }
+]

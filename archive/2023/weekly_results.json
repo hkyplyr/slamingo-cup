@@ -1,0 +1,1962 @@
+[
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 111.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 74.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 83.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 44.72,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 94.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 63.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 104.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 85.54,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 134.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 88.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 90.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 1,
+    "points_for": 84.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 130.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 116.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 144.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 93.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 105.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 120.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 57.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 74.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 76.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 135.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 97.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 2,
+    "points_for": 90.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 159.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 81.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 116,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 213.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 103.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 90.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 96.16,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 106.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 111.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 80.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 117.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 3,
+    "points_for": 113.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 77.72,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 102.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 86.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 100.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 133.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 138.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 90.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 83.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 157.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 63.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 88.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 4,
+    "points_for": 145,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 137.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 115.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 56.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 82.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 78.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 121.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 91.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 81.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 72.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 123.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 129.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 5,
+    "points_for": 130.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 117.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 114.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 85.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 89.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 122.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 87.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 102.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 92.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 99,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 86.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 96.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 6,
+    "points_for": 75.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 68.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 77.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 82.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 132.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 148.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 129.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 75.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 63.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 117.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 108.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 105.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 7,
+    "points_for": 62.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 94.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 107.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 95.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 128.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 111.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 88.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 125.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 99.3,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 87.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 127.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 149.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 8,
+    "points_for": 159.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 75.54,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 133.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 153.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 77.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 110.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 95.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 102.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 67.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 115.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 81,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 122.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 9,
+    "points_for": 78.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 80.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 102.42,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 138.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 66.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 117.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 107.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 94.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 138.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 101.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 143.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 111.42,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 10,
+    "points_for": 112.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 118.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 75.54,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 140.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 103.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 98.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 98.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 72.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 118,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 93.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 59.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 126.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 11,
+    "points_for": 114.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 146.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 112.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 145.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 131.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 96.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 83.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 134.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 139.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 103.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 95.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 78.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 12,
+    "points_for": 70.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 114,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 120.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 123.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 91.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 126.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 109.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 74.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 103.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 119.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 125.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 92.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 13,
+    "points_for": 105.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 93.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 135.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 103.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 144.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 97.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 74.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 90.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 86.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 106.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 93.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 98.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 14,
+    "points_for": 89.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 102.82,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 108.74,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 113.12,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 149.66,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 83.36,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 70.36,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 77.58,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 15,
+    "points_for": 96.18,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 77.94,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 102.58,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 143.58,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Travis"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 60.82,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mel"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 112.22,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 87.12,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 80.1,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 131.48,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 100.24,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 115.58,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 119.48,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 16,
+    "points_for": 107.32,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 154.54,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 67.2,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 108.9,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 86.36,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mason"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 134.9,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 141.58,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 94.18,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2023,
+    "week": 17,
+    "points_for": 122.04,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Ethan"
+  }
+]

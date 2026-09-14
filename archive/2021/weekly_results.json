@@ -1,0 +1,1962 @@
+[
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 121.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 150.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 85.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Spencer",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 88.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 110.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 161.16,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 124.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 96.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 102.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 122.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 97.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 1,
+    "points_for": 120.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 128.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 114.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 93.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 88.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 106.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason H.",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 130.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 111.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 133.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 121.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 110.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 117.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 2,
+    "points_for": 89.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 101.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason H.",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 121.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 122.28,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 97.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 122.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 82.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 118.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 100.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 140.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 97.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 99.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 3,
+    "points_for": 121.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 81.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 96.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 68.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 104.16,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 123.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 113.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 122.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 90.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 133.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 116.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason H.",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 117.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 4,
+    "points_for": 86.3,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 133.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 87.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 147.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 143.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 145.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 120.54,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 117.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Spencer",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 127.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 134.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 105.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason H.",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 84.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 5,
+    "points_for": 129.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 106.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 125.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 111.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 133.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 95.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 124.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 82.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 113.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 120.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 102.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason H.",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 102.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 6,
+    "points_for": 141.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 73.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 111.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 132,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 118.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 81.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 122.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 124.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason H.",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 130.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 119.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 82.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 85.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 7,
+    "points_for": 92.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 106.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 84.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 86.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 103.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 99.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 95.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 138.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 108.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 81.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 125.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 116.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 8,
+    "points_for": 85.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 71.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 94.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 72.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 107.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 114.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 126.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 132.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 101.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 108.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 65.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 56.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 9,
+    "points_for": 57.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 83.42,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 79.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 108.72,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 80.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 94.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 91.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 113.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 89.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 105.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 89.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 76.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 10,
+    "points_for": 126.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 102.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 86.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 134.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 111.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 138.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 95.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 179.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 110.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 108.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 87.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 62.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 11,
+    "points_for": 107.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 86.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 114.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 116.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Spencer",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 119.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 80.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 82.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 82.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 123.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 81.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 114.54,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 106.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 12,
+    "points_for": 95.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 128.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 98.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 95.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 118.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 110.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 24.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 144.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 119.42,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 104.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 110.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 85.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Spencer",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 13,
+    "points_for": 90.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 130.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 85.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 117.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 89.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 104.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 141.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 134.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 89.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 114.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 122.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 139.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 14,
+    "points_for": 97.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Spencer",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 65.78,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 105.14,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 93.64,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 101.9,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 107.08,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 82.34,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 57.56,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Spencer",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 15,
+    "points_for": 70.8,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 38.7,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Jason H."
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 124.4,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Jason H.",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 116.2,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 108.58,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 100.14,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 68.34,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 87.1,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 101.36,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 118.58,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Jason"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 105.22,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 124.26,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 16,
+    "points_for": 140.68,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 100.5,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Spencer"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 147.06,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Spencer",
+    "manager": "Joe"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 102.34,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 83.82,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mason"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 131.62,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 100.76,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 105.18,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2021,
+    "week": 17,
+    "points_for": 119.3,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Jason"
+  }
+]

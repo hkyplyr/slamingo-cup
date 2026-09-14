@@ -27,20 +27,18 @@ const HallOfFameView = (() => {
   }
 
   function renderPlayerRow(entry, index, tabKey) {
-    let managers = [];
+    let managersList = [];
     let fullManagers = [];
-    if (Array.isArray(entry.managers)) {
-        if (entry.managers.length <= 2) {
-            managers = entry.managers.join(', ');
-        } else {
-            const [first, second] = entry.managers;
-            const remainingCount = entry.managers.length - 2
-            managers = `${first}, ${second} +${remainingCount}`
-        }
-        fullManagers = entry.managers.join(',');
+    let managers = "";
+
+    managersList = entry.managers.split(',');
+
+    if (managersList.length <= 2) {
+      managers  = managersList.join(', ');
     } else {
-        managers = entry.managers
-        fullManagers = entry.managers
+      const [first, second] = managersList;
+      const remainingCount = managersList.length - 2;
+      managers = `${first}, ${second} +${remainingCount}`;
     }
 
     const context = fmtContext(tabKey, entry);

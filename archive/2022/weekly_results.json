@@ -1,0 +1,1962 @@
+[
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 125.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 116.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 85.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 100.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 109.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 98.72,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 117.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 114.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 121.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 106.16,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 92.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 1,
+    "points_for": 91.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 128.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 149.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 76.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 76.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 98.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 101.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 70.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 103.72,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 89.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 111.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 153.28,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 2,
+    "points_for": 141.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 96.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 86.16,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 142.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 89.94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 106.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 128,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 96.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 82.72,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 75.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 77.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 98.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 3,
+    "points_for": 100.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 109.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 82.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 136.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 166.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 99.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 87.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 116.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 130.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 120.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 95.98,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 95.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 4,
+    "points_for": 89.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 83.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 105.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 108.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 147.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 87.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 88.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 67.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 109.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 140.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 113.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 114.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 5,
+    "points_for": 118.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 56.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 122.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 87.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 102.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 70.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 119.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 77.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "T",
+    "opponent": "Joe",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 77.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "T",
+    "opponent": "Mel",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 103.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 101.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 120.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 6,
+    "points_for": 84.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 96.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 118.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 79.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 66.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 103.46,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 147.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 50.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 89.3,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 108.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 95.42,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 101.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 7,
+    "points_for": 116.44,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 88.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 100.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 114.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 108.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 116.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 79.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 81.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 153.86,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 140.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 103.28,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 130.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 8,
+    "points_for": 135.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 92.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 146.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 113.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 101.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 102.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 101.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 79.3,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 122.54,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 139.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 74.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 88.06,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 9,
+    "points_for": 86.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 128.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 79.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 77.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 90.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 125.02,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 84.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 85.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 117.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 78.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 83.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 109.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 10,
+    "points_for": 91.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 94,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 111.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 128.5,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 72.28,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 126.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 102.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 57,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 122.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 114.42,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 94.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 93.76,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 11,
+    "points_for": 124.3,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 80.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 149.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 129.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 84.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 72.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 104.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 111.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 102.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 95.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 144.04,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 105.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 12,
+    "points_for": 78.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 98.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 130.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 97.88,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 116,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 110.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 116.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 105.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 89.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 109.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 112.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 99.52,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 13,
+    "points_for": 100.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 81.16,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ryan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 103.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 87.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 108.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 99.92,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 94.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 94.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 85.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 70.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 107.66,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 109.38,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 14,
+    "points_for": 117.08,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 123,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 116.16,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 105.32,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 90.94,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 57.82,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 61.28,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 123.26,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 15,
+    "points_for": 109.14,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 93.96,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 117.88,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 113.3,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 137.06,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 85.2,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 100.4,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 69.1,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 92.9,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 114.56,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 87.06,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 120.18,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Ryan",
+    "manager": "Joe"
+  },
+  {
+    "season": 2022,
+    "week": 16,
+    "points_for": 81.6,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Ryan"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 84,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mason"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 115.22,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 59.82,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Travis"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 71.7,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Chance"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 51,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Mel"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 118.5,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 51.6,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2022,
+    "week": 17,
+    "points_for": 154.88,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Coulton"
+  }
+]
