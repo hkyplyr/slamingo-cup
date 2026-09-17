@@ -7,13 +7,17 @@ import requests
 APP_API_URL = "https://api.sleeper.app/v1"
 COM_API_URL = "https://api.sleeper.com"
 
+REQUEST_TIMEOUT = 10
+
+_session = requests.Session()
+
 
 def get_weekly_results(league_id, season, week):
-    league_info = __get_league_info(league_id)
-    managers = __get_managers(league_id)
+    league_info = _get_league_info(league_id)
+    managers = _get_managers(league_id)
 
     matchups = {}
-    for matchup in __get_matchups(league_id, week):
+    for matchup in _get_matchups(league_id, week):
         if matchup["matchup_id"] in matchups:
             matchups[matchup["matchup_id"]].append(matchup)
         else:
@@ -24,38 +28,27 @@ def get_weekly_results(league_id, season, week):
         if matchup_id is None:
             continue
 
-        result_one = {
-            "season": season,
-            "week": week,
-            "points_for": opponents[0]["points"],
-            "playoffs": int(week >= league_info["settings"]["playoff_week_start"]),
-            "consolation": int(False),
-            "result": __result(opponents[0], opponents[1]),
-            "opponent": managers[opponents[1]["roster_id"]],
-            "manager": managers[opponents[0]["roster_id"]],
-        }
+        for a, b in [[opponents[0], opponents[1]], [opponents[1], opponents[0]]]:
+            weekly_results.append(
+                {
+                    "season": season,
+                    "week": week,
+                    "points_for": a["points"],
+                    "playoffs": int(
+                        week >= league_info["settings"]["playoff_week_start"]
+                    ),
+                    # TODO - add consolation logic
+                    "consolation": int(False),
+                    "result": _result(a, b),
+                    "opponent": managers[b["roster_id"]],
+                    "manager": managers[a["roster_id"]],
+                }
+            )
 
-        result_two = {
-            "season": season,
-            "week": week,
-            "points_for": opponents[1]["points"],
-            "playoffs": int(week >= league_info["settings"]["playoff_week_start"]),
-            "consolation": int(False),
-            "result": __result(opponents[1], opponents[0]),
-            "opponent": managers[opponents[0]["roster_id"]],
-            "manager": managers[opponents[1]["roster_id"]],
-        }
-
-        weekly_results.extend([result_one, result_two])
-
-    file_path = Path(f"archive/{season}/{week}/weekly_results.json")
-    file_path.parent.mkdir(parents=True, exist_ok=True)
-
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(weekly_results, f, indent=2)
+    _save(weekly_results, season, week, "weekly_results")
 
 
-def __result(opponent_one, opponent_two):
+def _result(opponent_one, opponent_two):
     if opponent_one["points"] > opponent_two["points"]:
         return "W"
     elif opponent_one["points"] < opponent_two["points"]:
@@ -65,24 +58,16 @@ def __result(opponent_one, opponent_two):
 
 
 def get_player_stats(season, week):
-    file_path = Path(f"archive/{season}/{week}/player_stats.json")
-    file_path.parent.mkdir(parents=True, exist_ok=True)
-
-    results = __get_statistics(season, week)
-
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2)
+    player_stats = _get_statistics(season, week)
+    _save(player_stats, season, week, "player_stats")
 
 
 def get_selected_positions(league_id, season, week):
-    file_path = Path(f"archive/{season}/{week}/selected_positions.json")
-    file_path.parent.mkdir(parents=True, exist_ok=True)
-
-    managers = __get_managers(league_id)
-    league_info = __get_league_info(league_id)
+    managers = _get_managers(league_id)
+    league_info = _get_league_info(league_id)
 
     selected_positions = []
-    for matchup in __get_matchups(league_id, week):
+    for matchup in _get_matchups(league_id, week):
         manager_name = managers[matchup["roster_id"]]
         starter_positions = {
             starter_id: league_info["roster_positions"][idx]
@@ -100,35 +85,30 @@ def get_selected_positions(league_id, season, week):
                 }
             )
 
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(selected_positions, f, indent=2)
+    _save(selected_positions, season, week, "selected_positions")
 
 
-def __get_league_info(league_id):
-    return __get(APP_API_URL, f"/league/{league_id}")
+def _get_league_info(league_id):
+    return _get(APP_API_URL, f"/league/{league_id}")
 
 
-def __get_managers(league_id):
+def _get_managers(league_id):
     roster_to_user = {
         e["owner_id"]: e["roster_id"]
-        for e in __get(APP_API_URL, f"/league/{league_id}/rosters")
+        for e in _get(APP_API_URL, f"/league/{league_id}/rosters")
     }
 
     return {
-        roster_to_user[e["user_id"]]: __translate(e["display_name"])
-        for e in __get(APP_API_URL, f"/league/{league_id}/users")
+        roster_to_user[e["user_id"]]: _translate(e["display_name"])
+        for e in _get(APP_API_URL, f"/league/{league_id}/users")
     }
 
 
-def __get_matchups(league_id, week):
-    return __get(APP_API_URL, f"/league/{league_id}/matchups/{week}")
+def _get_matchups(league_id, week):
+    return _get(APP_API_URL, f"/league/{league_id}/matchups/{week}")
 
 
-def __get_selected_positions(season, week):
-    pass
-
-
-def __get_statistics(season, week):
+def _get_statistics(season, week):
     return [
         {
             "season": int(entry["season"]),
@@ -149,53 +129,53 @@ def __get_statistics(season, week):
             ),
             "sleeper_id": entry["player_id"],
         }
-        for entry in __get(
+        for entry in _get(
             COM_API_URL, f"/stats/nfl/{season}/{week}?season_type=regular"
         )
     ]
 
 
-def __translate(manager_name):
-    if manager_name == "bettyg":
-        return "Betty"
-    if manager_name == "HalfricanCaptain":
-        return "Chance"
-    if manager_name == "cziemer13":
-        return "Clint"
-    if manager_name == "NoctisZi":
-        return "Coulton"
-    if manager_name == "erichogan8":
-        return "Eric"
-    if manager_name == "EthanPlaysSports":
-        return "Ethan"
-    if manager_name == "hoagie14":
-        return "Hogan"
-    if manager_name == "jpagee":
-        return "Jason"
-    if manager_name == "jsgwop":
-        return "Joe"
-    if manager_name == "KeeganZiemer":
-        return "Keegan"
-    if manager_name == "MMacLeod17":
-        return "Mason"
-    if manager_name == "mgaron13":
-        return "Mel"
-    if manager_name == "VonSchweetzz":
-        return "Mitch"
-    if manager_name == "hkyplyr":
-        return "Travis"
-    return manager_name
+MANAGER_NAMES = {
+    "bettyg": "Betty",
+    "HalfricanCaptain": "Chance",
+    "cziemer13": "Clint",
+    "NoctisZi": "Coulton",
+    "erichogan8": "Eric",
+    "EthanPlaysSports": "Ethan",
+    "hoagie14": "Hogan",
+    "jpagee": "Jason",
+    "jsgwop": "Joe",
+    "KeeganZiemer": "Keegan",
+    "MMacLeod17": "Mason",
+    "mgaron13": "Mel",
+    "VonSchweetzz": "Mitch",
+    "hkyplyr": "Travis",
+}
 
 
-def __get(base_url, endpoint):
-    return requests.get(base_url + endpoint).json()
+def _translate(manager_name):
+    return MANAGER_NAMES.get(manager_name, manager_name)
+
+
+def _get(base_url, endpoint):
+    response = _session.get(base_url + endpoint, timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+    return response.json()
+
+
+def _save(data, season, week, filename):
+    path = Path(f"archive/{season}/{week}/{filename}.json")
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-s", "--season", type=int)
     parser.add_argument("-w", "--week", type=int)
-    parser.add_argument("-l", "--league_id", type=int)
+    parser.add_argument("-l", "--league_id")
 
     args = parser.parse_args()
 

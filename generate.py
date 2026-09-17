@@ -102,7 +102,9 @@ def write_json(filename, data):
 def generate_all():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    with sqlite3.connect(DB_PATH) as db:
+    db = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True)
+
+    try:
         write_json(
             "record_book.json",
             generate_record_book(db),
@@ -116,6 +118,8 @@ def generate_all():
         write_json("head_to_head.json", generate_head_to_head(db))
 
         write_json("career_stats.json", generate_career_stats(db))
+    finally:
+        db.close()
 
 
 if __name__ == "__main__":
