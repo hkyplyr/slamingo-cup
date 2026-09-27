@@ -25,8 +25,8 @@ def _determine_championship_matchups(winners_bracket, managers):
 
     for matchups in matchups_by_round.values():
         for matchup in matchups:
-            team_one = managers[matchup["t1"]]
-            team_two = managers[matchup["t2"]]
+            team_one = managers.get(matchup["t1"])
+            team_two = managers.get(matchup["t2"])
 
             if matchup["t1"] in consolation_teams or matchup["t2"] in consolation_teams:
                 continue
