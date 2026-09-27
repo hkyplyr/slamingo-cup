@@ -1,0 +1,122 @@
+[
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 93.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 149.26,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Mel"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 81.36,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Joe"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 164.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Chance"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 84.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 74.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 146.34,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Betty"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 108.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 115.58,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 116.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 89.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2024,
+    "week": 11,
+    "points_for": 119.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Jason"
+  }
+]

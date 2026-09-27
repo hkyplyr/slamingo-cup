@@ -1,0 +1,82 @@
+[
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 73.78,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Joe"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 84.86,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Jason"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 133.48,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 116.34,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Mason"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 79.16,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Betty"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 127.86,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Travis"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 139.02,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Chance",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2024,
+    "week": 15,
+    "points_for": 106.24,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Chance"
+  }
+]

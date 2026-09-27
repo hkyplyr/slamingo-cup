@@ -1,0 +1,82 @@
+[
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 136.32,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 94.2,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Mel"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 119.48,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 153.82,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 98.08,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 117.26,
+    "playoffs": 1,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 79.6,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Betty"
+  },
+  {
+    "season": 2024,
+    "week": 17,
+    "points_for": 75.2,
+    "playoffs": 1,
+    "consolation": 1,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Hogan"
+  }
+]

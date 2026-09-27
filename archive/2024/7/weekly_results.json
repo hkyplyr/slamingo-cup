@@ -1,0 +1,122 @@
+[
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 117.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 108.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 115.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Joe"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 162.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Mel"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 69.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 122.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 66.56,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Jason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 111.24,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Betty",
+    "manager": "Jason"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 94.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 96.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Chance"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 68.4,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2024,
+    "week": 7,
+    "points_for": 123.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Mason"
+  }
+]
