@@ -1,0 +1,1458 @@
+[
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "2020",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4035",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4039",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "4381",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "4881",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "4988",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "5892",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "7525",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "7547",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9480",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9500",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "9754",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "HOU",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "11584",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11620",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "12711",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "1339",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4217",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4943",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "6794",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7021",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7607",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "8144",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "8147",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8183",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "8228",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "827",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "SEA",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11564",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "11786",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12507",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "12534",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "1466",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "2133",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "2449",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "3198",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "4984",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "5967",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "6783",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "6819",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7523",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8676",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "IND",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11565",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "11604",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11624",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "12484",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12540",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "2747",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "4983",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "5022",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "6904",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "7567",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "7588",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8126",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "9221",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "BAL",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "10219",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11560",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12499",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "12512",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "12527",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "3214",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "3321",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4037",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "4195",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "4892",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "5012",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "5045",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "5846",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8408",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "JAX",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12185",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "12506",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "12514",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12529",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12533",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "3451",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "4866",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "6801",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "6804",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7002",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "8148",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "9224",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9506",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9756",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "TB",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11635",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12474",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "12489",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "12493",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "1945",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "2505",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "421",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "7526",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7571",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7594",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8132",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "8137",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "8138",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "9509",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "CLE",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "10229",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "11533",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11576",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12485",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "2216",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "3257",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4034",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "4046",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "4147",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "5859",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "6865",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7090",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "7543",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7553",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "8167",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "GB",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11625",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11655",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "2374",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "4199",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "5870",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "6149",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "7569",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "7839",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "8122",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "8130",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "8134",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "8155",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9487",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9758",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "LAR",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "10213",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "11539",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "11566",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "11586",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "12476",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12517",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12526",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "6786",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "6790",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "6803",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7611",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "8110",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8112",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9504",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "WAS",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "10236",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "17",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "3163",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "4098",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "5872",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "5906",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "5947",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "6770",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "7564",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "8150",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8205",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "9508",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "9997",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "BUF",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "10232",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11435",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11589",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11647",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "3294",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "3678",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "5001",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "5850",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "6806",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "7049",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8136",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "8154",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "9488",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "9493",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "MIN",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "SF",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "10226",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11610",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "11627",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11628",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11637",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12490",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "12508",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "12518",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "4018",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "4227",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "6797",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "8121",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "8142",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "8151",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "9226",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "PHI",
+    "manager": "Clint"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "QB",
+    "sleeper_id": "11563",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11597",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "TE",
+    "sleeper_id": "11603",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "11631",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "11638",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "FLEX",
+    "sleeper_id": "11834",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "1479",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "WR",
+    "sleeper_id": "5927",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "6130",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "K",
+    "sleeper_id": "6650",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "6813",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "RB",
+    "sleeper_id": "9753",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "BN",
+    "sleeper_id": "CHI",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 14,
+    "position": "DEF",
+    "sleeper_id": "DEN",
+    "manager": "Eric"
+  }
+]

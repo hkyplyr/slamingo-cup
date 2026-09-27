@@ -1,0 +1,142 @@
+[
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 97.14,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Ethan",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 72.12,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mitch",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 127.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Coulton",
+    "manager": "Joe"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 119.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Joe",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 93.84,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 91.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 95.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Betty"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 78.22,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Jason"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 112.74,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Travis"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 80.68,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Travis",
+    "manager": "Mason"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 97.1,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Eric",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 112.2,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Hogan",
+    "manager": "Eric"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 126.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Clint",
+    "manager": "Chance"
+  },
+  {
+    "season": 2025,
+    "week": 10,
+    "points_for": 106.7,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Clint"
+  }
+]
