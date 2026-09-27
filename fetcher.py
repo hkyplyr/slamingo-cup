@@ -12,9 +12,35 @@ REQUEST_TIMEOUT = 10
 _session = requests.Session()
 
 
+def _determine_championship_matchups(winners_bracket, managers):
+    matchups_by_round = {}
+    for matchup in winners_bracket:
+        matchups_by_round.setdefault(matchup["r"], []).append(matchup)
+
+    consolation_teams = {m["l"] for m in matchups_by_round[1]}
+    championship_matchups = {
+        tuple(sorted([managers[m["t1"]], managers[m["t2"]]]))
+        for m in matchups_by_round.pop(1)
+    }
+
+    for matchups in matchups_by_round.values():
+        for matchup in matchups:
+            team_one = managers[matchup["t1"]]
+            team_two = managers[matchup["t2"]]
+
+            if matchup["t1"] in consolation_teams or matchup["t2"] in consolation_teams:
+                continue
+
+            championship_matchups.add(tuple(sorted([team_one, team_two])))
+
+    return championship_matchups
+
+
 def get_weekly_results(league_id, season, week):
     league_info = _get_league_info(league_id)
     managers = _get_managers(league_id)
+    winners_bracket = _get_winners_bracket(league_id)
+    championship_matchups = _determine_championship_matchups(winners_bracket, managers)
 
     matchups = {}
     for matchup in _get_matchups(league_id, week):
@@ -28,17 +54,20 @@ def get_weekly_results(league_id, season, week):
         if matchup_id is None:
             continue
 
+        is_playoffs = week >= league_info["settings"]["playoff_week_start"]
         for a, b in [[opponents[0], opponents[1]], [opponents[1], opponents[0]]]:
+            opponents_key = tuple(
+                sorted([managers[a["roster_id"]], managers[b["roster_id"]]])
+            )
             weekly_results.append(
                 {
                     "season": season,
                     "week": week,
                     "points_for": a["points"],
-                    "playoffs": int(
-                        week >= league_info["settings"]["playoff_week_start"]
+                    "playoffs": int(is_playoffs),
+                    "consolation": int(
+                        is_playoffs and opponents_key not in championship_matchups
                     ),
-                    # TODO - add consolation logic
-                    "consolation": int(False),
                     "result": _result(a, b),
                     "opponent": managers[b["roster_id"]],
                     "manager": managers[a["roster_id"]],
@@ -135,8 +164,13 @@ def _get_statistics(season, week):
     ]
 
 
+def _get_winners_bracket(league_id):
+    return _get(APP_API_URL, f"/league/{league_id}/winners_bracket")
+
+
 MANAGER_NAMES = {
     "bettyg": "Betty",
+    "mrgaron21": "Betty",
     "HalfricanCaptain": "Chance",
     "cziemer13": "Clint",
     "NoctisZi": "Coulton",
