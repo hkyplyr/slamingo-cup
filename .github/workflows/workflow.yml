@@ -32,6 +32,8 @@ jobs:
           version: "latest"
 
       - name: Run pipeline
+        env:
+          SLAMINGO_CUP_LEAGUE_ID: ${{ secrets.SLAMINGO_CUP_LEAGUE_ID }}
         run: uv run pipeline.py
 
       - name: Commit and Push Changes
