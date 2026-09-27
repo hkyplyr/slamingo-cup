@@ -1,0 +1,60 @@
+name: Generate, Commit, and Deploy Pages with uv
+
+on:
+  schedule:
+    # Runs at exactly 06:00 UTC every day (Midnight Mountain Time)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          version: "latest"
+
+      - name: Run pipeline
+        run: uv run pipeline.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+
+          git add archive/
+          git add data/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: automated file update from python script [skip ci]"
+            git push
+          else
+            echo "No changes detected in generated assets. Skipping git commit."
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
