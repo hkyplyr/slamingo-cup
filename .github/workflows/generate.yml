@@ -1,0 +1,42 @@
+name: Generate League Data
+
+on:
+  schedule:
+    # Runs at exactly 06:00 UTC every day (Midnight Mountain Time)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DATA_COMMIT_PAT }}
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          version: "latest"
+
+      - name: Run pipeline
+        env:
+          SLAMINGO_CUP_LEAGUE_ID: ${{ secrets.SLAMINGO_CUP_LEAGUE_ID }}
+        run: uv run pipeline.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add archive/
+          git add data/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: automated data update"
+            git push
+          else
+            echo "No changes detected in generated assets. Skipping commit."
+          fi
