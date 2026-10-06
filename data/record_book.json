@@ -107,27 +107,27 @@
       },
       {
         "rank": 7,
+        "manager": "Ethan",
+        "footer": "Week 4, 2026 (vs. Betty)",
+        "value": "55.62"
+      },
+      {
+        "rank": 8,
         "manager": "Keegan",
         "footer": "Week 6, 2022 (vs. Betty)",
         "value": "56.12"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "manager": "Joe",
         "footer": "Week 1, 2024 (vs. Betty)",
         "value": "56.22"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "manager": "Mel",
         "footer": "Week 9, 2020 (vs. Keegan)",
         "value": "56.32"
-      },
-      {
-        "rank": 10,
-        "manager": "Travis",
-        "footer": "Week 5, 2023 (vs. Coulton)",
-        "value": "56.76"
       }
     ]
   },
@@ -167,33 +167,33 @@
       },
       {
         "rank": 6,
+        "manager": "Betty",
+        "footer": "Week 4, 2026 (vs. Ethan)",
+        "value": "83.46"
+      },
+      {
+        "rank": 7,
         "manager": "Ethan",
         "footer": "Week 3, 2025 (vs. Mason)",
         "value": "79.62"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "manager": "Keegan",
         "footer": "Week 3, 2023 (vs. Hogan)",
         "value": "77.22"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "manager": "Travis",
         "footer": "Week 9, 2023 (vs. Mel)",
         "value": "76.10"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "manager": "Travis",
         "footer": "Week 12, 2020 (vs. Mason)",
         "value": "74.72"
-      },
-      {
-        "rank": 10,
-        "manager": "Coulton",
-        "footer": "Week 8, 2022 (vs. Mel)",
-        "value": "72.06"
       }
     ]
   },
@@ -251,15 +251,15 @@
       },
       {
         "rank": 9,
-        "manager": "Travis",
-        "footer": "Week 13, 2024 (vs. Chance)",
-        "value": "0.44"
+        "manager": "Coulton",
+        "footer": "Week 4, 2026 (vs. Jason)",
+        "value": "0.38"
       },
       {
         "rank": 10,
-        "manager": "Coulton",
-        "footer": "Week 1, 2022 (vs. Ryan)",
-        "value": "0.52"
+        "manager": "Clint",
+        "footer": "Week 4, 2026 (vs. Mitch)",
+        "value": "0.40"
       }
     ]
   }
