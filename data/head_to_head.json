@@ -97,7 +97,7 @@
       "a": "Betty",
       "b": "Jason",
       "a_wins": 4,
-      "b_wins": 2,
+      "b_wins": 3,
       "ties": 0
     },
     {
@@ -236,7 +236,7 @@
     {
       "a": "Chance",
       "b": "Keegan",
-      "a_wins": 2,
+      "a_wins": 3,
       "b_wins": 5,
       "ties": 0
     },
@@ -341,7 +341,7 @@
     {
       "a": "Clint",
       "b": "Mason",
-      "a_wins": 1,
+      "a_wins": 2,
       "b_wins": 0,
       "ties": 0
     },
@@ -404,7 +404,7 @@
     {
       "a": "Coulton",
       "b": "Joe",
-      "a_wins": 2,
+      "a_wins": 3,
       "b_wins": 4,
       "ties": 0
     },
@@ -524,7 +524,7 @@
       "a": "Eric",
       "b": "Ethan",
       "a_wins": 0,
-      "b_wins": 1,
+      "b_wins": 2,
       "ties": 0
     },
     {
@@ -713,7 +713,7 @@
       "a": "Hogan",
       "b": "Travis",
       "a_wins": 3,
-      "b_wins": 4,
+      "b_wins": 5,
       "ties": 0
     },
     {
@@ -999,7 +999,7 @@
     {
       "a": "Mel",
       "b": "Mitch",
-      "a_wins": 4,
+      "a_wins": 5,
       "b_wins": 1,
       "ties": 0
     },
