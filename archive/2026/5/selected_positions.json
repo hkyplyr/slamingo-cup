@@ -262,13 +262,6 @@
     "season": 2026,
     "week": 5,
     "position": "BN",
-    "sleeper_id": "167",
-    "manager": "Keegan"
-  },
-  {
-    "season": 2026,
-    "week": 5,
-    "position": "BN",
     "sleeper_id": "2449",
     "manager": "Keegan"
   },
@@ -695,6 +688,13 @@
   {
     "season": 2026,
     "week": 5,
+    "position": "BN",
+    "sleeper_id": "4227",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2026,
+    "week": 5,
     "position": "WR",
     "sleeper_id": "7564",
     "manager": "Hogan"
@@ -739,6 +739,13 @@
     "week": 5,
     "position": "DEF",
     "sleeper_id": "CIN",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2026,
+    "week": 5,
+    "position": "BN",
+    "sleeper_id": "KC",
     "manager": "Hogan"
   },
   {
