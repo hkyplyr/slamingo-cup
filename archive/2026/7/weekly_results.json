@@ -1,0 +1,142 @@
+[
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 75.96,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Betty",
+    "manager": "Mitch"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 119.64,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mitch",
+    "manager": "Betty"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 82.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Eric",
+    "manager": "Joe"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 113.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Joe",
+    "manager": "Eric"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 83.48,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Mel",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 127.62,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Keegan",
+    "manager": "Mel"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 116.9,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Travis",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 62.82,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Ethan",
+    "manager": "Travis"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 124.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Jason",
+    "manager": "Hogan"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 100.8,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Hogan",
+    "manager": "Jason"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 94.78,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Mason",
+    "manager": "Coulton"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 80.18,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Coulton",
+    "manager": "Mason"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 124.6,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "W",
+    "opponent": "Clint",
+    "manager": "Chance"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "points_for": 108.32,
+    "playoffs": 0,
+    "consolation": 0,
+    "result": "L",
+    "opponent": "Chance",
+    "manager": "Clint"
+  }
+]
