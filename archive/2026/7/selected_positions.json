@@ -535,6 +535,13 @@
     "season": 2026,
     "week": 7,
     "position": "BN",
+    "sleeper_id": "JAX",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "position": "BN",
     "sleeper_id": "10229",
     "manager": "Travis"
   },
@@ -585,6 +592,13 @@
     "week": 7,
     "position": "BN",
     "sleeper_id": "7002",
+    "manager": "Travis"
+  },
+  {
+    "season": 2026,
+    "week": 7,
+    "position": "BN",
+    "sleeper_id": "8134",
     "manager": "Travis"
   },
   {
