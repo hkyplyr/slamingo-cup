@@ -4,81 +4,81 @@
       {
         "player": "Josh Allen",
         "player_id": "4984",
-        "points": "2478.50",
-        "points_per_game": "24.54",
-        "games_played": 101,
+        "points": "2506.06",
+        "points_per_game": "24.57",
+        "games_played": 102,
         "managers": "Mason,Keegan,Spencer,Curt,Mel"
       },
       {
         "player": "Patrick Mahomes",
         "player_id": "4046",
-        "points": "2130.76",
-        "points_per_game": "21.10",
-        "games_played": 101,
+        "points": "2156.20",
+        "points_per_game": "21.14",
+        "games_played": 102,
         "managers": "Betty,Jason,Keegan"
       },
       {
         "player": "Jalen Hurts",
         "player_id": "6904",
         "points": "1869.82",
-        "points_per_game": "19.08",
-        "games_played": 98,
+        "points_per_game": "18.89",
+        "games_played": 99,
         "managers": "Coulton,Jason,Mel,Betty,Ethan,Keegan"
       },
       {
         "player": "Lamar Jackson",
         "player_id": "4881",
         "points": "1842.76",
-        "points_per_game": "21.43",
-        "games_played": 86,
+        "points_per_game": "21.18",
+        "games_played": 87,
         "managers": "Mitch,Coulton,Spencer,Mel,Jason"
       },
       {
         "player": "Justin Herbert",
         "player_id": "6797",
-        "points": "1819.98",
-        "points_per_game": "18.02",
-        "games_played": 101,
+        "points": "1829.76",
+        "points_per_game": "17.94",
+        "games_played": 102,
         "managers": "Chance,Clint,Joe,Keegan,Betty,Travis"
       },
       {
         "player": "Jared Goff",
         "player_id": "3163",
-        "points": "1746.18",
-        "points_per_game": "17.64",
-        "games_played": 99,
+        "points": "1756.22",
+        "points_per_game": "17.56",
+        "games_played": 100,
         "managers": "Betty,Coulton,Mel,Joe,Mitch,Jason,Spencer"
       },
       {
         "player": "Joe Burrow",
         "player_id": "6770",
-        "points": "1635.78",
-        "points_per_game": "17.04",
-        "games_played": 96,
-        "managers": "Chance,Hogan,Jason H.,Curt,Mitch,Mason,Mel,Travis"
+        "points": "1678.26",
+        "points_per_game": "17.30",
+        "games_played": 97,
+        "managers": "Chance,Hogan,Jason H.,Curt,Mason,Mitch,Mel,Travis"
       },
       {
         "player": "Matthew Stafford",
         "player_id": "421",
-        "points": "1629.30",
-        "points_per_game": "16.46",
-        "games_played": 99,
+        "points": "1638.58",
+        "points_per_game": "16.39",
+        "games_played": 100,
         "managers": "Joe,Betty,Chance,Hogan,Jason"
       },
       {
         "player": "Dak Prescott",
         "player_id": "3294",
-        "points": "1548.20",
-        "points_per_game": "18.21",
-        "games_played": 85,
+        "points": "1568.00",
+        "points_per_game": "18.23",
+        "games_played": 86,
         "managers": "Chance,Hogan,Joe,Betty,Jason"
       },
       {
         "player": "Baker Mayfield",
         "player_id": "4892",
-        "points": "1506.22",
-        "points_per_game": "15.69",
-        "games_played": 96,
+        "points": "1507.62",
+        "points_per_game": "15.54",
+        "games_played": 97,
         "managers": "Ethan,Mel,Eric,Travis,Mason"
       }
     ],
@@ -86,18 +86,18 @@
       {
         "player": "Derrick Henry",
         "player_id": "3198",
-        "points": "1632.12",
-        "points_per_game": "16.16",
-        "games_played": 101,
+        "points": "1645.12",
+        "points_per_game": "16.13",
+        "games_played": 102,
         "managers": "Mason,Mel,Travis,Keegan,Mitch,Jason H.,Betty"
       },
       {
         "player": "Jonathan Taylor",
         "player_id": "6813",
-        "points": "1466.30",
-        "points_per_game": "15.94",
-        "games_played": 92,
-        "managers": "Coulton,Eric,Hogan,Keegan,Joe,Mel"
+        "points": "1471.00",
+        "points_per_game": "15.82",
+        "games_played": 93,
+        "managers": "Coulton,Eric,Hogan,Joe,Keegan,Mel"
       },
       {
         "player": "Christian McCaffrey",
@@ -110,9 +110,9 @@
       {
         "player": "Josh Jacobs",
         "player_id": "5850",
-        "points": "1330.60",
-        "points_per_game": "13.58",
-        "games_played": 98,
+        "points": "1350.80",
+        "points_per_game": "13.64",
+        "games_played": 99,
         "managers": "Joe,Hogan,Chance,Travis,Jason"
       },
       {
@@ -124,20 +124,20 @@
         "managers": "Curt,Keegan,Mason,Joe,Jason,Mitch,Mel"
       },
       {
-        "player": "Saquon Barkley",
-        "player_id": "4866",
-        "points": "1157.30",
-        "points_per_game": "14.29",
-        "games_played": 81,
-        "managers": "Chance,Travis,Keegan,Mitch,Jason"
-      },
-      {
         "player": "D'Andre Swift",
         "player_id": "6790",
-        "points": "1151.50",
-        "points_per_game": "12.25",
-        "games_played": 94,
-        "managers": "Chance,Coulton,Mason,Jason,Travis"
+        "points": "1178.40",
+        "points_per_game": "12.40",
+        "games_played": 95,
+        "managers": "Coulton,Chance,Mason,Jason,Travis"
+      },
+      {
+        "player": "Saquon Barkley",
+        "player_id": "4866",
+        "points": "1169.20",
+        "points_per_game": "14.26",
+        "games_played": 82,
+        "managers": "Chance,Travis,Keegan,Mitch,Jason"
       },
       {
         "player": "David Montgomery",
@@ -150,18 +150,18 @@
       {
         "player": "Aaron Jones",
         "player_id": "4199",
-        "points": "1116.10",
-        "points_per_game": "11.87",
-        "games_played": 94,
+        "points": "1121.10",
+        "points_per_game": "11.80",
+        "games_played": 95,
         "managers": "Chance,Joe,Jason,Mason,Coulton,Mel,Mitch"
       },
       {
         "player": "Tony Pollard",
         "player_id": "5967",
-        "points": "1063.50",
-        "points_per_game": "10.74",
-        "games_played": 99,
-        "managers": "Hogan,Chance,Ethan,Keegan,Curt"
+        "points": "1090.70",
+        "points_per_game": "10.91",
+        "games_played": 100,
+        "managers": "Chance,Hogan,Ethan,Keegan,Curt"
       }
     ],
     "WR": [
@@ -169,24 +169,24 @@
         "player": "Davante Adams",
         "player_id": "2133",
         "points": "1499.00",
-        "points_per_game": "15.45",
-        "games_played": 97,
+        "points_per_game": "15.30",
+        "games_played": 98,
         "managers": "Travis,Keegan,Mitch,Ethan"
       },
       {
         "player": "CeeDee Lamb",
         "player_id": "6786",
-        "points": "1400.90",
-        "points_per_game": "14.29",
-        "games_played": 98,
+        "points": "1410.20",
+        "points_per_game": "14.24",
+        "games_played": 99,
         "managers": "Mason,Coulton,Mel,Mitch,Spencer,Betty"
       },
       {
         "player": "Justin Jefferson",
         "player_id": "6794",
-        "points": "1371.04",
-        "points_per_game": "13.57",
-        "games_played": 101,
+        "points": "1382.84",
+        "points_per_game": "13.56",
+        "games_played": 102,
         "managers": "Joe,Mel,Ethan,Jason,Chance"
       },
       {
@@ -200,25 +200,25 @@
       {
         "player": "Ja'Marr Chase",
         "player_id": "7564",
-        "points": "1281.12",
-        "points_per_game": "15.82",
-        "games_played": 81,
+        "points": "1306.72",
+        "points_per_game": "15.94",
+        "games_played": 82,
         "managers": "Mel,Ethan,Coulton,Jason,Hogan"
       },
       {
         "player": "Stefon Diggs",
         "player_id": "2449",
-        "points": "1241.62",
-        "points_per_game": "12.42",
-        "games_played": 100,
+        "points": "1252.92",
+        "points_per_game": "12.41",
+        "games_played": 101,
         "managers": "Mason,Keegan,Chance,Mitch,Jason"
       },
       {
         "player": "Amon-Ra St. Brown",
         "player_id": "7547",
-        "points": "1213.88",
-        "points_per_game": "14.45",
-        "games_played": 84,
+        "points": "1222.98",
+        "points_per_game": "14.39",
+        "games_played": 85,
         "managers": "Coulton,Hogan,Mitch,Mel,Joe"
       },
       {
@@ -240,9 +240,9 @@
       {
         "player": "DK Metcalf",
         "player_id": "5846",
-        "points": "1155.50",
-        "points_per_game": "11.67",
-        "games_played": 99,
+        "points": "1156.40",
+        "points_per_game": "11.56",
+        "games_played": 100,
         "managers": "Jason,Mel,Jason H.,Ethan"
       }
     ],
@@ -250,9 +250,9 @@
       {
         "player": "Travis Kelce",
         "player_id": "1466",
-        "points": "1250.76",
-        "points_per_game": "12.63",
-        "games_played": 99,
+        "points": "1259.96",
+        "points_per_game": "12.60",
+        "games_played": 100,
         "managers": "Keegan,Travis,Chance"
       },
       {
@@ -266,17 +266,17 @@
       {
         "player": "Mark Andrews",
         "player_id": "5012",
-        "points": "928.30",
-        "points_per_game": "9.47",
-        "games_played": 98,
+        "points": "931.20",
+        "points_per_game": "9.41",
+        "games_played": 99,
         "managers": "Joe,Coulton,Laura,Ethan"
       },
       {
         "player": "T.J. Hockenson",
         "player_id": "5844",
-        "points": "795.00",
-        "points_per_game": "8.03",
-        "games_played": 99,
+        "points": "808.80",
+        "points_per_game": "8.09",
+        "games_played": 100,
         "managers": "Chance,Keegan,Betty,Mason,Jason,Clint"
       },
       {
@@ -290,33 +290,33 @@
       {
         "player": "Hunter Henry",
         "player_id": "3214",
-        "points": "726.30",
-        "points_per_game": "7.34",
-        "games_played": 99,
-        "managers": "Ethan,Joe,Jason,Travis,Mel,Coulton,Chance,Spencer,Keegan,Mason"
+        "points": "730.80",
+        "points_per_game": "7.31",
+        "games_played": 100,
+        "managers": "Ethan,Joe,Jason,Mel,Travis,Coulton,Chance,Spencer,Keegan,Mason"
       },
       {
         "player": "Dallas Goedert",
         "player_id": "5022",
-        "points": "718.40",
-        "points_per_game": "8.07",
-        "games_played": 89,
+        "points": "723.60",
+        "points_per_game": "8.04",
+        "games_played": 90,
         "managers": "Mel,Betty,Hogan,Coulton,Jason"
       },
       {
         "player": "Trey McBride",
         "player_id": "8130",
-        "points": "687.40",
-        "points_per_game": "9.96",
-        "games_played": 69,
+        "points": "704.10",
+        "points_per_game": "10.06",
+        "games_played": 70,
         "managers": "Coulton,Mitch,Clint,Travis"
       },
       {
         "player": "Evan Engram",
         "player_id": "4066",
         "points": "639.40",
-        "points_per_game": "6.52",
-        "games_played": 98,
+        "points_per_game": "6.46",
+        "games_played": 99,
         "managers": "Hogan,Joe,Travis,Coulton,Mason,Mel,Eric"
       },
       {
@@ -694,6 +694,14 @@
         "managers": "Jason"
       },
       {
+        "player": "Joe Burrow",
+        "player_id": "6770",
+        "season": 2026,
+        "week": 8,
+        "points": "42.48",
+        "managers": "Mason"
+      },
+      {
         "player": "Lamar Jackson",
         "player_id": "4881",
         "season": 2021,
@@ -732,14 +740,6 @@
         "week": 2,
         "points": "40.86",
         "managers": "Ryan"
-      },
-      {
-        "player": "Josh Allen",
-        "player_id": "4984",
-        "season": 2026,
-        "week": 2,
-        "points": "40.82",
-        "managers": "Mel"
       }
     ],
     "RB": [
