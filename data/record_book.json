@@ -203,63 +203,63 @@
     "entries": [
       {
         "rank": 1,
+        "manager": "Chance",
+        "footer": "Week 9, 2026 (vs. Coulton)",
+        "value": "0.04"
+      },
+      {
+        "rank": 2,
         "manager": "Keegan",
         "footer": "Week 2, 2022 (vs. Travis)",
         "value": "0.06"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "manager": "Coulton",
         "footer": "Week 2, 2026 (vs. Hogan)",
         "value": "0.10"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "manager": "Eric",
         "footer": "Week 12, 2025 (vs. Mason)",
         "value": "0.10"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "manager": "Keegan",
         "footer": "Week 11, 2023 (vs. Chance)",
         "value": "0.12"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "manager": "Jason",
         "footer": "Week 8, 2020 (vs. Travis)",
         "value": "0.12"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "manager": "Mason",
         "footer": "Week 9, 2021 (vs. Spencer)",
         "value": "0.30"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "manager": "Mel",
         "footer": "Week 7, 2025 (vs. Joe)",
         "value": "0.30"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "manager": "Joe",
         "footer": "Week 8, 2025 (vs. Clint)",
         "value": "0.34"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "manager": "Coulton",
         "footer": "Week 4, 2026 (vs. Jason)",
         "value": "0.38"
-      },
-      {
-        "rank": 10,
-        "manager": "Clint",
-        "footer": "Week 4, 2026 (vs. Mitch)",
-        "value": "0.40"
       }
     ]
   }
