@@ -310,6 +310,13 @@
   {
     "season": 2026,
     "week": 10,
+    "position": "BN",
+    "sleeper_id": "CHI",
+    "manager": "Keegan"
+  },
+  {
+    "season": 2026,
+    "week": 10,
     "position": "DEF",
     "sleeper_id": "NE",
     "manager": "Keegan"
@@ -480,6 +487,13 @@
     "week": 10,
     "position": "BN",
     "sleeper_id": "13346",
+    "manager": "Ethan"
+  },
+  {
+    "season": 2026,
+    "week": 10,
+    "position": "BN",
+    "sleeper_id": "2020",
     "manager": "Ethan"
   },
   {
